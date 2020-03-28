@@ -10,8 +10,9 @@ npx vuepress build docs
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
+git init
 git add -A
 git commit -m 'Deploy'
 
-git push git@github.com:FreezeYou/Website.git master:gh-pages
+git push -f git@github.com:FreezeYou/Website.git master:gh-pages
 
