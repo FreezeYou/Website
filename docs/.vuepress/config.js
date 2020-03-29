@@ -77,6 +77,7 @@ module.exports = {
     logo: '/assets/img/logo.svg',
     repo: 'https://github.com/FreezeYou/Website',
     docsRepo: 'https://github.com/FreezeYou/Website',
+    docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,
     smoothScroll: true,
