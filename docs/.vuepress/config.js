@@ -38,14 +38,29 @@ module.exports = {
           { text: '下载', link: '/zh-CN/download/' },
           { text: '日志', link: '/zh-CN/changelog/' },
           { text: 'API', link: '/zh-CN/api/' },
+          {
+            text: '链接',
+            ariaLabel: '友情链接',
+            items: [
+              { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
+              { text: '秋之盒', link: 'https://atmb.top/' },
+            ],
+          },
         ],
         sidebar: {
-          '/zh-CN/guide/': getGuideSidebar('开始','更新日志','API'),
-          '/zh-CN/download/': getGuideSidebar('开始','更新日志','API'),
-          '/zh-CN/changelog/': getGuideSidebar('开始','更新日志','API'),
-          '/zh-CN/api/': getGuideSidebar('开始','更新日志','API'),
+          '/zh-CN/guide/': getGuideSidebar('开始', '更新日志', 'API'),
+          '/zh-CN/download/': getGuideSidebar('开始', '更新日志', 'API'),
+          '/zh-CN/changelog/': getGuideSidebar('开始', '更新日志', 'API'),
+          '/zh-CN/api/': getGuideSidebar('开始', '更新日志', 'API'),
         },
         searchPlaceholder: '搜索',
+        notFoundLinkText: '返回首页',
+        notFoundMessages: [
+          `这里怎么空荡荡的？`,
+          `咦，怎么到这里来了？`,
+          `四零四了！`,
+          `咦，这个页面跑丢了！`
+        ]
       },
       '/en-US/': {
         editLinkText: 'Edit this page',
@@ -59,19 +74,34 @@ module.exports = {
           { text: 'Download', link: '/en-US/download/' },
           { text: 'Changelog', link: '/en-US/changelog/' },
           { text: 'API', link: '/en-US/api/' },
+          {
+            text: 'Link',
+            ariaLabel: 'Link Menu',
+            items: [
+              { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
+              { text: 'AutumnBox', link: 'https://atmb.top/' },
+            ],
+          },
         ],
         sidebar: {
-          '/en-US/guide/': getGuideSidebar('Guide','Changelog','API'),
-          '/en-US/download/': getGuideSidebar('Guide','Changelog','API'),
-          '/en-US/changelog/': getGuideSidebar('Guide','Changelog','API'),
-          '/en-US/api/': getGuideSidebar('Guide','Changelog','API'),
+          '/en-US/guide/': getGuideSidebar('Guide', 'Changelog', 'API'),
+          '/en-US/download/': getGuideSidebar('Guide', 'Changelog', 'API'),
+          '/en-US/changelog/': getGuideSidebar('Guide', 'Changelog', 'API'),
+          '/en-US/api/': getGuideSidebar('Guide', 'Changelog', 'API'),
         },
         searchPlaceholder: 'Search',
+        notFoundLinkText: 'Take me home.',
+        notFoundMessages: [
+          `There's nothing here.`,
+          `How did we get here?`,
+          `That's a Four-Oh-Four.`,
+          `Looks like we've got some broken links.`
+        ],
       },
     },
     navbar: true,
     sidebar: 'auto',
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     displayAllHeaders: true,
     activeHeaderLinks: true,
     logo: '/assets/img/logo.svg',
@@ -88,7 +118,7 @@ module.exports = {
   }
 }
 
-function getGuideSidebar (guide, changelog, api) {
+function getGuideSidebar(guide, changelog, api) {
   return [
     {
       title: guide,
@@ -97,7 +127,8 @@ function getGuideSidebar (guide, changelog, api) {
         '../guide/',
         '../guide/warning',
         '../download/',
-        '../guide/how-to-use'
+        '../guide/how-to-use',
+        '../guide/enable-mroot'
       ]
     },
     {

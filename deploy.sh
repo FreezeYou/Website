@@ -10,6 +10,8 @@ npx vuepress build docs
 # navigate into the build output directory
 cd docs/.vuepress/dist
 
+echo 'zidon.net' > CNAME
+
 git init
 git add -A
 git commit -m 'Deploy'
