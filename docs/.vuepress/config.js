@@ -128,7 +128,8 @@ function getGuideSidebar(guide, changelog, api) {
         '../guide/warning',
         '../download/',
         '../guide/how-to-use',
-        '../guide/enable-mroot'
+        '../guide/enable-mroot',
+        '../guide/schedules'
       ]
     },
     {
