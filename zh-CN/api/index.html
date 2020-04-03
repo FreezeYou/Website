@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>API | 自冻</title>
+    <meta name="description" content="自冻">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/assets/img/logo.svg">
+    
+    <link rel="preload" href="/assets/css/0.styles.0d926b6a.css" as="style"><link rel="preload" href="/assets/js/app.2914d3aa.js" as="script"><link rel="preload" href="/assets/js/2.7340db58.js" as="script"><link rel="preload" href="/assets/js/7.2a33740d.js" as="script"><link rel="prefetch" href="/assets/js/10.756cfc33.js"><link rel="prefetch" href="/assets/js/11.fc1f23b2.js"><link rel="prefetch" href="/assets/js/12.bb42c52d.js"><link rel="prefetch" href="/assets/js/13.e5d76a1c.js"><link rel="prefetch" href="/assets/js/14.ee4a468e.js"><link rel="prefetch" href="/assets/js/15.01da912c.js"><link rel="prefetch" href="/assets/js/3.8d2d2b37.js"><link rel="prefetch" href="/assets/js/4.5e343848.js"><link rel="prefetch" href="/assets/js/5.47b2cd98.js"><link rel="prefetch" href="/assets/js/6.77a0144c.js"><link rel="prefetch" href="/assets/js/8.e0090855.js"><link rel="prefetch" href="/assets/js/9.31b754a7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.0d926b6a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/zh-CN/" class="home-link router-link-active"><img src="/assets/img/logo.svg" alt="自冻" class="logo"> <span class="site-name can-hide">自冻</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/zh-CN/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/zh-CN/guide/" class="nav-link">
+  开始
+</a></div><div class="nav-item"><a href="/zh-CN/download/" class="nav-link">
+  下载
+</a></div><div class="nav-item"><a href="/zh-CN/changelog/" class="nav-link">
+  日志
+</a></div><div class="nav-item"><a href="/zh-CN/api/" class="nav-link router-link-exact-active router-link-active">
+  API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="友情链接" class="dropdown-title"><span class="title">链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://freezeyou.playhi.net" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  FreezeYou
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://atmb.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  秋之盒
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh-CN/api/" class="nav-link router-link-exact-active router-link-active">
+  简体中文(中国大陆)
+</a></li><li class="dropdown-item"><!----> <a href="/en-US/" class="nav-link">
+  English(US)
+</a></li></ul></div></div> <a href="https://github.com/FreezeYou/Website" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/zh-CN/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/zh-CN/guide/" class="nav-link">
+  开始
+</a></div><div class="nav-item"><a href="/zh-CN/download/" class="nav-link">
+  下载
+</a></div><div class="nav-item"><a href="/zh-CN/changelog/" class="nav-link">
+  日志
+</a></div><div class="nav-item"><a href="/zh-CN/api/" class="nav-link router-link-exact-active router-link-active">
+  API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="友情链接" class="dropdown-title"><span class="title">链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://freezeyou.playhi.net" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  FreezeYou
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://atmb.top/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  秋之盒
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh-CN/api/" class="nav-link router-link-exact-active router-link-active">
+  简体中文(中国大陆)
+</a></li><li class="dropdown-item"><!----> <a href="/en-US/" class="nav-link">
+  English(US)
+</a></li></ul></div></div> <a href="https://github.com/FreezeYou/Website" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>开始</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>API</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh-CN/api/" class="active sidebar-link">API</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>更新日志</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="api"><a href="#api" class="header-anchor">#</a> API</h1> <p><code>自冻FreezeYou</code>提供了一些接口供外部调用，具体情况如下：</p> <ul><li><a href="https://wiki.playhi.net/index.php?title=%E9%80%9A%E8%BF%87_URL_scheme_%E5%94%A4%E8%B5%B7_FreezeYou_%E5%86%BB%E7%BB%93%E8%A7%A3%E5%86%BB%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F" target="_blank" rel="noopener noreferrer">通过 <strong>URI</strong> 唤起 <strong>自冻(FreezeYou)</strong> 冻结解冻应用程序<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://wiki.playhi.net/index.php?title=%E9%80%9A%E8%BF%87_Provider_%E4%BD%BF%E7%94%A8_FreezeYou_%E8%BF%9B%E8%A1%8C%E5%86%BB%E7%BB%93%E8%A7%A3%E5%86%BB%E4%BB%A5%E5%8F%8A%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2%E7%AD%89%E6%93%8D%E4%BD%9C" target="_blank" rel="noopener noreferrer">通过 <strong>Provider</strong> 唤起 <strong>自冻(FreezeYou)</strong> 进行冻结解冻以及数据查询等操作<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://wiki.playhi.net/index.php?title=%E9%80%9A%E8%BF%87_startActivity_%E5%94%A4%E8%B5%B7_FreezeYou_%E5%86%BB%E7%BB%93%E8%A7%A3%E5%86%BB%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F" target="_blank" rel="noopener noreferrer">通过 <strong>startActivity</strong> 唤起 <strong>自冻(FreezeYou)</strong> 冻结解冻应用程序<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p>后续如新增一些对外接口以及接口能力，此页也会进行更新。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/FreezeYou/Website/edit/master/docs/zh-CN/api/README.md" target="_blank" rel="noopener noreferrer">编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">最后更新于:</span> <span class="time">2020/3/31 下午2:41:32</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh-CN/guide/schedules.html" class="prev">
+        计划任务
+      </a></span> <span class="next"><a href="/zh-CN/changelog/">
+        更新日志
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.2914d3aa.js" defer></script><script src="/assets/js/2.7340db58.js" defer></script><script src="/assets/js/7.2a33740d.js" defer></script>
+  </body>
+</html>
