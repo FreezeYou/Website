@@ -12,6 +12,7 @@ deploy:
   local_dir: docs/.vuepress/dist
   keep_history: true
   fqdn: zidon.net
+  github_token: $GITHUB_TOKEN
   on:
     branch: master
 
