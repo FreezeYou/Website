@@ -10,6 +10,7 @@ deploy:
   skip_cleanup: true
   local_dir: docs/.vuepress/dist
   keep_history: true
+  fqdn: zidon.net
   on:
     branch: master
 
