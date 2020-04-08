@@ -137,7 +137,8 @@ function getGuideSidebar(guide, changelog, api) {
       collapsable: true,
       children: [
         '../api/',
-        '../api/uri'
+        '../api/uri',
+        '../api/provider'
       ]
     },
     {
