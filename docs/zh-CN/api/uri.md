@@ -15,7 +15,7 @@
 ``` html
 <a href="freezeyou://fuf/?pkgName=com.android.gallery3d">请求 冻结\解冻\启动 图库</a>
 ```
-#### 请求 解冻 图库 <Badge text="8.3+" type="tip"/>
+#### 请求 冻结\解冻\启动 图库 <Badge text="8.3+" type="tip"/>
 ``` html
 <a href="freezeyou://fuf/?pkgName=com.android.gallery3d&action=fuf">请求 冻结\解冻\启动 图库</a>
 ```
