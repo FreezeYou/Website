@@ -107,7 +107,7 @@ ___如果对应键值为 `null`，则检查请求时的 `Method` 以及 `Extras`
 - [FreezeYouApiTest](https://github.com/Playhi/FreezeYouApiTest)
 
 ## 常见问题
-- SecurityException
+### SecurityException
   - 是否已经在 **Manifest** 中声明了权限呢（`冻结\解冻应用`还需要类似请求敏感权限一样进行 **`requestPermissions`** ）。
 
 ## 目前局限

@@ -138,7 +138,8 @@ function getGuideSidebar(guide, changelog, api) {
       children: [
         '../api/',
         '../api/uri',
-        '../api/provider'
+        '../api/provider',
+        '../api/start-activity'
       ]
     },
     {
