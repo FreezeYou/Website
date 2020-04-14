@@ -37,21 +37,23 @@ module.exports = {
           { text: '开始', link: '/zh-CN/guide/' },
           { text: '下载', link: '/zh-CN/download/' },
           { text: '日志', link: '/zh-CN/changelog/' },
+          { text: 'FAQ', link: '/zh-CN/faq/' },
           { text: 'API', link: '/zh-CN/api/' },
           {
             text: '链接',
             ariaLabel: '友情链接',
             items: [
               { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
-              { text: '秋之盒', link: 'https://atmb.top/' },
+              { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
             ],
           },
         ],
         sidebar: {
-          '/zh-CN/guide/': getGuideSidebar('开始', '更新日志', 'API'),
-          '/zh-CN/download/': getGuideSidebar('开始', '更新日志', 'API'),
-          '/zh-CN/changelog/': getGuideSidebar('开始', '更新日志', 'API'),
-          '/zh-CN/api/': getGuideSidebar('开始', '更新日志', 'API'),
+          '/zh-CN/guide/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/download/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/changelog/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/api/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/faq/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API')
         },
         searchPlaceholder: '搜索',
         notFoundLinkText: '返回首页',
@@ -73,21 +75,23 @@ module.exports = {
           { text: 'Guide', link: '/en-US/guide/' },
           { text: 'Download', link: '/en-US/download/' },
           { text: 'Changelog', link: '/en-US/changelog/' },
+          { text: 'FAQ', link: '/en-US/faq/' },
           { text: 'API', link: '/en-US/api/' },
           {
             text: 'Link',
             ariaLabel: 'Link Menu',
             items: [
               { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
-              { text: 'AutumnBox', link: 'https://atmb.top/' },
+              { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
             ],
           },
         ],
         sidebar: {
-          '/en-US/guide/': getGuideSidebar('Guide', 'Changelog', 'API'),
-          '/en-US/download/': getGuideSidebar('Guide', 'Changelog', 'API'),
-          '/en-US/changelog/': getGuideSidebar('Guide', 'Changelog', 'API'),
-          '/en-US/api/': getGuideSidebar('Guide', 'Changelog', 'API'),
+          '/en-US/guide/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/download/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/changelog/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/api/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/faq/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API')
         },
         searchPlaceholder: 'Search',
         notFoundLinkText: 'Take me home.',
@@ -118,7 +122,7 @@ module.exports = {
   }
 }
 
-function getGuideSidebar(guide, changelog, api) {
+function getGuideSidebar(guide, changelog, faq, api) {
   return [
     {
       title: guide,
@@ -130,6 +134,16 @@ function getGuideSidebar(guide, changelog, api) {
         '../guide/how-to-use',
         '../guide/enable-mroot',
         '../guide/schedules'
+      ]
+    },
+    {
+      title: faq,
+      collapsable: true,
+      children: [
+        '../faq/',
+        '../faq/mroot',
+        '../faq/daily',
+        '../faq/schedules'
       ]
     },
     {

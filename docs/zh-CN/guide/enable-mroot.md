@@ -20,15 +20,15 @@
 * 完整解压缩先前下载的压缩包（.zip 格式）
 * Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`
 * 如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了，如果出现 `java.lang.IllegalStateException:`那么请检查您系统设置中`账户`中的账户是否__全部__删除了（需要全部删除，免ROOT启用后，可以再手动加回去）（实在删不掉的账户，可以试试断开网络连接以后删除，还不行的话可以试试先备份相关的应用数据以后卸载相关应用，成功后再恢复备份）
-* 总是失败？ → [免ROOT疑难解答](https://wiki.playhi.net/index.php?title=%E7%96%91%E9%9A%BE%E8%A7%A3%E7%AD%94_For_%E7%94%A8%E6%88%B7_-_FreezeYou)
-* 太过复杂？ → [用 AutumnBox 启用 自冻(FreezeYou) 免ROOT模式](https://www.atmb.top/)
+* 总是失败？ → [免ROOT疑难解答](../faq/mroot.md)
+* 太过复杂？ → [用 AutumnBox 启用 自冻(FreezeYou) 免ROOT模式](https://www.atmb.top/?from=freezeyou)
 
 ## 操作截图
 ![操作截图](/assets/img/20180207104242.png)
 
 ## 更多资料
 * 核心代码： `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
-* [AutumnBox](https://www.atmb.top/https://www.atmb.top/) 现已支持便捷启用 自冻(FreezeYou) 免ROOT模式。
+* [AutumnBox](https://www.atmb.top/?from=freezeyou) 现已支持便捷启用 自冻(FreezeYou) 免ROOT模式。
 
 ## 需要帮助
 * 如有疑问，可以[加入QQ群](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)提问。
