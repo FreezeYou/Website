@@ -36,9 +36,9 @@ module.exports = {
           { text: '首页', link: '/zh-CN/' },
           { text: '开始', link: '/zh-CN/guide/' },
           { text: '下载', link: '/zh-CN/download/' },
-          { text: '日志', link: '/zh-CN/changelog/' },
           { text: 'FAQ', link: '/zh-CN/faq/' },
           { text: 'API', link: '/zh-CN/api/' },
+          { text: '日志', link: '/zh-CN/changelog/' },
           {
             text: '链接',
             ariaLabel: '友情链接',
@@ -74,9 +74,9 @@ module.exports = {
           { text: 'Home', link: '/en-US/' },
           { text: 'Guide', link: '/en-US/guide/' },
           { text: 'Download', link: '/en-US/download/' },
-          { text: 'Changelog', link: '/en-US/changelog/' },
           { text: 'FAQ', link: '/en-US/faq/' },
           { text: 'API', link: '/en-US/api/' },
+          { text: 'Changelog', link: '/en-US/changelog/' },
           {
             text: 'Link',
             ariaLabel: 'Link Menu',
