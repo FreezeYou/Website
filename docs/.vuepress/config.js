@@ -15,7 +15,7 @@ module.exports = {
   },
   head: [
     ['link', { rel: 'icon', href: '/assets/img/logo.svg' }],
-    // ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'manifest', href: '/assets/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#2B60FF' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -23,6 +23,15 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/assets/icons/safari-pinned-tab.svg', color: '#2B60FF' }],
     ['meta', { name: 'msapplication-TileImage', content: '/assets/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+  ],
+  plugins: [
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ]
   ],
   themeConfig: {
     locales: {
