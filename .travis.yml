@@ -5,6 +5,7 @@ install:
   - yarn install
 script:
   - yarn global add vuepress
+  - yarn add -D @vuepress/plugin-pwa
   - yarn docs:build
 deploy:
   provider: pages
