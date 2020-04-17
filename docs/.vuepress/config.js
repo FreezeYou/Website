@@ -31,7 +31,8 @@ module.exports = {
         serviceWorker: true,
         updatePopup: true
       }
-    ]
+    ],
+    ['@vuepress/back-to-top']
   ],
   themeConfig: {
     locales: {
@@ -71,7 +72,7 @@ module.exports = {
           `咦，怎么到这里来了？`,
           `四零四了！`,
           `咦，这个页面跑丢了！`
-        ]
+        ],
       },
       '/en-US/': {
         editLinkText: 'Edit this page',
