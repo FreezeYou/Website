@@ -53,6 +53,7 @@ module.exports = {
             text: '链接',
             ariaLabel: '友情链接',
             items: [
+              { text: '状态监控', link: 'https://status.zidon.net' },
               { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
               { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
             ],
@@ -91,6 +92,7 @@ module.exports = {
             text: 'Link',
             ariaLabel: 'Link Menu',
             items: [
+              { text: 'Status', link: 'https://status.zidon.net' },
               { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
               { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
             ],
