@@ -29,7 +29,17 @@ module.exports = {
       '@vuepress/pwa',
       {
         serviceWorker: true,
-        updatePopup: true
+        updatePopup: true,
+        updatePopup: {
+          '/zh-CN/': {
+            message: "发现有内容更新",
+            buttonText: "刷新"
+          },
+          '/en-US/': {
+            message: "New content is available.",
+            buttonText: "Refresh"
+          }
+        }
       }
     ],
     ['@vuepress/back-to-top']
