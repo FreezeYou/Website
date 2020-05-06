@@ -19,7 +19,7 @@
 * 开启`开发者选项`中的`Android 调试`并将设备与具备 ADB 工具的计算机连接
 * 完整解压缩先前下载的压缩包（.zip 格式）
 * Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`
-* 如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了，如果出现 `java.lang.IllegalStateException:`那么请检查您系统设置中`账户`中的账户是否__全部__删除了（需要全部删除，免ROOT启用后，可以再手动加回去）（实在删不掉的账户，可以试试断开网络连接以后删除，还不行的话可以试试先备份相关的应用数据以后卸载相关应用，成功后再恢复备份）
+* 如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了。如果没有成功，可以前往[免ROOT疑难解答](../faq/mroot.md)寻找相应的类似情况的解决方案尝试解决。
 * 总是失败？ → [免ROOT疑难解答](../faq/mroot.md)
 * 太过复杂？ → [用 AutumnBox 启用 自冻(FreezeYou) 免ROOT模式](https://www.atmb.top/?from=freezeyou)
 
