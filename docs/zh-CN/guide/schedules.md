@@ -82,7 +82,7 @@
 
 #### su
 
-* `su [Uri]` ：尝试打开指定的 Uri。（可参考：[各应用 URL Scheme](https://b9d.top)）
+* `su [Uri]` ：尝试打开指定的 Uri。（可参考：[各应用 URL Scheme](//www.urischeme.com)）
 * `su alipayqr://platformapi/startapp?saId=20000056` ：打开 支付宝 付款码。
 
 #### lg
