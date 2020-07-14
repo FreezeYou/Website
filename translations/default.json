@@ -16,5 +16,12 @@
   "coreCode_colon": "核心代码：",
   "operationScreenshot": "操作截图",
   "introduction": "介绍",
-  "function": "功能"
+  "function": "功能",
+  "riskWarning": "风险提示",
+  "android5_0_freezeYouInstalled": "系统版本不小于 Android 5.0 且已安装最新版`自冻FreezeYou`的设备（自备）",
+  "nowHasSupportFastEnableFreezeYouMRootMode": "现已支持便捷启用 自冻(FreezeYou) 免ROOT模式。",
+  "downloadLink1_sourceStation": "下载地址1(源站)",
+  "downloadLink2_baiduPan": "下载地址2(百度网盘)",
+  "fileDownload": "资料下载",
+  "download": "下载"
 }

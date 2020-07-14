@@ -10,7 +10,7 @@ regex = re.compile(r'{{@.+?}}')
 
 
 def print_log(log):
-    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + log + " ")
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + " " + log + " ")
 
 
 def load_translation_file():
