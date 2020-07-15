@@ -1,5 +1,5 @@
-# {{@enableMRoot}}
-{{@enableMRootExtra}}
+# {{@enableNoRoot}}
+{{@enableNoRootExtra}}
 
 ## {{@riskWarning}}
 * {{@riskWarning_text_1}}

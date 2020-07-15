@@ -6,8 +6,8 @@
   "details1": "安装包体积不到1MB，小身材大能量",
   "title2": "功能丰富",
   "details2": "开放的功能以及自定义能力，智能生活更得心应手",
-  "enableMRoot": "启用免ROOT",
-  "enableMRootExtra": "部分功能需要授予该特殊权限才可正常使用，如无需要则可直接跳过。",
+  "enableNoRoot": "启用免ROOT",
+  "enableNoRootExtra": "部分功能需要授予该特殊权限才可正常使用，如无需要则可直接跳过。",
   "adbTool_provided": "ADB工具（下方提供）",
   "someCode_provided": "一些代码（下方提供）",
   "adbToolAndCodePack_zipFormat_colon": "ADB 工具与代码包（.zip 格式）：",
@@ -78,5 +78,11 @@
   "faq_seeHereFirst_notice": "在开始操作前，建议请先确保设备上已安装的`自冻 FreezeYou`是最新版本 → ",
   "category": "分类",
   "moreFaq": "更多疑难解答",
-  "needMoreHelp": "需要更多帮助"
+  "needMoreHelp": "需要更多帮助",
+  "scheduledTask_-_faq": "计划任务 - 疑难解答",
+  "noRoot_-_faq": "免ROOT - 疑难解答",
+  "dailyUse_-_faq": "日常使用 - 疑难解答",
+  "beExtraCautious": "格外谨慎",
+  "hint": "提示",
+  "itIsRecommendedToUseTheScheduledTaskInstead": "建议使用`计划任务`替代"
 }

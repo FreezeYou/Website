@@ -1,4 +1,4 @@
-# 计划任务 - 疑难解答
+# {{@scheduledTask_-_faq}}
 
 ## 似乎计划任务没有生效
 * `自冻(FreezeYou)` 是否是最新版本呢？
@@ -33,5 +33,5 @@
 - [{{@joinQQGroup}}(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 
 ## 赞助支持
-- [支持 自冻FreezeYou 的后续开发 ](https://freezeyou.playhi.net/sponsorship.html)
+- [支持 自冻FreezeYou 的后续开发](https://freezeyou.playhi.net/sponsorship.html)
 
