@@ -67,9 +67,16 @@
   "operationMethod_step_4": "Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`",
   "operationMethod_step_5": "如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了。如果没有成功，可以前往[免ROOT疑难解答](../faq/mroot.md)寻找相应的类似情况的解决方案尝试解决。",
   "operationMethod_alwaysFail": "总是失败？ → ",
-  "MRootFaq": "免ROOT疑难解答",
+  "noRootFaq": "免ROOT疑难解答",
   "operationMethod_tooComplex": "太过复杂？ → ",
   "useAutumnBoxToEnableFreezeYouMRootMode": "用 秋之盒 启用 自冻(FreezeYou) 免ROOT模式",
   "joinQQGroup": "加入QQ群",
-  "faq": "疑难解答"
+  "faq": "疑难解答",
+  "seeHereFirst": "先看这里",
+  "noRoot": "免ROOT",
+  "dailyUse": "日常使用",
+  "faq_seeHereFirst_notice": "在开始操作前，建议请先确保设备上已安装的`自冻 FreezeYou`是最新版本 → ",
+  "category": "分类",
+  "moreFaq": "更多疑难解答",
+  "needMoreHelp": "需要更多帮助"
 }

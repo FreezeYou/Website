@@ -21,7 +21,7 @@
 * {{@operationMethod_step_3}}
 * {{@operationMethod_step_4}}
 * {{@operationMethod_step_5}}
-* {{@operationMethod_alwaysFail}}[{{@MRootFaq}}](../faq/mroot.md)
+* {{@operationMethod_alwaysFail}}[{{@noRootFaq}}](../faq/mroot.md)
 * {{@operationMethod_tooComplex}}[{{@useAutumnBoxToEnableFreezeYouMRootMode}}](https://www.atmb.top/?from=freezeyou)
 
 ## {{@operationScreenshot}}
