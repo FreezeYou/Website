@@ -91,7 +91,7 @@
 * [疑难解答](../faq/)
 
 ## 需要更多帮助
-- 如还有疑问，可以 **[加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)** 提问。
+- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 
 ## 赞助支持
 - [支持 自冻FreezeYou 的后续开发 ](https://freezeyou.playhi.net/sponsorship.html)

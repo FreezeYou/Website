@@ -21,6 +21,7 @@ def load_translation_file():
         if os.path.isfile(tmp_path) and tmp_path[tmp_path.rfind('.') + 1:].lower() == 'json':
             with open(tmp_path, 'r') as f:
                 translations[tmp_path[tmp_path.rfind('/') + 1:tmp_path.rfind('.')]] = json.load(f)
+                print_log("[INFO] Translation file loaded: " + tmp)
 
 
 def pre_generate_documents_for_vuepress(path):
@@ -54,6 +55,7 @@ def pre_generate_documents_for_vuepress(path):
                                     )
                                 )
                             output.write(generated_line)
+                        print_log("[INFO] Document generated: " + output_file_path[len(cwd) + 1:])
 
 
 print_log("[INFO] Current working directory: " + cwd)

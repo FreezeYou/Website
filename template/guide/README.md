@@ -15,7 +15,7 @@
 * {{@support_oneKeyFreeze}}
 * {{@support_oneKeyUnfreeze}}
 * {{@support_leaveFreeze}}
-* {{@support_classificationOfView}}
+* {{@support_viewByCategory}}
 * {{@support_notificationTilesForOneKeyFreezeUnfreezeScreenLock}}
 * {{@support_autoFreezeAfterScreenLocked}}
 * {{@support_manyKindsOfShortcutForOperation}}
