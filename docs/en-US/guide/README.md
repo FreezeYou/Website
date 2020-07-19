@@ -1,21 +1,21 @@
-# 介绍
+# Introduction
 
 省电！省电！我不要一天三充！:zap:  
 流畅！流畅！我不要生硬动画！:dash:  
 安静！安静！我不要无端打扰！:mute:  
 自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到1MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。
 
-## 功能
+## Function
 
-* 支持 免ROOT(DPM)、ROOT(HIDE)、ROOT(DISABLE) 模式
-* 支持计划任务
-* 支持定时任务
-* 支持条件任务
-* 支持延时任务
-* 支持一键冻结
-* 支持一键解冻
-* 支持离开冻结
-* 支持分类查看
+* Support NoROOT(DPM), ROOT(HIDE), ROOT(DISABLE) mode
+* Support scheduled task
+* Support timed task
+* Support triggered task
+* Support delayed task
+* Support one key freeze
+* Support one key unfreeze
+* Support leave freeze
+* Support view by category
 * 支持通知栏瓷块一键冻结解冻锁屏
 * 支持锁屏后自动冻结
 * 支持多种快捷方式操作

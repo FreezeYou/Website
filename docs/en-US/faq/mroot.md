@@ -1,8 +1,8 @@
 # 免ROOT - 疑难解答
 [[toc]]
 
-## 提示
-- 如果想要启用免ROOT，但在来到这里之前还没有尝试过启用免ROOT，建议先前往[启用免ROOT](../guide/enable-mroot.html)。
+## Hint
+- 如果想要启用免ROOT，但在来到这里之前还没有尝试过启用免ROOT，建议先前往[Enable NoRoot](../guide/enable-mroot.html)。
 
 ## adb server version doesn't match this client
 - **(仅限使用Windows系统的用户)** 把解压后得到的adb文件，删去占用空间较大的那个(约2544KB)，再试试？
@@ -30,11 +30,11 @@
 ## 启用以后能否卸载？
 - 可以卸载，但可能需要先到 `更多设置` → `危险区` 点击 `解除免ROOT`，然后正常卸载即可。
 
-## 更多疑难解答
-* [疑难解答](../faq/)
+## More Faq
+* [Faq](../faq/)
 
-## 需要更多帮助
-- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+## Need More Help
+- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 
 ## 赞助支持
 - [支持 自冻FreezeYou 的后续开发](https://freezeyou.playhi.net/sponsorship.html)

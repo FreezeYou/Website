@@ -87,11 +87,11 @@
 ## 如何卸载？
 - `更多设置` - `危险区` - `卸载` 即可卸载。如果启用了 免ROOT 的话，可能需要点击 `解除免ROOT` 解除权限后，方能卸载。
 
-## 更多疑难解答
-* [疑难解答](../faq/)
+## More Faq
+* [Faq](../faq/)
 
-## 需要更多帮助
-- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+## Need More Help
+- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 
 ## 赞助支持
 - [支持 自冻FreezeYou 的后续开发 ](https://freezeyou.playhi.net/sponsorship.html)

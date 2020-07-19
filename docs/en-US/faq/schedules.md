@@ -26,11 +26,11 @@
 ## 如何获得我的自选中的别名
 * 请至 `更多设置` - `管理空间` - `管理我的自选` 中点击相应的项，然后点击**复制别名**即可。
 
-## 更多疑难解答
-* [疑难解答](../faq/)
+## More Faq
+* [Faq](../faq/)
 
-## 需要更多帮助
-- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+## Need More Help
+- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 
 ## 赞助支持
 - [支持 自冻FreezeYou 的后续开发](https://freezeyou.playhi.net/sponsorship.html)

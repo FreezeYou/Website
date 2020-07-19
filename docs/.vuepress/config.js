@@ -64,8 +64,10 @@ module.exports = {
             ariaLabel: '友情链接',
             items: [
               { text: '状态监控', link: 'https://status.zidon.net' },
-              { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
+              { text: 'Zidon.Net', link: 'https://www.zidon.net' },
+              { text: 'FreezeYou.Net', link: 'https://www.freezeyou.net' },
               { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
+              { text: '旧版站点', link: 'https://freezeyou.playhi.net' },
             ],
           },
         ],
@@ -103,8 +105,10 @@ module.exports = {
             ariaLabel: 'Link Menu',
             items: [
               { text: 'Status', link: 'https://status.zidon.net' },
-              { text: 'FreezeYou', link: 'https://freezeyou.playhi.net' },
+              { text: 'Zidon.Net', link: 'https://www.zidon.net' },
+              { text: 'FreezeYou.Net', link: 'https://www.freezeyou.net' },
               { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
+              { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
             ],
           },
         ],
