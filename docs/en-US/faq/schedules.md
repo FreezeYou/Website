@@ -23,7 +23,7 @@
 * 蜂窝移动数据网络 的开启目前仅支持在 `Android 4.4 及以下` 或 `具有 ROOT 权限` 或 `自冻FreezeYou 已被安装为高权限系统应用` 的设备上使用。
 * 检查是否授权 `开关移动网络` 权限。
 
-## 如何获得我的自选中的别名
+## How to get the alias of my customization
 * 请至 `更多设置` - `管理空间` - `管理我的自选` 中点击相应的项，然后点击**复制别名**即可。
 
 ## More Faq
@@ -31,7 +31,4 @@
 
 ## Need More Help
 - [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
-
-## 赞助支持
-- [支持 自冻FreezeYou 的后续开发](https://freezeyou.playhi.net/sponsorship.html)
 

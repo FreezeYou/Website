@@ -126,7 +126,3 @@
 ## {{@faq}}
 * [{{@faq}}](../faq/)
 
-## 赞助支持
-
-* [支持 自冻FreezeYou 的后续开发](https://freezeyou.playhi.net/sponsorship.html)
-

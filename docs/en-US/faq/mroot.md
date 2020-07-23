@@ -35,7 +35,3 @@
 
 ## Need More Help
 - [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
-
-## 赞助支持
-- [支持 自冻FreezeYou 的后续开发](https://freezeyou.playhi.net/sponsorship.html)
-

@@ -16,12 +16,12 @@
 * Support one key unfreeze
 * Support leave freeze
 * Support view by category
-* 支持通知栏瓷块一键冻结解冻锁屏
-* 支持锁屏后自动冻结
-* 支持多种快捷方式操作
-* 支持多种解冻/冻结方式
-* 支持更换界面风格
-* 支持备份与恢复
-* 等更多功能！
+* Support notification tiles for one key freeze, unfreeze and screen lock
+* Support auto freeze after screen locked
+* Support many kinds of shortcut for operation
+* Support many ways of freeze and unfreeze
+* Support change interface style
+* Support backup and restore
+* And more other functions!
 
 

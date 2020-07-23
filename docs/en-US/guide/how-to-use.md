@@ -3,10 +3,10 @@
 
 ## Grant Permissions
 `自冻FreezeYou`中的一些功能，需要一些特殊权限，就比如`冻结与解冻`就需要特殊授权才能正常使用（若不使用相关功能，可不授予权限），目前，如要使用`冻结与解冻`功能，需要保证以下至少一个权限已经或能够授予`自冻FreezeYou`，并在`更多设置` - `冻结与解冻` - `选择冻结解冻模式`中选中相应的模式：
-* Device Policy Manager (DPM) (常称为免ROOT) → How to [grant permission](./enable-mroot.html)
+* Device Policy Manager (DPM) (Usually be called NoRoot) → How to [grant permission](./enable-mroot.html)
 * Root
 
-## Freeze and Unfreeze <Badge text="格外谨慎" type="warning"/>
+## Freeze and Unfreeze <Badge text="Be extra cautious" type="warning"/>
 启动`自冻FreezeYou`，待主界面列表载入完成后，点击相应的应用，选择`冻结/解冻/启动`即可进行冻结与解冻操作。
 
 ## View by Category <Badge text="1.13+" type="tip"/>
@@ -19,7 +19,7 @@
 ## Scheduled Task <Badge text="6.0+" type="tip"/>
 计划任务的功能比较多，也较为复杂，这里我们单独进行 → [Introduction](./schedules.html)。
 
-## 更换界面风格 <Badge text="4.0+" type="tip"/>
+## Change Interface Style <Badge text="4.0+" type="tip"/>
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`常规`，点击`界面风格`即可修改。
 
 ## Backup and Restore <Badge text="8.8+" type="tip"/>
@@ -27,7 +27,7 @@
 
 ## Notification Tiles
 通过通知栏瓷块，可点击瓷块快速执行操作。下拉通知栏，点击`编辑`，将相应的瓷块设为显示，然后完成编辑后即可使用（需要 Android 系统支持）。  
-__可用瓷块：__  
+__Available notification tiles: __  
 * One Key Freeze
 * One Key Unfreeze
 * One Key Screen Lock
@@ -50,7 +50,7 @@ __Usage: __
 _建议使用`计划任务`替代_  
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`离开冻结`即可，离开在`离开冻结列表`（点击主界面列表中的相应应用，选择`加入/移出`，即可添加）里的相应应用时对应的应用会被冻结。
 
-## 锁屏后一键冻结
+## Auto One Key Freeze After Screen Locked
 _建议使用`计划任务`替代_  
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`锁屏后一键冻结`即可，锁屏后会执行`一键冻结`。
 

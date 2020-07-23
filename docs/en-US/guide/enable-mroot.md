@@ -21,15 +21,15 @@ Some functions need this special permission to be granted before they can be use
 * 完整解压缩先前下载的压缩包（.zip 格式）
 * Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`
 * 如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了。如果没有成功，可以前往[免ROOT疑难解答](../faq/mroot.md)寻找相应的类似情况的解决方案尝试解决。
-* 总是失败？ → [NoRoot Faq](../faq/mroot.md)
-* 太过复杂？ → [用 秋之盒 启用 自冻(FreezeYou) 免ROOT模式](https://www.atmb.top/?from=freezeyou)
+* Always fail? → [NoRoot Faq](../faq/mroot.md)
+* Too complex? → [用 秋之盒 启用 自冻(FreezeYou) 免ROOT模式](https://www.atmb.top/?from=freezeyou)
 
 ## Operation Screenshot
 ![Operation Screenshot](/assets/img/20180207104242.png)
 
 ## More Info
 * Core Code:  `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
-* [AutumnBox](https://www.atmb.top/?from=freezeyou) 现已支持便捷启用 自冻(FreezeYou) 免ROOT模式。
+* [AutumnBox](https://www.atmb.top/?from=freezeyou)  now has support quick enable FreezeYou NoRoot mode
 
 ## Need Help
 * [Join QQ Group](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)
