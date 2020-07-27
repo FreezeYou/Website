@@ -7,7 +7,7 @@
 
 ## Function
 
-* Support NoROOT(DPM), ROOT(HIDE), ROOT(DISABLE) mode
+* Support NoROOT(DPM), ROOT(HIDE), ROOT(DISABLE)， System App(DISABLE), System App(DISABLE\_USER), System App(DISABLE\_UNTIL\_USED) mode
 * Support scheduled task
 * Support timed task
 * Support triggered task

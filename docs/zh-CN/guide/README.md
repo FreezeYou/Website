@@ -7,7 +7,7 @@
 
 ## 功能
 
-* 支持 免ROOT(DPM)、ROOT(HIDE)、ROOT(DISABLE) 模式
+* 支持 免ROOT(DPM)、ROOT(HIDE)、ROOT(DISABLE)、系统应用(DISABLE)、系统应用(DISABLE\_USER)、系统应用(DISABLE\_UNTIL\_USED) 等模式
 * 支持计划任务
 * 支持定时任务
 * 支持条件任务

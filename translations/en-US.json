@@ -24,7 +24,7 @@
   "downloadLink2_baiduPan": "Download link 2 (Baidu Net Disk)",
   "fileDownload": "File Download",
   "download": "Download",
-  "support_MRoot_root_hide_disable_mode": "Support NoROOT(DPM), ROOT(HIDE), ROOT(DISABLE) mode",
+  "support_MRoot_root_hide_disable_mode": "Support NoROOT(DPM), ROOT(HIDE), ROOT(DISABLE)， System App(DISABLE), System App(DISABLE\\_USER), System App(DISABLE\\_UNTIL\\_USED) mode",
   "support_scheduledTask": "Support scheduled task",
   "support_timedTask": "Support timed task",
   "support_triggeredTask": "Support triggered task",
