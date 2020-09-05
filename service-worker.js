@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "0d629477aa25c2eaa557893d15df5a3b"
+    "revision": "80ad6185e095e434f5c8bf6ce36272bd"
   },
   {
     "url": "assets/css/0.styles.e40b065d.css",
@@ -94,8 +94,8 @@ self.__precacheManifest = [
     "revision": "90ebbc2be70ac9e797dcc7aab4da0530"
   },
   {
-    "url": "assets/js/12.eee07579.js",
-    "revision": "6942b47ef4c12cfd3f47c3a0e37aefc3"
+    "url": "assets/js/12.98634be3.js",
+    "revision": "2a2fb2a60f7ca9b003bd5289ffa9eb84"
   },
   {
     "url": "assets/js/13.4dcb8df9.js",
@@ -162,8 +162,8 @@ self.__precacheManifest = [
     "revision": "17e0b3494afdfbece42fce51d53cc3d5"
   },
   {
-    "url": "assets/js/28.08d646d0.js",
-    "revision": "e688de261a546b2635b820824f99e8ff"
+    "url": "assets/js/28.c055b239.js",
+    "revision": "1c195d8386d283fb9e256b9c23b18ea7"
   },
   {
     "url": "assets/js/29.71e6bbc7.js",
@@ -238,140 +238,140 @@ self.__precacheManifest = [
     "revision": "13a793a38a6e79bc509f406f1768826f"
   },
   {
-    "url": "assets/js/app.854761a9.js",
-    "revision": "c218104364edf6c77d3538d77c2f3dc9"
+    "url": "assets/js/app.27984772.js",
+    "revision": "b2bb0c1a8c09a345264b8fe45999e1d9"
   },
   {
     "url": "en-US/api/index.html",
-    "revision": "1bffb935d5d5dcacedf18880eb2e8a76"
+    "revision": "38ce258eae0582974d200b9f777130f2"
   },
   {
     "url": "en-US/api/provider.html",
-    "revision": "5ca169c3fc9b02797a0cf478f5f069d8"
+    "revision": "b06010b219fdf9fd48fb12e4d95bd3f8"
   },
   {
     "url": "en-US/api/start-activity.html",
-    "revision": "bada4eeebe407788ed9b43e0f3a6d2c0"
+    "revision": "6030918e73aae60f4326a5bd14e00682"
   },
   {
     "url": "en-US/api/uri.html",
-    "revision": "582b9fc542b60b7e411dbe3a25a9063b"
+    "revision": "8550aa4f982d6afb0cf22f94d54aaf54"
   },
   {
     "url": "en-US/changelog/index.html",
-    "revision": "7b7f03f938221be862ad3a4cd015ca4e"
+    "revision": "c6335bb592ebfddfd29901e17883bd03"
   },
   {
     "url": "en-US/download/index.html",
-    "revision": "3b8c6b92578ade54b2c02ce357662873"
+    "revision": "e3bea193953a875e6230f771da0c4e52"
   },
   {
     "url": "en-US/faq/daily.html",
-    "revision": "20f3b9253ee049160a90d98fe7f75a19"
+    "revision": "f3226472a341b4139f6057adec57d748"
   },
   {
     "url": "en-US/faq/index.html",
-    "revision": "94f75e91507b624f5a872e40866d64ce"
+    "revision": "5697b65fe496da168bd82d25a8006efd"
   },
   {
     "url": "en-US/faq/mroot.html",
-    "revision": "d5ef1671677557bdc698fd07ab2c0275"
+    "revision": "a671b1e09e22fa3b6b45528aee829d86"
   },
   {
     "url": "en-US/faq/schedules.html",
-    "revision": "26da3eb80028e686c7306064b22e0aed"
+    "revision": "717682d11ff686c489fae818d8870a46"
   },
   {
     "url": "en-US/guide/enable-mroot.html",
-    "revision": "1b9a83c67a6cb0e108922a5e5f7f7790"
+    "revision": "d615ad853da1af7325dfaa622d61a6f6"
   },
   {
     "url": "en-US/guide/how-to-use.html",
-    "revision": "6466d8f0403daade032093c80c6d251c"
+    "revision": "9eeae3012f6437bf47700e7e0a6464db"
   },
   {
     "url": "en-US/guide/index.html",
-    "revision": "3697968ab2d3912a434c98853ccf7c47"
+    "revision": "cd6a3c264b39f5a0e145ed986cad7103"
   },
   {
     "url": "en-US/guide/schedules.html",
-    "revision": "d20d6157ded13e18e7c946b3c16deb2f"
+    "revision": "329884a3e64b2a4bfdbb7c3e7ea5e6fe"
   },
   {
     "url": "en-US/guide/warning.html",
-    "revision": "6b408ed56cf815260828aa8b34c50456"
+    "revision": "45c97e5257dd225ba4aaff78a6bc815b"
   },
   {
     "url": "en-US/index.html",
-    "revision": "cec88e6d0baaee7d4a91a256383a0627"
+    "revision": "14e56a3fb06a18322733f98ec1492890"
   },
   {
     "url": "index.html",
-    "revision": "9f4e8aa299c8a42a414e26042bd43dde"
+    "revision": "0b9b27cce66dd69838cad312fcd83cd4"
   },
   {
     "url": "zh-CN/api/index.html",
-    "revision": "be64ab06e2d0936369ece6fe13a3f064"
+    "revision": "fdefab71f2467d47596a7d2718a254cf"
   },
   {
     "url": "zh-CN/api/provider.html",
-    "revision": "4f50489a8f8f797b68ed370f5d2d44a2"
+    "revision": "e8a7249aee1289b0d3961f00184bcb35"
   },
   {
     "url": "zh-CN/api/start-activity.html",
-    "revision": "261c85a12ad827b98e3f1cafb34217ca"
+    "revision": "dc682d86c4e23b512daa39d28c1eb81b"
   },
   {
     "url": "zh-CN/api/uri.html",
-    "revision": "d2442df990313400a12a4e62723cbca5"
+    "revision": "89f0f40317668d4a523526e2a972e96e"
   },
   {
     "url": "zh-CN/changelog/index.html",
-    "revision": "89c4557d361c57aa1b37271c0ee16eb9"
+    "revision": "4d100a4f29c0283bf6af3ede82fd657f"
   },
   {
     "url": "zh-CN/download/index.html",
-    "revision": "bd7c58db2c80190c89e3552c5c4dd901"
+    "revision": "80e3e2b452df1639ef549126a7763bf0"
   },
   {
     "url": "zh-CN/faq/daily.html",
-    "revision": "bea60014063adbfc6a9115b37406515b"
+    "revision": "86c0045e2b26cbefae5c36ee7ba068a6"
   },
   {
     "url": "zh-CN/faq/index.html",
-    "revision": "dbfef4dfdbf7c59c3a13063bcb7439f7"
+    "revision": "75e3739cb051aa84b69a761444f3265d"
   },
   {
     "url": "zh-CN/faq/mroot.html",
-    "revision": "2eb3dd1e007c78c3cb94f8ce03ae7b14"
+    "revision": "206a8cdf90573a7adce67b9d5abb70cc"
   },
   {
     "url": "zh-CN/faq/schedules.html",
-    "revision": "a38c8f365a01d83bb3aad81ef700b91c"
+    "revision": "692131f40e736e52c274e2d766ce9f12"
   },
   {
     "url": "zh-CN/guide/enable-mroot.html",
-    "revision": "26a013c47ad5a52df5116ee5995d6bdb"
+    "revision": "1ffa7c7075e013c1f14961cac03b2266"
   },
   {
     "url": "zh-CN/guide/how-to-use.html",
-    "revision": "24814a5a3ec3e58c714cc617f68d4908"
+    "revision": "5cb3022285009da6bdbbdc7e30a5879e"
   },
   {
     "url": "zh-CN/guide/index.html",
-    "revision": "37f358200e3c74c73fadb38e7513fc42"
+    "revision": "e06f0851c1c96b1cac328f7aee5bf89f"
   },
   {
     "url": "zh-CN/guide/schedules.html",
-    "revision": "29ad96a3d491ace8858c1a255315c273"
+    "revision": "fea1c5c6b95ccaeaca5c1b340fa3d529"
   },
   {
     "url": "zh-CN/guide/warning.html",
-    "revision": "e3716901dab47a0f44e14bbe54a56b60"
+    "revision": "c84c3c7e562ba6c693133e85c234325f"
   },
   {
     "url": "zh-CN/index.html",
-    "revision": "e8bfe8bd9f9f1102665504b6564a3b7e"
+    "revision": "b7cae46265ba36858725d94af83af462"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
