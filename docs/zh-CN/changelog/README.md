@@ -1,5 +1,9 @@
 # 更新日志
 ## V10
+### V10.10(2020.10.14)
+1. 【更多】一些细节优化与问题修复。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.10(136)/app-release.apk)
+
 ### V10.9(2020.09.03)
 1. 【调整】白名单、Whitelist 更名至 允许名单、allow list；
 2. 【调整】移除所有 “赞助支持”；
