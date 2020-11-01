@@ -2,10 +2,10 @@
 Some functions need this special permission to be granted before they can be used normally, if not needed, this can be skipped directly.
 
 ## Risk Warning
-* 目前已累计收到两例用户反馈，反应出现启用免ROOT后设备图形锁（图案密码）无端发生变化导致无法解锁的情况，目前仍未查明原因，其中一台设备为 Samsung S7 edge 原厂系统 ，另一台情况不明（疑似同为 Samsung 设备）。因此，如有重要资料请各位在操作前备份，以防意外情况发生导致不必要的麻烦。
-* 鉴于这部分 Samsung 设备发生的问题，建议启用前先关闭图形锁、密码锁等类似内容。
-* 在启用免ROOT后，冻结应用（尤其是系统应用）前，请注意，某些系统某些情况下在对个别应用执行冻结操作后会导致系统出现一些异常——比如莫名卡顿、无法正常开机等问题。因此，请尽可能的在一定安全限度内进行操作以确保操作安全，避免产生不必要的麻烦。
-* 某些设备某些系统在启用免ROOT后会导致系统自带的应用多开、应用分身无法正常使用（我们收集到的数据反应主要集中在 Android 8.0 系统中，非系统应用的第三方应用提供的分身、多开未见受此影响）。
+* So far, we have received two cases of user feedback. It is reported that the device's graphic lock (pattern password) has been changed for no reason after NoRoot permission is granted, and then the device cannot be unlocked normally. The reason has not been found yet. One of the devices is Samsung S7 edge with the original Samsung system. The other one is unknown (suspected to be Samsung device). Therefore, if you have any important data, please back it up before operation to prevent unnecessary troubles.
+* In view of the problems with this part of the Samsung device, it is recommended to disable the graphic lock, password lock and the like before enabling.
+* Before freezing applications (especially system applications), please note that in some cases, freezing of some applications on some systems can cause some system anomalies, such as inexplicable freezes, failure to boot normally, and so on. Therefore, please try your best to operate within a certain safety limits to ensure operation safety and avoid unnecessary trouble.
+* On some devices and certain systems, after granted NoRoot, the built-in applications which is used for cloning applications cannot be used normally (the data response we collected is mainly concentrated on the system based on Android 8.0, while third-party applications provide such features do not seem to be affected by this).
 
 ## Required Material
 * ADB Tools (Provided below)
