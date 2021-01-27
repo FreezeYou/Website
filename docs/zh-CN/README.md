@@ -10,6 +10,6 @@ features:
   details: 安装包体积不到1MB，小身材大能量
 - title: 功能丰富
   details: 开放的功能以及自定义能力，智能生活更得心应手
-footer: Copyright © 2017-2020 The FreezeYou Team.
+footer: Copyright © 2017-2021 The FreezeYou Team.
 ---
 

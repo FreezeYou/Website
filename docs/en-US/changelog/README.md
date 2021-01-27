@@ -1,5 +1,23 @@
 # Changelog
 ## V10
+### V10.14(2021.01.04)
+1. 【调整】勾选 启动时不再显示警示 时，不仅不再显示警示弹窗，加载动画上方的警示文字也不再显示。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.14(140)/app-release.apk)
+
+### V10.13(2020.12.04)
+1. 【新增】通知栏磁贴 - 自冻，点按即可打开主界面。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.13(139)/app-release.apk)
+
+### V10.12(2020.11.04)
+1. 【修正】修正、优化部分多语言相关内容（感谢 __tommynok__ 的帮助）。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.12(138)/app-release.apk)
+
+### V10.11(2020.11.03)
+1. 【新增】乌克兰语翻译（感谢 __tommynok__ 的帮助）；
+2. 【新增】部分V2对外开放API（文档待更新）；
+3. 【优化】部分功能优化。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.11(137)/app-release.apk)
+
 ### V10.10(2020.10.14)
 1. 【更多】一些细节优化与问题修复。
 * [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.10(136)/app-release.apk)
