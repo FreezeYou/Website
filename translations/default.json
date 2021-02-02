@@ -164,5 +164,7 @@
   "internalVariables": "内部变量",
   "ppkgn_colon_explain": "`[ppkgn]` <Badge text=\"7.4+\" type=\"tip\"/>：先前应用程序包名。仅 触发器为 离开应用时、打开应用时 时可使用，正式使用前可在相关任务中，使用 `st [ppkgn]` 了解相关内容，减小意外冻结的可能。",
   "cpkgn_colon_explain": "`[cpkgn]` <Badge text=\"7.4+\" type=\"tip\"/>：当前应用程序包名。仅 触发器为 离开应用时、打开应用时、解冻应用时、冻结应用时 时可使用，正式使用前可在相关任务中，使用 `st [cpkgn]` 了解相关内容，减小意外冻结的可能。",
-  "usageExample": "使用示例"
+  "usageExample": "使用示例",
+  "googlePlayStore": "Google Play Store",
+  "gitHub_release": "GitHub Release"
 }

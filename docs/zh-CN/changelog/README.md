@@ -18,7 +18,7 @@
 3. 【优化】部分功能优化。
 * [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.11(137)/app-release.apk)
 
-### V10.10(2020.10.14)
+### V10.10(2020.10.04)
 1. 【更多】一些细节优化与问题修复。
 * [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.10(136)/app-release.apk)
 
