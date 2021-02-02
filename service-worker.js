@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "068727f5df0661d430e82f5f70854ed5"
+    "revision": "5781c034e88bce9dfa25f56c4449a74d"
   },
   {
     "url": "assets/css/0.styles.4b8378b9.css",
@@ -238,148 +238,148 @@ self.__precacheManifest = [
     "revision": "72c9d93db9be8b050e6214a50da806d1"
   },
   {
-    "url": "assets/js/8.07d4ed1b.js",
-    "revision": "7a763904bc0ed9a1c623d72829c310c5"
+    "url": "assets/js/8.bdd95a60.js",
+    "revision": "18e17627d4f4943bad81cb76faf9124e"
   },
   {
-    "url": "assets/js/9.b0100137.js",
-    "revision": "7099bfee0b3cb26ec0da0f34bc4e5e9a"
+    "url": "assets/js/9.e6c748b7.js",
+    "revision": "1a5d509a1baa8287086599dd21cd077f"
   },
   {
-    "url": "assets/js/app.c2b13da1.js",
-    "revision": "85ee13b6764913f74b620cac8c8192c9"
+    "url": "assets/js/app.6d9ada26.js",
+    "revision": "7627ab7b2e7bd2815c5c2ef50847a4dd"
   },
   {
     "url": "en-US/api/index.html",
-    "revision": "89f8f31463ec46dfc2dcda5f461c04ca"
+    "revision": "f18aee7e82b399f3da70ce848cf3a381"
   },
   {
     "url": "en-US/api/provider.html",
-    "revision": "8bed078383f32c43be28f18a76c9660a"
+    "revision": "1db90daf986670d82758c999ff34119e"
   },
   {
     "url": "en-US/api/start-activity.html",
-    "revision": "80c92b2ec916b1874d48a1d36de6a1b8"
+    "revision": "d3417490e9f39665787fa8d7d5e7223e"
   },
   {
     "url": "en-US/api/uri.html",
-    "revision": "a3f6a0a821d9b548c3f8d48ed8735f04"
+    "revision": "f7e01d2ee735ddcced0cfd9f45a4541b"
   },
   {
     "url": "en-US/changelog/index.html",
-    "revision": "676eb6a213e996b5a55f4030849cecbf"
+    "revision": "09046ce95f32634ffdd1916da7bc68e7"
   },
   {
     "url": "en-US/download/index.html",
-    "revision": "384af3026aa59f789044d44667aa5bdb"
+    "revision": "d4770c4b57f92a4a19af2b45c393ea83"
   },
   {
     "url": "en-US/faq/daily.html",
-    "revision": "48c805e4114922d4460d6c1ed62e626e"
+    "revision": "094aa97e2e80b7a6748edac4dc4ce167"
   },
   {
     "url": "en-US/faq/index.html",
-    "revision": "574b468f7d0a97fdc637e584974e1a43"
+    "revision": "28bc42df1d98a714810c43cf395e9f99"
   },
   {
     "url": "en-US/faq/mroot.html",
-    "revision": "ababf8db798c5b4b94235bbd2bfd6361"
+    "revision": "cdc73b4b248b871af752e6d37078d4a6"
   },
   {
     "url": "en-US/faq/schedules.html",
-    "revision": "fe29bfa8fb7f9bd5a50205cf1bebf62e"
+    "revision": "4046108be30aaa6cedaac0aca8ecf4ab"
   },
   {
     "url": "en-US/guide/enable-mroot.html",
-    "revision": "92cdee664802225ff7d4f54d77161e40"
+    "revision": "803aca3e3321222898665805b16543de"
   },
   {
     "url": "en-US/guide/how-to-use.html",
-    "revision": "b1edb2203d48219cfd8fc972ac26cf41"
+    "revision": "c856ac61184a411ed57d19c3626e6f43"
   },
   {
     "url": "en-US/guide/index.html",
-    "revision": "49edabe3e516e31b1715ca177d6456b3"
+    "revision": "073a87c34756fc3d61a4c73561774bb0"
   },
   {
     "url": "en-US/guide/schedules.html",
-    "revision": "f68d9be8ebf421a6b4c01cfc690aecf9"
+    "revision": "8e8befc7f459834081c99404ddc7d1cf"
   },
   {
     "url": "en-US/guide/warning.html",
-    "revision": "79cfbbdee7c2e4fc05413e503db266d3"
+    "revision": "d6fbc48c18a43d2da67228adefeeb4cd"
   },
   {
     "url": "en-US/index.html",
-    "revision": "f89eed376174600df10a53ade651ffdf"
+    "revision": "584e43beaf176aa705ffb3902a62c26d"
   },
   {
     "url": "index.html",
-    "revision": "a2292a0d6a09c677c3adc981602d4e4f"
+    "revision": "c06aaa2db7b6d90e77f16bef3f082dd7"
   },
   {
     "url": "zh-CN/api/index.html",
-    "revision": "a284708ee5d6bd5cb5578cbcc56fdbda"
+    "revision": "2742304e9e673380af5827d56447a140"
   },
   {
     "url": "zh-CN/api/provider.html",
-    "revision": "1318e911c34487fb9632991c1e336fe4"
+    "revision": "32b803eb0a80636a63998f2650dcfc9b"
   },
   {
     "url": "zh-CN/api/start-activity.html",
-    "revision": "a6e428e7a92a9393bd6a02d46e838225"
+    "revision": "4b9db9d731f7dd086eceac5f2e9f756a"
   },
   {
     "url": "zh-CN/api/uri.html",
-    "revision": "bbfe8647062d99452bc84dc8a962e4d1"
+    "revision": "489ab2eac19ab0792135b7583af69e18"
   },
   {
     "url": "zh-CN/changelog/index.html",
-    "revision": "6798295f531c3dc0da0b2f98dee9b1a5"
+    "revision": "242ffb34267c2411a691e8d1cea8c1d4"
   },
   {
     "url": "zh-CN/download/index.html",
-    "revision": "451e1977f70d5ed4849fd0eddc175b31"
+    "revision": "f490fcc92c7586ddfe5b1acab6f94384"
   },
   {
     "url": "zh-CN/faq/daily.html",
-    "revision": "2d503611549fcf957153023eece2d818"
+    "revision": "5c440727b9acddd9b4fe42122bb5faf3"
   },
   {
     "url": "zh-CN/faq/index.html",
-    "revision": "4f97c8a9b03145b9af393b34f2da126a"
+    "revision": "9b9be8d72efde6e7eb993c52bc9b56da"
   },
   {
     "url": "zh-CN/faq/mroot.html",
-    "revision": "6d1e92c7a46878665b914b4792c9bb96"
+    "revision": "e4dda4203464b9f9fe53a8a3a33d0235"
   },
   {
     "url": "zh-CN/faq/schedules.html",
-    "revision": "5225ff66b84a9260aaaaba3b84d0ee47"
+    "revision": "3dc36442288a4a3c651934083d1a4b97"
   },
   {
     "url": "zh-CN/guide/enable-mroot.html",
-    "revision": "241585824d8860d0e92310ba13f97f2d"
+    "revision": "ea867c5be0e20d3880a50254f227b7c7"
   },
   {
     "url": "zh-CN/guide/how-to-use.html",
-    "revision": "289e9c1177aee5b73b49a05155f5d2c9"
+    "revision": "cf58ea4be3db1d559a17af781d05aafe"
   },
   {
     "url": "zh-CN/guide/index.html",
-    "revision": "524a908587e48f4526f5b8578e11d9d2"
+    "revision": "69dcba0f29dd9505583c2f22b2e6080a"
   },
   {
     "url": "zh-CN/guide/schedules.html",
-    "revision": "bdcdaf24699d492d53563e6c1aafb527"
+    "revision": "f86e209668ff3fe8d3b3257547b261d0"
   },
   {
     "url": "zh-CN/guide/warning.html",
-    "revision": "f31d662792329bb0730043e1a38ddad7"
+    "revision": "3fc0b07ceb0fb5b2491edcb799763448"
   },
   {
     "url": "zh-CN/index.html",
-    "revision": "894e1cce980a18af1a923a45ed8c830f"
+    "revision": "004ce3f3afbb26e33780380550a280a6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
