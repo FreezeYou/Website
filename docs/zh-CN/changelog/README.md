@@ -1,5 +1,10 @@
 # 更新日志
 ## V10
+### V10.15(2021.02.02)
+1. 【调整】主界面部分细节；
+2. 【修复】部分偶发 BUG。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.15(141)/app-release.apk)
+
 ### V10.14(2021.01.04)
 1. 【调整】勾选 启动时不再显示警示 时，不仅不再显示警示弹窗，加载动画上方的警示文字也不再显示。
 * [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.14(140)/app-release.apk)
