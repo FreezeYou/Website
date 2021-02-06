@@ -5,6 +5,7 @@
 {{@grantPermissions_introductionText}}
 * {{@devicePolicyManager_commonlyCalledNoRoot_arrowMark}}{{@howTo}}[{{@grantPermission}}](./enable-mroot.html)
 * {{@root}}
+* {{@systemApp}}
 
 ## {{@freezeAndUnfreeze}} <Badge text="{{@beExtraCautious}}" type="warning"/>
 {{@freezeAndUnfreeze_guide_text}}
