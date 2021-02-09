@@ -10,7 +10,7 @@ Some functions need this special permission to be granted before they can be use
 ## Required Material
 * ADB Tools (Provided below)
 * Some Codes (Provided below)
-* 系统版本不小于 Android 5.0 且已安装最新版`自冻FreezeYou`的设备（自备）
+* Device system version Android 5.0+ , and `FreezeYou`_(latest version recommended)_ installed
 
 ## File Download
 * ADB Tool and Code Pack (.zip format) : [Download link 1 (Source station)](https://freezeyou.playhi.net/attachment/urt.zip) | [Download link 2 (Baidu Net Disk)](https://pan.baidu.com/s/1RlHg4w0z5O2aNc_ejkeUvA)
@@ -22,7 +22,7 @@ Some functions need this special permission to be granted before they can be use
 * Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`
 * 如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了。如果没有成功，可以前往[免ROOT疑难解答](../faq/mroot.md)寻找相应的类似情况的解决方案尝试解决。
 * Always fail? → [NoRoot Faq](../faq/mroot.md)
-* Too complex? → [用 秋之盒 启用 自冻(FreezeYou) 免ROOT模式](https://www.atmb.top/?from=freezeyou)
+* Too complex? → [Use AutumnBox to enable FreezeYou NoRoot Mode](https://www.atmb.top/?from=freezeyou)
 
 ## Operation Screenshot
 ![Operation Screenshot](/assets/img/20180207104242.png)
