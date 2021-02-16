@@ -9,8 +9,9 @@ cwd = os.getcwd()
 regex = re.compile(r'{{@.+?}}')
 
 
-def print_log(log):
-    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + " " + log + " ")
+def print_log(log, category="INFO", style="0;30"):
+    print("\033[{0}m{1} [{2}] {3}\033[0m".format(
+        style, time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), category, log))
 
 
 def load_translation_file():
@@ -21,7 +22,7 @@ def load_translation_file():
         if os.path.isfile(tmp_path) and tmp_path[tmp_path.rfind('.') + 1:].lower() == 'json':
             with open(tmp_path, 'r') as f:
                 translations[tmp_path[tmp_path.rfind('/') + 1:tmp_path.rfind('.')]] = json.load(f)
-                print_log("[INFO] Translation file loaded: " + tmp)
+                print_log("Translation file loaded: " + tmp, "INFO", "0;36")
 
 
 def pre_generate_documents_for_vuepress(path):
@@ -55,12 +56,16 @@ def pre_generate_documents_for_vuepress(path):
                                     )
                                 )
                             output.write(generated_line)
-                        print_log("[INFO] Document generated: " + output_file_path[len(cwd) + 1:])
+                        print_log(
+                            "Document generated: " + output_file_path[len(cwd) + 1:],
+                            "INFO", "0;36"
+                        )
 
 
-print_log("[INFO] Current working directory: " + cwd)
-print_log("[INFO] Loading translation files...")
+print_log("Current working directory: " + cwd, "INFO", "0;35")
+print_log("Loading translation files...", "INFO", "0;34")
 load_translation_file()
+print_log("Generating translated documents for vuepress...", "INFO", "0;34")
 pre_generate_documents_for_vuepress(cwd + "/template")
-print_log("[INFO] Done.")
-print_log("[INFO] It's the time for using vuepress to generate the final documents!")
+print_log("Done.", "INFO", "0;32")
+print_log("It's the time for using vuepress to generate the final documents!", "INFO", "0;32")
