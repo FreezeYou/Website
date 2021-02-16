@@ -3,29 +3,29 @@
 ### V10.15(2021.02.02)
 1. 【调整】主界面部分细节；
 2. 【修复】部分偶发 BUG。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.15(141)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.15(141)/app-release.apk)
 
 ### V10.14(2021.01.04)
 1. 【调整】勾选 启动时不再显示警示 时，不仅不再显示警示弹窗，加载动画上方的警示文字也不再显示。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.14(140)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.14(140)/app-release.apk)
 
 ### V10.13(2020.12.04)
 1. 【新增】通知栏磁贴 - 自冻，点按即可打开主界面。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.13(139)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.13(139)/app-release.apk)
 
 ### V10.12(2020.11.04)
 1. 【修正】修正、优化部分多语言相关内容（感谢 __tommynok__ 的帮助）。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.12(138)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.12(138)/app-release.apk)
 
 ### V10.11(2020.11.03)
 1. 【新增】乌克兰语翻译（感谢 __tommynok__ 的帮助）；
 2. 【新增】部分V2对外开放API（文档待更新）；
 3. 【优化】部分功能优化。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.11(137)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.11(137)/app-release.apk)
 
 ### V10.10(2020.10.04)
 1. 【更多】一些细节优化与问题修复。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.10(136)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.10(136)/app-release.apk)
 
 ### V10.9(2020.09.03)
 1. 【调整】白名单、Whitelist 更名至 允许名单、allow list；
@@ -34,7 +34,7 @@
 4. 【修复】一处会导致异常崩溃的问题（感谢 __tommynok__ 的帮助）；
 5. 【优化】多语言部分；
 6. 【更多】一些细节优化与问题修复。
-* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.9(135)/app-release.apk)
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/download/V10.9(135)/app-release.apk)
 
 ### V10.8(2020.08.04)
 *   本版核心部分改动较多，虽经测试，仍然可能会有些许问题，如果担心的话可以晚几天再点更新。

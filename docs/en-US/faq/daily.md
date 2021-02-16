@@ -88,7 +88,7 @@
 - `更多设置` - `危险区` - `卸载` 即可卸载。如果启用了 免ROOT 的话，可能需要点击 `解除免ROOT` 解除权限后，方能卸载。
 
 ## More Faq
-* [Faq](../faq/)
+* [FAQ](../faq/)
 
 ## Need More Help
 - [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)

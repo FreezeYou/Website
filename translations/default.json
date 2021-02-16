@@ -167,5 +167,7 @@
   "usageExample": "使用示例",
   "googlePlayStore": "Google Play Store",
   "gitHub_release": "GitHub Release",
-  "systemApp": "系统应用"
+  "systemApp": "系统应用",
+  "downloadThisVersion": "下载该版本",
+  "previousVersion": "历史版本"
 }

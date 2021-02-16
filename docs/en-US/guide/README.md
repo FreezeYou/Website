@@ -7,7 +7,7 @@ Keep silent! No unnecessary notification! :mute:
 
 ## Function
 
-* Support NoROOT(DPM), ROOT(HIDE), ROOT(DISABLE)， System App(DISABLE), System App(DISABLE\_USER), System App(DISABLE\_UNTIL\_USED) mode
+* Support NoRoot(DPM), Root(HIDE), Root(DISABLE), System App(DISABLE), System App(DISABLE\_USER), System App(DISABLE\_UNTIL\_USED) mode
 * Support scheduled task
 * Support timed task
 * Support triggered task
