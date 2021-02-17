@@ -1,4 +1,4 @@
-# 计划任务 - 疑难解答
+# Scheduled Task - FAQ
 
 ## 似乎计划任务没有生效
 * `自冻(FreezeYou)` 是否是最新版本呢？

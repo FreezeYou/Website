@@ -47,4 +47,4 @@ if (intent.resolveActivity(getPackageManager()) != null) {
 - [FreezeYouApiTest](https://github.com/FreezeYou/FreezeYouApiTest)
 
 ## 需要帮助
-- 可 [加入 QQ 群：838379270](https://jq.qq.com/?_wv=1027&k=5vmxG1F) 寻求帮助。
+- [加入QQ群(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)

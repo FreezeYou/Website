@@ -43,8 +43,8 @@ if (intent.resolveActivity(getPackageManager()) != null) {
 }
 ```
 
-## 开发样例
+## {{@developmentSample}}
 - [FreezeYouApiTest](https://github.com/FreezeYou/FreezeYouApiTest)
 
-## 需要帮助
-- 可 [加入 QQ 群：838379270](https://jq.qq.com/?_wv=1027&k=5vmxG1F) 寻求帮助。
+## {{@needHelp}}
+- [{{@joinQQGroup}}(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)

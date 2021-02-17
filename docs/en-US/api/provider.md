@@ -103,15 +103,15 @@ ___如果对应键值为 `null`，则检查请求时的 `Method` 以及 `Extras`
 | 999 | 不适用 | 不适用 | 检查发现未冻结，无需解冻 | 检查发现未解冻，无需冻结 | 不适用 |
 | 其它 | 不适用 | 不适用 | 不适用 | 不适用 | boolean\[\]{预估功能可用,安装通道可用,有ROOT权限,有DPM权限} |
 
-## 开发样例
+## Sample
 - [FreezeYouApiTest](https://github.com/Playhi/FreezeYouApiTest)
 
-## 常见问题
+## FAQ
 ### SecurityException
   - 是否已经在 **Manifest** 中声明了权限呢（`冻结\解冻应用`还需要类似请求敏感权限一样进行 **`requestPermissions`** ）。
 
-## 目前局限
+## Current Limitation
 - 需要在安装**自冻 FreezeYou**后再安装或更新（覆盖安装）使用相关权限的应用，否则可能会报 Exception （在 Android Google 的文档中有提及需要在请求前安装）。
 
-## 需要帮助
-- 可 [加入 QQ 群：838379270](https://jq.qq.com/?_wv=1027&k=5vmxG1F) 寻求帮助。
+## Need Help
+- [Join QQ Group(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)

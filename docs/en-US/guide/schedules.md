@@ -1,9 +1,9 @@
 # Scheduled Task
 [[toc]]
 
-## 通用任务命令
+## General Task Commands
 
-### 可用命令
+### Available Commands
 
 * `okff` ：一键冻结。
 * `okuf` ：一键解冻。
@@ -11,23 +11,23 @@
 * `uf` ：解冻。
 * `es` ：启用某设置项<small>*（自6.2版本可用 `wifi` ；自7.1版本可用 `cd` （蜂窝移动数据网络）；自7.3版本可用 `bluetooth` ）*</small>。
 * `ds` ：关闭某设置项<small>*（自6.2版本可用 `wifi` ；自7.1版本可用 `cd` （蜂窝移动数据网络）；自7.3版本可用 `bluetooth` ）*</small>。
-* `st` ：显示一条提示。
-* `sn` <Badge text="8.6+" type="tip"/>：在通知栏显示一条通知。
+* `st` : Show one toast.
+* `sn` <Badge text="8.6+" type="tip"/>: Show one notification.
 * `sp` ：打开指定应用。
 * `su` ：根据 Uri 打开指定应用。
 * `lg` <Badge text="7.2+" type="tip"/>：打印一条 ERROR 级别的 LOG ，一般情况下无使用需求。
 * `ls` <Badge text="8.7+" type="tip"/>：锁定屏幕。
 
-### 追加参数（可选）
+### Additional Parameters(Optional)
 
 * `-d` <Badge text="7.2+" type="tip"/>：延时执行，单位为 `秒` 。
 
-### 内部变量
+### Internal Variables
 
 * `[ppkgn]` <Badge text="7.4+" type="tip"/>：先前应用程序包名。仅 触发器为 离开应用时、打开应用时 时可使用，正式使用前可在相关任务中，使用 `st [ppkgn]` 了解相关内容，减小意外冻结的可能。
 * `[cpkgn]` <Badge text="7.4+" type="tip"/>：当前应用程序包名。仅 触发器为 离开应用时、打开应用时、解冻应用时、冻结应用时 时可使用，正式使用前可在相关任务中，使用 `st [cpkgn]` 了解相关内容，减小意外冻结的可能。
 
-### 使用示例
+### Usage Example
 
 #### okff
 

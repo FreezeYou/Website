@@ -169,5 +169,7 @@
   "gitHub_release": "GitHub Release",
   "systemApp": "系统应用",
   "downloadThisVersion": "下载该版本",
-  "previousVersion": "历史版本"
+  "previousVersion": "历史版本",
+  "developmentSample": "开发样例",
+  "currentLimitation": "目前局限"
 }

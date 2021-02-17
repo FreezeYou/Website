@@ -1,4 +1,4 @@
-# 免ROOT - 疑难解答
+# NoRoot - FAQ
 [[toc]]
 
 ## Hint

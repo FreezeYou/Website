@@ -48,11 +48,11 @@ __Usage:__
 * 唤出桌面的`添加小部件`或是`添加微件`或是`添加小工具`菜单，选择`自冻FreezeYou`，再选择`一键解冻`，即可在桌面上通过快捷方式进行`一键解冻`。
 
 ## Leave Freeze
-_建议使用`计划任务`替代_  
+_It is recommended to use `Scheduled Task` instead_  
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`离开冻结`即可，离开在`离开冻结列表`（点击主界面列表中的相应应用，选择`加入/移出`，即可添加）里的相应应用时对应的应用会被冻结。
 
 ## Auto One Key Freeze After Screen Locked
-_建议使用`计划任务`替代_  
+_It is recommended to use `Scheduled Task` instead_  
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`锁屏后一键冻结`即可，锁屏后会执行`一键冻结`。
 
 ## Need Help
