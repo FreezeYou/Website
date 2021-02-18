@@ -5,18 +5,18 @@
 
 ### Available Commands
 
-* `okff` ：一键冻结。
-* `okuf` ：一键解冻。
-* `ff` ：冻结。
-* `uf` ：解冻。
+* `okff` : One key freeze.
+* `okuf` : One key unfreeze.
+* `ff` : Freeze.
+* `uf` : Unfreeze.
 * `es` ：启用某设置项<small>*（自6.2版本可用 `wifi` ；自7.1版本可用 `cd` （蜂窝移动数据网络）；自7.3版本可用 `bluetooth` ）*</small>。
 * `ds` ：关闭某设置项<small>*（自6.2版本可用 `wifi` ；自7.1版本可用 `cd` （蜂窝移动数据网络）；自7.3版本可用 `bluetooth` ）*</small>。
 * `st` : Show one toast.
 * `sn` <Badge text="8.6+" type="tip"/>: Show one notification.
-* `sp` ：打开指定应用。
-* `su` ：根据 Uri 打开指定应用。
+* `sp` : Open the specified application.
+* `su` : Open the specified application by URI.
 * `lg` <Badge text="7.2+" type="tip"/>：打印一条 ERROR 级别的 LOG ，一般情况下无使用需求。
-* `ls` <Badge text="8.7+" type="tip"/>：锁定屏幕。
+* `ls` <Badge text="8.7+" type="tip"/>: Lock screen.
 
 ### Additional Parameters(Optional)
 
