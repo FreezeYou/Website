@@ -16,7 +16,7 @@
 - 也可以尝试重启至<b>安全模式</b>（调出关机界面后，长按显示的“关机”按钮），再次尝试进行激活。
 
 ## java.lang.IllegalStateException: ... there are already several users ... (“正在尝试启用免ROOT模式……”)
-- 请检查您系统设置中的其他用户是否已经删除了、分身应用是否已经关闭了(部分分身的实现利用的是 Android 自带的多用户功能，会影响免ROOT的启用)，如果还是失败，可以尝试参考[此处](http://ju.outofmemory.cn/entry/345539) <Badge text="该操作可能导致系统自带的分身功能无法正常使用" type="error"/>。
+- 请检查您系统设置中可见的其他用户是否已经删除了、分身应用是否已经关闭了(部分分身的实现利用的是 Android 自带的多用户功能，会影响免ROOT的启用)，如果还是失败，可以尝试 `adb shell pm remove-user [USER_ID]` <Badge text="该操作可能导致系统自带的分身功能无法正常使用" type="error"/>。
 
 ## java.lang.SecurityException: Neither user 2000 nor current process has android.permission.MANAGE\_DEVICE\_ADMINS
 - 在 `USB调试` 下方 还有一个 `USB调试(安全设置)`，也需要打开，如果提示登录小米账号，请避免勾选 同步 项。[MIUI公告](https://www.miui.com/thread-5711795-1-1.html)
