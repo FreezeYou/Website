@@ -60,15 +60,20 @@ module.exports = {
           { text: 'API', link: '/zh-CN/api/' },
           { text: '日志', link: '/zh-CN/changelog/' },
           {
-            text: '链接',
-            ariaLabel: '友情链接',
+            text: '更多',
             items: [
+              { text: '特别感谢', link: '/zh-CN/thanks/' },
               { text: '状态监控', link: 'https://status.zidon.net' },
               { text: 'Zidon.NET', link: 'https://www.zidon.net' },
               { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
               { text: '自冻.COM', link: 'https://www.xn--f8qp88i.com/' },
-              { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
               { text: '旧版站点', link: 'https://freezeyou.playhi.net' },
+              {
+                text: '友情链接',
+                items: [
+                  { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
+                ],
+              },
             ],
           },
         ],
@@ -102,15 +107,20 @@ module.exports = {
           { text: 'API', link: '/en-US/api/' },
           { text: 'Changelog', link: '/en-US/changelog/' },
           {
-            text: 'Link',
-            ariaLabel: 'Link Menu',
+            text: 'More',
             items: [
+              { text: 'Special Thanks', link: '/zh-CN/thanks/' },
               { text: 'Status', link: 'https://status.zidon.net' },
               { text: 'Zidon.NET', link: 'https://www.zidon.net' },
               { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
               { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
-              { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
               { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
+              {
+                text: 'Link',
+                items: [
+                  { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
+                ],
+              },
             ],
           },
         ],
