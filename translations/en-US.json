@@ -175,5 +175,9 @@
   "specialThanks": "Special Thanks",
   "inNoParticularOrder": "In no particular order",
   "someoneThatMayBeMissedForVariousReasons": "Someone that may be missed for various reasons",
-  "andAllUsersSinceSuchALongTime": "And all users since such a long time"
+  "andAllUsersSinceSuchALongTime": "And all users since such a long time",
+  "contactUs": "Contact Us",
+  "email_colon": "Email: ",
+  "qqGroup_colon": "QQ Group: ",
+  "telegramGroup_colon": "Telegram Group: "
 }

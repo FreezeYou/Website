@@ -17,6 +17,7 @@
 * [小石](#)
 * [fuwafuwa](#)
 * [tommynok](#)
+* [GitHub](https://github.com/)
 * {{@someoneThatMayBeMissedForVariousReasons}}
 * {{@andAllUsersSinceSuchALongTime}}
 

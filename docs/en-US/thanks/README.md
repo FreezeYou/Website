@@ -17,6 +17,7 @@ In no particular order
 * [小石](#)
 * [fuwafuwa](#)
 * [tommynok](#)
+* [GitHub](https://github.com/)
 * Someone that may be missed for various reasons
 * And all users since such a long time
 

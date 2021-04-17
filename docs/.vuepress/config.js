@@ -62,16 +62,23 @@ module.exports = {
           {
             text: '更多',
             items: [
-              { text: '特别感谢', link: '/zh-CN/thanks/' },
-              { text: '状态监控', link: 'https://status.zidon.net' },
-              { text: 'Zidon.NET', link: 'https://www.zidon.net' },
-              { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
-              { text: '自冻.COM', link: 'https://www.xn--f8qp88i.com/' },
-              { text: '旧版站点', link: 'https://freezeyou.playhi.net' },
+              {
+                text: '关于自冻',
+                items: [
+                  { text: '联系我们', link: '/zh-CN/about/contactUs.md' },
+                  { text: '特别感谢', link: '/zh-CN/thanks/' },
+                  { text: '状态监控', link: 'https://status.zidon.net' },
+                  { text: 'GitHub', link: 'https://github.com/FreezeYou/' },
+                ],
+              },
               {
                 text: '友情链接',
                 items: [
                   { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
+                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
+                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
+                  { text: '自冻.COM', link: 'https://www.xn--f8qp88i.com/' },
+                  { text: '旧版站点', link: 'https://freezeyou.playhi.net' },
                 ],
               },
             ],
@@ -109,16 +116,23 @@ module.exports = {
           {
             text: 'More',
             items: [
-              { text: 'Special Thanks', link: '/zh-CN/thanks/' },
-              { text: 'Status', link: 'https://status.zidon.net' },
-              { text: 'Zidon.NET', link: 'https://www.zidon.net' },
-              { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
-              { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
-              { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
+              {
+                text: 'About',
+                items: [
+                  { text: 'Contact Us', link: '/en-US/about/contactUs.md' },
+                  { text: 'Special Thanks', link: '/en-US/thanks/' },
+                  { text: 'Server Status', link: 'https://status.zidon.net' },
+                  { text: 'GitHub Organization', link: 'https://github.com/FreezeYou/' },
+                ],
+              },
               {
                 text: 'Link',
                 items: [
                   { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
+                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
+                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
+                  { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
+                  { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
                 ],
               },
             ],

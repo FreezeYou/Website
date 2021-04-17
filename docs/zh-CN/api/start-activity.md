@@ -35,4 +35,5 @@
 - 需要在安装**FreezeYou**后再安装或更新（覆盖安装）使用相关权限的应用，否则可能会报 Exception （在 Android Google 的文档中有提及需要在请求前安装）
 
 ## 需要帮助
+* [加入QQ群(704086494)](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)
 - [加入QQ群(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
