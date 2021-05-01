@@ -7,7 +7,7 @@ script:
   - npm run docs:build
 deploy:
   provider: pages
-  cleanup: false
+  skip_cleanup: true
   local_dir: docs/.vuepress/dist
   keep_history: true
   fqdn: www.zidon.net
