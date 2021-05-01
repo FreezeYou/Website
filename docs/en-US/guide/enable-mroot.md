@@ -32,6 +32,6 @@ Some functions need this special permission to be granted before they can be use
 * [AutumnBox](https://www.atmb.top/?from=freezeyou)  now has support quick enable FreezeYou NoRoot mode
 
 ## Need Help
-* [Join QQ Group](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)
+* [Join QQ Group](https://jq.qq.com/?_wv=1027&k=l356Aq75)
 
 

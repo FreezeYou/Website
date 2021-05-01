@@ -32,6 +32,6 @@
 * [秋之盒](https://www.atmb.top/?from=freezeyou) 现已支持便捷启用 自冻(FreezeYou) 免ROOT模式。
 
 ## 需要帮助
-* [加入QQ群](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)
+* [加入QQ群](https://jq.qq.com/?_wv=1027&k=l356Aq75)
 
 

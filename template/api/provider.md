@@ -114,5 +114,5 @@ ___如果对应键值为 `null`，则检查请求时的 `Method` 以及 `Extras`
 - 需要在安装**自冻 FreezeYou**后再安装或更新（覆盖安装）使用相关权限的应用，否则可能会报 Exception （在 Android Google 的文档中有提及需要在请求前安装）。
 
 ## {{@needHelp}}
-* [{{@joinQQGroup}}(704086494)](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)
+* [{{@joinQQGroup}}(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
 - [{{@joinQQGroup}}(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)

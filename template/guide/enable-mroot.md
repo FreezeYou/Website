@@ -32,6 +32,6 @@
 * [{{@autumnBox}}](https://www.atmb.top/?from=freezeyou) {{@nowHasSupportFastEnableFreezeYouMRootMode}}
 
 ## {{@needHelp}}
-* [{{@joinQQGroup}}](https://shang.qq.com/wpa/qunwpa?idkey=1b94199f20fa607ca03d33a8b53f37203fbf721e84900a7e20d89ba5a6fd3da5)
+* [{{@joinQQGroup}}](https://jq.qq.com/?_wv=1027&k=l356Aq75)
 
 
