@@ -7,11 +7,11 @@ script:
   - npm run docs:build
 deploy:
   provider: pages
-  skip_cleanup: true
+  cleanup: false
   local_dir: docs/.vuepress/dist
   keep_history: true
   fqdn: www.zidon.net
-  github_token: $GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   on:
     branch: master
 
