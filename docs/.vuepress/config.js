@@ -25,34 +25,49 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   plugins: [
+    ['@vuepress/plugin-pwa'],
     [
-      '@vuepress/pwa',
+      '@vuepress/plugin-pwa-popup',
       {
-        serviceWorker: true,
-        updatePopup: true,
-        updatePopup: {
+        locales: {
+          '/': {
+            message: 'New content is available.',
+            buttonText: 'Refresh',
+          },
           '/zh-CN/': {
             message: "发现有内容更新",
-            buttonText: "刷新"
+            buttonText: "刷新",
           },
           '/en-US/': {
             message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        }
-      }
+            buttonText: "Refresh",
+          },
+        },
+      },
     ],
-    ['@vuepress/back-to-top']
+    ['@vuepress/plugin-back-to-top'],
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/en-US/': {
+            placeholder: 'Search',
+          },
+          '/zh-CN/': {
+            placeholder: '搜索',
+          },
+        },
+      },
+    ],
   ],
   themeConfig: {
     locales: {
       '/zh-CN/': {
         editLinkText: '编辑此页',
-        lastUpdated: '最后更新于',
-        repoLabel: '查看源文件',
-        selectText: '语言',
-        label: '简体中文(中国大陆)',
-        nav: [
+        lastUpdatedText: '最后更新于',
+        selectLanguageText: '语言',
+        selectLanguageName: '简体中文(中国大陆)',
+        navbar: [
           { text: '首页', link: '/zh-CN/' },
           { text: '开始', link: '/zh-CN/guide/' },
           { text: '下载', link: '/zh-CN/download/' },
@@ -61,10 +76,10 @@ module.exports = {
           { text: '日志', link: '/zh-CN/changelog/' },
           {
             text: '更多',
-            items: [
+            children: [
               {
                 text: '关于自冻',
-                items: [
+                children: [
                   { text: '联系我们', link: '/zh-CN/about/contactUs.md' },
                   { text: '特别感谢', link: '/zh-CN/thanks/' },
                   { text: '状态监控', link: 'https://status.zidon.net' },
@@ -73,7 +88,7 @@ module.exports = {
               },
               {
                 text: '友情链接',
-                items: [
+                children: [
                   { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
                   { text: 'Zidon.NET', link: 'https://www.zidon.net' },
                   { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
@@ -92,8 +107,8 @@ module.exports = {
           '/zh-CN/faq/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API')
         },
         searchPlaceholder: '搜索',
-        notFoundLinkText: '返回首页',
-        notFoundMessages: [
+        backToHome: '返回首页',
+        notFound: [
           `这里怎么空荡荡的？`,
           `咦，怎么到这里来了？`,
           `四零四了！`,
@@ -102,11 +117,10 @@ module.exports = {
       },
       '/en-US/': {
         editLinkText: 'Edit this page',
-        lastUpdated: 'Last Updated',
-        repoLabel: 'View Source',
-        selectText: 'Language',
-        label: 'English(US)',
-        nav: [
+        lastUpdatedText: 'Last Updated',
+        selectLanguageText: 'Language',
+        selectLanguageName: 'English(US)',
+        navbar: [
           { text: 'Home', link: '/en-US/' },
           { text: 'Guide', link: '/en-US/guide/' },
           { text: 'Download', link: '/en-US/download/' },
@@ -115,10 +129,10 @@ module.exports = {
           { text: 'Changelog', link: '/en-US/changelog/' },
           {
             text: 'More',
-            items: [
+            children: [
               {
                 text: 'About',
-                items: [
+                children: [
                   { text: 'Contact Us', link: '/en-US/about/contactUs.md' },
                   { text: 'Special Thanks', link: '/en-US/thanks/' },
                   { text: 'Server Status', link: 'https://status.zidon.net' },
@@ -127,7 +141,7 @@ module.exports = {
               },
               {
                 text: 'Link',
-                items: [
+                children: [
                   { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
                   { text: 'Zidon.NET', link: 'https://www.zidon.net' },
                   { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
@@ -146,8 +160,8 @@ module.exports = {
           '/en-US/faq/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API')
         },
         searchPlaceholder: 'Search',
-        notFoundLinkText: 'Take me home.',
-        notFoundMessages: [
+        backToHome: 'Take me home.',
+        notFound: [
           `There's nothing here.`,
           `How did we get here?`,
           `That's a Four-Oh-Four.`,
@@ -155,17 +169,21 @@ module.exports = {
         ],
       },
     },
-    navbar: true,
+    navbar: false,
     sidebar: 'auto',
     sidebarDepth: 1,
     displayAllHeaders: true,
     activeHeaderLinks: true,
     logo: '/assets/img/logo.svg',
     repo: 'https://github.com/FreezeYou/Website',
+    repoLabel: 'GitHub',
     docsRepo: 'https://github.com/FreezeYou/Website',
     docsDir: 'docs',
     docsBranch: 'master',
-    editLinks: true,
+    editLink: true,
+    editLinkPattern: ':repo/edit/:branch/:path',
+    contributors: true,
+    lastUpdated: true,
     smoothScroll: true,
     nextLinks: true,
     prevLinks: true,
@@ -177,39 +195,43 @@ module.exports = {
 function getGuideSidebar(guide, changelog, faq, api) {
   return [
     {
-      title: guide,
+      isGroup: true,
+      text: guide,
       collapsable: true,
       children: [
         '../guide/',
-        '../guide/warning',
+        '../guide/warning.md',
         '../download/',
-        '../guide/how-to-use',
-        '../guide/enable-mroot',
-        '../guide/schedules'
+        '../guide/how-to-use.md',
+        '../guide/enable-mroot.md',
+        '../guide/schedules.md'
       ]
     },
     {
-      title: faq,
+      isGroup: true,
+      text: faq,
       collapsable: true,
       children: [
         '../faq/',
-        '../faq/mroot',
-        '../faq/daily',
-        '../faq/schedules'
+        '../faq/mroot.md',
+        '../faq/daily.md',
+        '../faq/schedules.md'
       ]
     },
     {
-      title: api,
+      isGroup: true,
+      text: api,
       collapsable: true,
       children: [
         '../api/',
-        '../api/uri',
-        '../api/provider',
-        '../api/start-activity'
+        '../api/uri.md',
+        '../api/provider.md',
+        '../api/start-activity.md'
       ]
     },
     {
-      title: changelog,
+      isGroup: true,
+      text: changelog,
       collapsable: true,
       children: [
         '../changelog/'

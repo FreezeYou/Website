@@ -4,10 +4,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.8.2",
-    "@vuepress/plugin-pwa": "^1.8.2"
+    "@vuepress/plugin-back-to-top": "next",
+    "@vuepress/plugin-pwa": "next",
+    "@vuepress/plugin-pwa-popup": "next",
+    "@vuepress/plugin-search": "next"
   },
   "dependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "next"
   }
 }

@@ -3,8 +3,13 @@ home: true
 heroImage: /assets/img/logo.svg
 heroText: 自冻
 tagline: 冻结|加速|省电
-actionText: 开始
-actionLink: ./guide/
+actions:
+  - text: 开始
+    link: ./guide/
+    type: primary
+  - text: 下载
+    link: ./download/
+    type: secondary
 features:
 - title: 体积小巧
   details: 安装包体积不到2MB，小身材大能量

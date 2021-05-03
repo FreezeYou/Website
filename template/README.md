@@ -3,8 +3,13 @@ home: true
 heroImage: /assets/img/logo.svg
 heroText: {{@heroText}}
 tagline: {{@tagline}}
-actionText: {{@actionText}}
-actionLink: ./guide/
+actions:
+  - text: {{@actionText}}
+    link: ./guide/
+    type: primary
+  - text: {{@download}}
+    link: ./download/
+    type: secondary
 features:
 - title: {{@title1}}
   details: {{@details1}}
