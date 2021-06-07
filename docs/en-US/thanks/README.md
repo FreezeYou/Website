@@ -18,6 +18,7 @@ In no particular order
 * [fuwafuwa](#)
 * [tommynok](#)
 * [GitHub](https://github.com/)
+* [shunf4](https://github.com/shunf4)
 * Someone that may be missed for various reasons
 * And all users since such a long time
 
