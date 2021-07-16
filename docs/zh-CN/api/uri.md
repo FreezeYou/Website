@@ -2,35 +2,46 @@
 [[toc]]
 
 ## 授权范围
-- 唤起 **FreezeYou** 的 **冻结\\解冻\\启动** 对话框（出于安全考虑，首次 **冻结\\解冻\\启动** 具体操作必须由用户自主完成）。
+- 唤起 **FreezeYou** 的 **冻结/解冻/启动** 对话框（出于安全考虑，首次 **冻结/解冻/启动** 具体操作必须由用户自主完成）。
 
 ## 如何使用
 
 ### 嵌入 HTML
-#### 请求 冻结\解冻\启动 [应用包名]
+#### 请求 冻结/解冻/启动 [应用包名]
 ``` html
-<a href="freezeyou://fuf/?pkgName=[应用包名][&action=[操作]]">请求 冻结\解冻\启动 [应用包名]</a>
+<a href="freezeyou://fuf/?pkgName=[应用包名][&action=[操作]]">请求 冻结/解冻/启动 [应用包名]</a>
 ```
-#### 请求 冻结\解冻\启动 图库
+
+#### 请求 冻结/解冻/启动 USIM卡应用
 ``` html
-<a href="freezeyou://fuf/?pkgName=com.android.gallery3d">请求 冻结\解冻\启动 图库</a>
+<a href="freezeyou://fuf/?pkgName=com.android.stk">请求 冻结/解冻/启动 USIM卡应用</a>
 ```
-#### 请求 冻结\解冻\启动 图库 <Badge text="8.3+" type="tip"/>
+[点此尝试 冻结/解冻/启动 USIM卡应用(com.android.stk)](freezeyou://fuf/?pkgName=com.android.stk)
+
+#### 请求 冻结/解冻/启动 USIM卡应用 <Badge text="8.3+" type="tip"/>
 ``` html
-<a href="freezeyou://fuf/?pkgName=com.android.gallery3d&action=fuf">请求 冻结\解冻\启动 图库</a>
+<a href="freezeyou://fuf/?pkgName=com.android.stk&action=fuf">请求 冻结/解冻/启动 USIM卡应用</a>
 ```
-#### 请求 解冻 图库 <Badge text="8.3+" type="tip"/>
+[点此尝试 冻结/解冻/启动 USIM卡应用(com.android.stk)](freezeyou://fuf/?pkgName=com.android.stk&action=fuf)
+
+#### 请求 解冻 USIM卡应用 <Badge text="8.3+" type="tip"/>
 ``` html
-<a href="freezeyou://fuf/?pkgName=com.android.gallery3d&action=unfreeze">请求 解冻 图库</a>
+<a href="freezeyou://fuf/?pkgName=com.android.stk&action=unfreeze">请求 解冻 USIM卡应用</a>
 ```
-#### 请求 冻结 图库 <Badge text="8.3+" type="tip"/>
+[点此尝试 解冻 USIM卡应用(com.android.stk)](freezeyou://fuf/?pkgName=com.android.stk&action=unfreeze)
+
+#### 请求 冻结 USIM卡应用 <Badge text="8.3+" type="tip"/>
 ``` html
-<a href="freezeyou://fuf/?pkgName=com.android.gallery3d&action=freeze">请求 冻结 图库</a>
+<a href="freezeyou://fuf/?pkgName=com.android.stk&action=freeze">请求 冻结 USIM卡应用</a>
 ```
-#### 请求 解冻并启动(若已解冻则直接启动) 图库 <Badge text="8.3+" type="tip"/>
+[点此尝试 冻结 USIM卡应用(com.android.stk)](freezeyou://fuf/?pkgName=com.android.stk&action=freeze)
+
+#### 请求 解冻并启动(若已解冻则直接启动) USIM卡应用 <Badge text="8.3+" type="tip"/>
 ``` html
-<a href="freezeyou://fuf/?pkgName=com.android.gallery3d&action=unFreezeAndRun">请求 解冻并启动(若已解冻则直接启动) 图库</a>
+<a href="freezeyou://fuf/?pkgName=com.android.stk&action=unFreezeAndRun">请求 解冻并启动(若已解冻则直接启动) USIM卡应用</a>
 ```
+[点此尝试 解冻并启动(若已解冻则直接启动) USIM卡应用(com.android.stk)](freezeyou://fuf/?pkgName=com.android.stk&action=unFreezeAndRun)
+
 
 ### 应用间
 ``` java
