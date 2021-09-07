@@ -19,6 +19,7 @@ In no particular order
 * [tommynok](#)
 * [GitHub](https://github.com/)
 * [shunf4](https://github.com/shunf4)
+* [VuePress](https://github.com/vuepress/)
 * Someone that may be missed for various reasons
 * And all users since such a long time
 

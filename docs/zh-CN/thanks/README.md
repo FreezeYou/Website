@@ -19,6 +19,7 @@
 * [tommynok](#)
 * [GitHub](https://github.com/)
 * [shunf4](https://github.com/shunf4)
+* [VuePress](https://github.com/vuepress/)
 * 和一些可能由于各种原因被遗漏的
 * 以及这么长时间以来的所有用户
 
