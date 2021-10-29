@@ -1,5 +1,26 @@
 # {{@changelog}}
 ## V10
+### V10.16-pre1(2021.10.11)
+__测试版，很可能存在各种不稳定情况__  
+1. 【新增】创建冻结解冻桌面快捷方式 - 目标 中，选择目标时会显示相应的标题；
+2. 【新增】更多设置 - 外观 - 界面风格 - 黑色（与已存在的暗色相比更黑）；
+3. 【新增】更多设置 - 自动切换暗色模式时的界面风格 - 暗色、黑色；
+4. 【新增】查看模式 - 未冻用应（未冻结的用户应用）（感谢 [@shunf4](https://github.com/shunf4) 的 PR [#180](https://github.com/FreezeYou/FreezeYou/pull/180) ）；
+5. 【新增】排序方式 - 字母顺序、最近安装、最近更新（感谢 [@shunf4](https://github.com/shunf4) 的 PR [#180](https://github.com/FreezeYou/FreezeYou/pull/180) ）；
+6. 【新增】更多设置 - 安全 - 启用身份验证；
+7. 【新增】强行停止（感谢 [@shunf4](https://github.com/shunf4) 的 PR [#180](https://github.com/FreezeYou/FreezeYou/pull/180) ）；
+8. 【新增】快捷方式 - 强行停止；
+9. 【新增】快捷方式 - 快捷查看 - 系统预装、用户应用、未冻用应、我的自选（感谢 [@shunf4](https://github.com/shunf4) 的 PR [#180](https://github.com/FreezeYou/FreezeYou/pull/180) ）；
+10. 【优化】自检诊断的流程、稳定性与展示效果等；
+11. 【新增】自检诊断 - 刷新、帮助按钮；
+12. 【调整】自检诊断 - 未忽略电池优化 中，点击后直接唤起系统弹窗选择是否忽略而非跳转至系统设置手动找寻 `FreezeYou` 后再点击忽略；
+13. 【调整】不再显示列表的分割线，且不设开关；
+14. 【修复】一键冻结、一键解冻对全部冻结解冻模式的支持；
+15. 【调整】移除 更多设置 - 外观 - 单击功能选择操作风格；
+16. 【新增】支持以包名搜索应用；
+17. 【更多】大量细节与稳定性等优化。
+* [{{@downloadThisVersion}}](https://github.com/FreezeYou/FreezeYou/releases/download/V10.16-pre1(142)/app-release.apk)
+
 ### V10.15(2021.02.02)
 1. 【调整】主界面部分细节；
 2. 【修复】部分偶发 BUG。
