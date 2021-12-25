@@ -1,0 +1,1 @@
+const e={key:"v-41f53901",path:"/en-US/download/",title:"Download",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1613481835e3,contributors:[{name:"Playhi",email:"000902play@gmail.com",commits:6}]},filePathRelative:"en-US/download/README.md"};export{e as data};

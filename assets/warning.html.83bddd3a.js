@@ -1,0 +1,1 @@
+const e={key:"v-d91b1054",path:"/en-US/guide/warning.html",title:"Caution",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1595504671e3,contributors:[{name:"Playhi",email:"000902play@gmail.com",commits:3}]},filePathRelative:"en-US/guide/warning.md"};export{e as data};
