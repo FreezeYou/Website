@@ -16,7 +16,7 @@
 * [催更人](#)
 * [小石](#)
 * [fuwafuwa](#)
-* [tommynok](#)
+* [tommynok](https://github.com/tommynok)
 * [GitHub](https://github.com/)
 * [shunf4](https://github.com/shunf4)
 * [VuePress](https://github.com/vuepress/)
