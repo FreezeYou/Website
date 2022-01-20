@@ -1,9 +1,16 @@
 # 更新日志
 ## V10
+### V10.16-pre3(2022.01.19)
+__测试版，很可能存在各种不稳定情况__  
+1. 【新增】启动画面（Splash Screen），仅 Android 12 （API 31）及更高版本设备中；
+2. 【优化】身份验证中一些导致响应迟钝的问题。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.16-pre3(145)/app-release.apk)
+
 ### V10.16-pre2(2021.12.23)
 __测试版，很可能存在各种不稳定情况__  
 1. 【新增】更新与添加一些翻译（感谢 [@tommynok](https://github.com/tommynok)）；
 2. 【优化】一些细节优化与调整。
+* [下载该版本](https://github.com/FreezeYou/FreezeYou/releases/download/V10.16-pre2(143)/app-release.apk)
 
 ### V10.16-pre1(2021.10.11)
 __测试版，很可能存在各种不稳定情况__  
