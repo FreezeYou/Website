@@ -5,3 +5,6 @@ Beware of malicious copy! Only the following channels are officially recognized 
 * [CoolApk](https://www.coolapk.com/apk/165728)
 * [Previous Version](../changelog/)
 
+The following channels are provided by the community: 
+* F-Droid: <https://android.izzysoft.de/repo/apk/cf.playhi.freezeyou>
+

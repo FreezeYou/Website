@@ -5,3 +5,6 @@
 * [{{@coolApk}}](https://www.coolapk.com/apk/165728)
 * [{{@previousVersion}}](../changelog/)
 
+{{@theFollowingChannelsAreProvidedByTheCommunity}}
+* F-Droid: <https://android.izzysoft.de/repo/apk/cf.playhi.freezeyou>
+

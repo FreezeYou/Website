@@ -20,6 +20,7 @@
 * [GitHub](https://github.com/)
 * [shunf4](https://github.com/shunf4)
 * [VuePress](https://github.com/vuepress/)
+* [linsui](https://github.com/linsui)
 * {{@someoneThatMayBeMissedForVariousReasons}}
 * {{@andAllUsersSinceSuchALongTime}}
 
