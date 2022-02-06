@@ -12,9 +12,9 @@ actions:
     type: secondary
 features:
 - title: Tiny
-  details: The APK size is less than 2MB, small but with big energy
+  details: The APK size is less than 5 MB, small but with big energy
 - title: Various Function
   details: With the open functions and customization capabilities, smart life can be more convenient
-footer: Copyright © 2017-2021 The FreezeYou Team.
+footer: Copyright © 2017-2022 The FreezeYou Team.
 ---
 
