@@ -1,1 +1,0 @@
-const e={key:"v-8daa1a0e",path:"/",title:"",lang:"en-US",frontmatter:{home:!0,navbar:!1,heroText:"Welcome!",tagline:"Please choose your language first. :D",footer:"Copyright \xA9 2017-2021 The FreezeYou Team."},excerpt:"",headers:[],git:{updatedTime:1612273127e3,contributors:[{name:"Playhi",email:"000902play@gmail.com",commits:3}]},filePathRelative:"README.md"};export{e as data};
