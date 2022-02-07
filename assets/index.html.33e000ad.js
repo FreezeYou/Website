@@ -1,0 +1,1 @@
+const t={key:"v-1997d093",path:"/zh-CN/api/",title:"API",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1594730969e3,contributors:[{name:"Playhi",email:"000902play@gmail.com",commits:1}]},filePathRelative:"zh-CN/api/README.md"};export{t as data};

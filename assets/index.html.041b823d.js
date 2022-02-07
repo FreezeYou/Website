@@ -1,1 +1,0 @@
-const e={key:"v-6d69a299",path:"/en-US/guide/",title:"Introduction",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Function",slug:"function",children:[]}],git:{updatedTime:1613481835e3,contributors:[{name:"Playhi",email:"000902play@gmail.com",commits:6}]},filePathRelative:"en-US/guide/README.md"};export{e as data};
