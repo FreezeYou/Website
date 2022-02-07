@@ -3,7 +3,7 @@
 Power save! No frequent charging! :zap:  
 Speed up! No stiff animation! :dash:  
 Keep silent! No unnecessary notification! :mute:  
-自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到1MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。
+自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到5MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。
 
 ## Function
 
