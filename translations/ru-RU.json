@@ -112,5 +112,14 @@
   "gitHub_release": "Релизы на GitHub",
   "systemApp": "Системное приложение",
   "downloadThisVersion": "Загрузить эту версию",
-  "previousVersion": "Предыдущие версии"
+  "previousVersion": "Предыдущие версии",
+  "developmentSample": "Примеры",
+  "currentLimitation": "Текущие ограничения",
+  "specialThanks": "Особые благодарности",
+  "inNoParticularOrder": "Перечислены в произвольном порядке",
+  "someoneThatMayBeMissedForVariousReasons": "Кто-то может быть пропущен по различным причинам",
+  "andAllUsersSinceSuchALongTime": "И все пользователи, которые с нами такое долгое время",
+  "contactUs": "Связаться с нами",
+  "telegramGroup_colon": "Telegram группа: ",
+  "theFollowingChannelsAreProvidedByTheCommunity": "Следующие каналы предоставляются сообществом: "
 }
