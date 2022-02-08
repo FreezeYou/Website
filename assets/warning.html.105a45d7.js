@@ -1,0 +1,1 @@
+const e={key:"v-197f25ae",path:"/zh-CN/guide/warning.html",title:"\u8B66\u544A",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1594793434e3,contributors:[{name:"Playhi",email:"000902play@gmail.com",commits:1}]},filePathRelative:"zh-CN/guide/warning.md"};export{e as data};
