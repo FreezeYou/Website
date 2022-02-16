@@ -182,7 +182,7 @@ module.exports = {
     docsBranch: 'master',
     editLink: true,
     editLinkPattern: ':repo/edit/:branch/:path',
-    contributors: true,
+    contributors: false,
     lastUpdated: true,
     smoothScroll: true,
     nextLinks: true,

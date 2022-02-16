@@ -1,7 +1,7 @@
-# 特别感谢
+# Особые благодарности
 
 ::: tip  
-排名不分先后
+Перечислены в произвольном порядке
 :::
 
 * delphinuz: [GitHub](https://github.com/delphinuz) | [Crowdin](https://crowdin.com/profile/delphinuz)
@@ -26,5 +26,5 @@
 * Jonatas de Almeida Barros: [Crowdin](https://crowdin.com/profile/ajonatas56)
 * TolDYuThad: [Crowdin](https://crowdin.com/profile/toldyuthad)
 * sandvase: [Crowdin](https://crowdin.com/profile/sandvase)
-* 和一些可能由于各种原因被遗漏的
-* 以及这么长时间以来的所有用户
+* Кто-то может быть пропущен по различным причинам
+* И все пользователи, которые с нами такое долгое время
