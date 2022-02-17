@@ -22,36 +22,41 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
-      - name: Setup Python and import translations
-      - uses: actions/setup-python@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-      - run: python importTranslation.py
+       
+      - name: Import translations
+        run: python importTranslation.py
       
       - name: Setup Node.js environment
-      - uses: actions/setup-node@v2.5.1
+        uses: actions/setup-node@v2.5.1
         with:
           # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
           node-version: '14'
-      - run: npm install
-      - run: npm test
+
+      - name: Install packages
+        run: |
+          npm install
+          npm test
 
       - name: Build docs
-      - run: npx vuepress build docs
+        run: npx vuepress build docs
     
       - name: Checkout gh-pages branch
         uses: actions/checkout@v2
         with:
+          ref: gh-pages
           path: gh-pages
           
       - name: Copy files to gh-pages dir
-      - run: cp -r ./docs/.vuepress/dist/* ./gh-pages/
+        run: cp -r ./docs/.vuepress/dist/* ./gh-pages/
           
       - name: Commit and push to gh-pages
-      - uses: actions/checkout@v2
-      - run: |
+        run: |
           cd ./gh-pages
           date > generated.txt
           git config user.name github-actions
