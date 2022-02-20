@@ -40,8 +40,8 @@
   "support_changeInterfaceStyle": "Настройка стилей интерфейса",
   "support_backupAndRestore": "Резервное копирование и восстановление настроек",
   "andMoreFunctions_exclamationMark": "И много других функций!",
-  "introductionExtra_1": "Экономия энергии! Скажите НЕТ частой зарядке!",
-  "introductionExtra_2": "Ускорение! Никакой тормозящей анимации! :dash:  ",
+  "introductionExtra_1": "Экономия энергии! Скажите НЕТ частой зарядке!  :zap:  ",
+  "introductionExtra_2": "Ускорение! Никакой тормозящей анимации! :dash: ",
   "introductionExtra_3": "Тишина! Никаких лишних и надоедливых уведомлений! :mute:  ",
   "googlePlayStore_temporaryUnavailable": "Google Play Маркет",
   "bewareOfMaliciousCopy_exclamationMark": "Остерегайтесь вредоносных копий! ",
@@ -120,6 +120,7 @@
   "someoneThatMayBeMissedForVariousReasons": "Кто-то может быть пропущен по различным причинам",
   "andAllUsersSinceSuchALongTime": "И все пользователи, которые с нами такое долгое время",
   "contactUs": "Связаться с нами",
+  "qqGroup_colon": "QQ-группа: ",
   "telegramGroup_colon": "Telegram группа: ",
   "theFollowingChannelsAreProvidedByTheCommunity": "Следующие каналы предоставляются сообществом: "
 }
