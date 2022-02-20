@@ -5,6 +5,4 @@ heroText: Welcome!
 tagline: Please choose your language first. :D
 footer: Copyright © 2017-2022 The FreezeYou Team.
 ---
-* [English (US)](/en-US/)
-* [中文（中国大陆）](/zh-CN/)
-
+<!--{{@locales_generated_content}}-->

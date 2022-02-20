@@ -2,16 +2,19 @@ module.exports = {
   title: '自冻 FreezeYou',
   description: '自冻 FreezeYou',
   locales: {
+    
+    '/en-US/': {
+      lang: 'en-US',
+      title: 'FreezeYou',
+      description: 'FreezeYou'
+    },
+
     '/zh-CN/': {
       lang: 'zh-CN',
       title: '自冻',
       description: '自冻'
     },
-    '/en-US/': {
-      lang: 'en-US',
-      title: 'FreezeYou',
-      description: 'FreezeYou!'
-    }
+
   },
   head: [
     ['link', { rel: 'icon', href: '/assets/img/logo.svg' }],
@@ -34,14 +37,17 @@ module.exports = {
             message: 'New content is available.',
             buttonText: 'Refresh',
           },
-          '/zh-CN/': {
-            message: "发现有内容更新",
-            buttonText: "刷新",
-          },
+          
           '/en-US/': {
             message: "New content is available.",
             buttonText: "Refresh",
           },
+
+          '/zh-CN/': {
+            message: "发现有内容更新",
+            buttonText: "刷新",
+          },
+
         },
       },
     ],
@@ -50,76 +56,27 @@ module.exports = {
       '@vuepress/plugin-search',
       {
         locales: {
+          
           '/en-US/': {
             placeholder: 'Search',
           },
+
           '/zh-CN/': {
             placeholder: '搜索',
           },
+
         },
       },
     ],
   ],
   themeConfig: {
     locales: {
-      '/zh-CN/': {
-        editLinkText: '编辑此页',
-        lastUpdatedText: '最后更新于',
-        selectLanguageText: '语言',
-        selectLanguageName: '简体中文(中国大陆)',
-        navbar: [
-          { text: '首页', link: '/zh-CN/' },
-          { text: '开始', link: '/zh-CN/guide/' },
-          { text: '下载', link: '/zh-CN/download/' },
-          { text: 'FAQ', link: '/zh-CN/faq/' },
-          { text: 'API', link: '/zh-CN/api/' },
-          { text: '日志', link: '/zh-CN/changelog/' },
-          {
-            text: '更多',
-            children: [
-              {
-                text: '关于自冻',
-                children: [
-                  { text: '联系我们', link: '/zh-CN/about/contactUs.md' },
-                  { text: '特别感谢', link: '/zh-CN/thanks/' },
-                  { text: '状态监控', link: 'https://status.zidon.net' },
-                  { text: 'GitHub', link: 'https://github.com/FreezeYou/' },
-                ],
-              },
-              {
-                text: '友情链接',
-                children: [
-                  { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
-                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
-                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
-                  { text: '自冻.COM', link: 'https://www.xn--f8qp88i.com/' },
-                  { text: '旧版站点', link: 'https://freezeyou.playhi.net' },
-                ],
-              },
-            ],
-          },
-        ],
-        sidebar: {
-          '/zh-CN/guide/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
-          '/zh-CN/download/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
-          '/zh-CN/changelog/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
-          '/zh-CN/api/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
-          '/zh-CN/faq/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API')
-        },
-        searchPlaceholder: '搜索',
-        backToHome: '返回首页',
-        notFound: [
-          `这里怎么空荡荡的？`,
-          `咦，怎么到这里来了？`,
-          `四零四了！`,
-          `咦，这个页面跑丢了！`
-        ],
-      },
+      
       '/en-US/': {
         editLinkText: 'Edit this page',
         lastUpdatedText: 'Last Updated',
         selectLanguageText: 'Language',
-        selectLanguageName: 'English(US)',
+        selectLanguageName: 'English (US)',
         navbar: [
           { text: 'Home', link: '/en-US/' },
           { text: 'Guide', link: '/en-US/guide/' },
@@ -168,6 +125,61 @@ module.exports = {
           `Looks like we've got some broken links.`
         ],
       },
+
+      '/zh-CN/': {
+        editLinkText: '编辑此页',
+        lastUpdatedText: '最后更新于',
+        selectLanguageText: '语言',
+        selectLanguageName: '中文（中国大陆）',
+        navbar: [
+          { text: '首页', link: '/zh-CN/' },
+          { text: '开始', link: '/zh-CN/guide/' },
+          { text: '下载', link: '/zh-CN/download/' },
+          { text: 'FAQ', link: '/zh-CN/faq/' },
+          { text: 'API', link: '/zh-CN/api/' },
+          { text: '日志', link: '/zh-CN/changelog/' },
+          {
+            text: '更多',
+            children: [
+              {
+                text: '关于自冻',
+                children: [
+                  { text: '联系我们', link: '/zh-CN/about/contactUs.md' },
+                  { text: '特别感谢', link: '/zh-CN/thanks/' },
+                  { text: '状态监控', link: 'https://status.zidon.net' },
+                  { text: 'GitHub', link: 'https://github.com/FreezeYou/' },
+                ],
+              },
+              {
+                text: '友情链接',
+                children: [
+                  { text: '秋之盒', link: 'https://atmb.top/?from=freezeyou' },
+                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
+                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
+                  { text: '自冻.COM', link: 'https://www.xn--f8qp88i.com/' },
+                  { text: '旧版站点', link: 'https://freezeyou.playhi.net' },
+                ],
+              },
+            ],
+          },
+        ],
+        sidebar: {
+          '/zh-CN/guide/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/download/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/changelog/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/api/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
+          '/zh-CN/faq/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API')
+        },
+        searchPlaceholder: '搜索',
+        backToHome: '返回首页',
+        notFound: [
+          `这里怎么空荡荡的？`,
+          `咦，怎么到这里来了？`,
+          `四零四了！`,
+          `咦，这个页面跑丢了！`
+        ],
+      },
+
     },
     navbar: false,
     sidebar: 'auto',
@@ -192,6 +204,7 @@ module.exports = {
   }
 }
 
+@Keep
 function getGuideSidebar(guide, changelog, faq, api) {
   return [
     {
