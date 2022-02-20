@@ -1,0 +1,1 @@
+const e={key:"v-c63f714e",path:"/zh-TW/guide/",title:"Introduction",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Function",slug:"function",children:[]}],git:{updatedTime:1645350285e3},filePathRelative:"zh-TW/guide/README.md"};export{e as data};
