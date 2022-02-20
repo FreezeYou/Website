@@ -66,7 +66,7 @@ module.exports = {
   }
 }
 
-@Keep
+// Keep
 function getGuideSidebar(guide, changelog, faq, api) {
   return [
     {
