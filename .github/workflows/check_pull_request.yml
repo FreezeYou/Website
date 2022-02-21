@@ -1,0 +1,37 @@
+name: Check pull request
+
+on:
+  pull_request:
+    branches:
+      - master
+      - l10n_master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+       
+      - name: Import translations
+        run: python importTranslation.py
+      
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.1
+        with:
+          # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
+          node-version: '14'
+
+      - name: Install packages
+        run: |
+          npm install
+          npm test
+      - name: Build docs
+        run: npx vuepress build docs
+    
