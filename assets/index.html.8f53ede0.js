@@ -1,0 +1,1 @@
+const t={key:"v-70b1412c",path:"/tr-TR/download/",title:"Download",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null},filePathRelative:"tr-TR/download/README.md"};export{t as data};
