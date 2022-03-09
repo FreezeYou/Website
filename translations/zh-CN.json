@@ -203,5 +203,10 @@
   "notFound_1": "这里怎么空荡荡的？",
   "notFound_2": "咦，怎么到这里来了？",
   "notFound_3": "四零四了！",
-  "notFound_4": "咦，这个页面跑丢了！"
+  "notFound_4": "咦，这个页面跑丢了！",
+  "permissionRelated": "权限相关",
+  "accessibilityServiceAPI_colon_content": "无障碍服务 API： 监听前台应用程序变化（离开应用时、打开应用时），以及避免冻结前台应用程序。 ",
+  "deviceAdministrationAPI_colon_content": "设备管理员 API： 用于 Profile Owner 模式、Device Owner 模式以及锁屏。 ",
+  "bluetooth_colon_content": "蓝牙相关： 用于在计划任务中启用与禁用蓝牙。 ",
+  "wifi_colon_content": "WiFi 相关： 用于在计划任务中启用与禁用 WiFi 。 "
 }
