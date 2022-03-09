@@ -29,9 +29,9 @@ Some functions need this special permission to be granted before they can be use
 
 ## More Info
 * Core Code:  `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
-* [AutumnBox](https://www.atmb.top/?from=freezeyou)  now has support quick enable FreezeYou NoRoot mode
+* [秋之盒](https://www.atmb.top/?from=freezeyou)  now has support quick enable FreezeYou NoRoot mode
 
 ## Need Help
-* [Join QQ Group](https://jq.qq.com/?_wv=1027&k=l356Aq75)
+* [加入QQ群](https://jq.qq.com/?_wv=1027&k=l356Aq75)
 
 

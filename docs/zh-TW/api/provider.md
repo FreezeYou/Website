@@ -106,7 +106,7 @@ ___如果对应键值为 `null`，则检查请求时的 `Method` 以及 `Extras`
 ## Sample
 - [FreezeYouApiTest](https://github.com/Playhi/FreezeYouApiTest)
 
-## FAQ
+## 疑難排解
 ### SecurityException
   - 是否已经在 **Manifest** 中声明了权限呢（`冻结\解冻应用`还需要类似请求敏感权限一样进行 **`requestPermissions`** ）。
 
@@ -114,5 +114,5 @@ ___如果对应键值为 `null`，则检查请求时的 `Method` 以及 `Extras`
 - 需要在安装**自冻 FreezeYou**后再安装或更新（覆盖安装）使用相关权限的应用，否则可能会报 Exception （在 Android Google 的文档中有提及需要在请求前安装）。
 
 ## Need Help
-* [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-- [Join QQ Group(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+* [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
+- [加入QQ群(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)

@@ -24,4 +24,15 @@
 * {{@support_backupAndRestore}}
 * {{@andMoreFunctions_exclamationMark}}
 
+## {{@permissionRelated}}
+
+* {{@accessibilityServiceAPI_colon_content}}
+* {{@deviceAdministrationAPI_colon_content}}
+* {{@bluetooth_colon_content}}
+* {{@wifi_colon_content}}
+* {{@modifyPhoneState_colon_content}}
+* {{@changeComponentEnabledState_colon_content}}
+* {{@queryAllPackages_colon_content}}
+* {{@scheduleExactAlarm_colon_content}}
+* {{@requestIgnoreBatteryOptimizations_colon_content}}
 

@@ -31,7 +31,7 @@
 - 可以卸载，但可能需要先到 `更多设置` → `危险区` 点击 `解除免ROOT`，然后正常卸载即可。
 
 ## More Faq
-* [FAQ](../faq/)
+* [疑難排解](../faq/)
 
 ## Need More Help
-- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)

@@ -27,8 +27,8 @@
 * 请至 `更多设置` - `管理空间` - `管理我的自选` 中点击相应的项，然后点击**复制别名**即可。
 
 ## More Faq
-* [FAQ](../faq/)
+* [疑難排解](../faq/)
 
 ## Need More Help
-- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 

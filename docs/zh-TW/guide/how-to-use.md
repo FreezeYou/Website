@@ -7,7 +7,7 @@
 * Root
 * System App
 
-## Freeze and Unfreeze <Badge text="Be extra cautious" type="warning"/>
+## 凍結與解凍 <Badge text="Be extra cautious" type="warning"/>
 启动`自冻FreezeYou`，待主界面列表载入完成后，点击相应的应用，选择`冻结/解冻/启动`即可进行冻结与解冻操作。
 
 ## View by Category <Badge text="1.13+" type="tip"/>
@@ -17,7 +17,7 @@
 启动`自冻FreezeYou`后，在显示的主界面中，点击顶端附近的`搜索`，即可进行快速搜索。  
 如，输入`A`即会立即筛选并列出该分类中所有名称中包含`A`或`a`的应用（不区分大小写）。
 
-## Scheduled Task <Badge text="6.0+" type="tip"/>
+## 計劃任務 <Badge text="6.0+" type="tip"/>
 计划任务的功能比较多，也较为复杂，这里我们单独进行 → [Introduction](./schedules.html)。
 
 ## Change Interface Style <Badge text="4.0+" type="tip"/>
@@ -47,7 +47,7 @@ __Usage:__
 * 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`快捷方式`，再选择`一键解冻`，即可在桌面上通过快捷方式进行`一键解冻`。
 * 唤出桌面的`添加小部件`或是`添加微件`或是`添加小工具`菜单，选择`自冻FreezeYou`，再选择`一键解冻`，即可在桌面上通过快捷方式进行`一键解冻`。
 
-## Leave Freeze
+## 離開凍結
 _It is recommended to use `Scheduled Task` instead_  
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`离开冻结`即可，离开在`离开冻结列表`（点击主界面列表中的相应应用，选择`加入/移出`，即可添加）里的相应应用时对应的应用会被冻结。
 
@@ -56,6 +56,6 @@ _It is recommended to use `Scheduled Task` instead_
 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`锁屏后一键冻结`即可，锁屏后会执行`一键冻结`。
 
 ## Need Help
-* [FAQ](../faq/)
-* [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+* [疑難排解](../faq/)
+* [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
 
