@@ -211,7 +211,7 @@
   "wifi_colon_content": "WiFi related: Used in Scheduled Tasks to enable and disable WiFi. ",
   "modifyPhoneState_colon_content": "Modify phone state: Used in Scheduled Tasks to enable and disable cellular data. ",
   "changeComponentEnabledState_colon_content": "Change component enabled state: Used for System App Mode. ",
-  "queryAllPackages_colon_content": "Query all packages: Used to list all packages on the device.",
-  "scheduleExactAlarm_colon_content": "Used for time-triggered scheduled tasks. ",
+  "queryAllPackages_colon_content": "Query all packages: Used to list all packages on the device. ",
+  "scheduleExactAlarm_colon_content": "Schedule exact alarm: Used for time-triggered scheduled tasks. ",
   "requestIgnoreBatteryOptimizations_colon_content": "Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. "
 }
