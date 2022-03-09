@@ -1,0 +1,1 @@
+const e={key:"v-d91b1054",path:"/en-US/guide/warning.html",title:"Caution",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:164682998e4},filePathRelative:"en-US/guide/warning.md"};export{e as data};
