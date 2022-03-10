@@ -152,5 +152,15 @@
   "notFound_1": "There's nothing here.",
   "notFound_2": "How did we get here?",
   "notFound_3": "That's a Four-Oh-Four.",
-  "notFound_4": "Looks like we've got some broken links."
+  "notFound_4": "Looks like we've got some broken links.",
+  "permissionRelated": "Permission related",
+  "accessibilityServiceAPI_colon_content": "Accessibility Service API: Monitor foreground application switching (leave applications, open applications) and avoid freezing the foreground application. ",
+  "deviceAdministrationAPI_colon_content": "Device Administration API: Used for Profile Owner mode, Device Owner mode, and Lock Screen. ",
+  "bluetooth_colon_content": "Bluetooth related: Used in Scheduled Tasks to enable and disable bluetooth. ",
+  "wifi_colon_content": "Wi-Fi related: Used in Scheduled Tasks to enable and disable Wi-Fi. ",
+  "modifyPhoneState_colon_content": "Modify phone state: Used in Scheduled Tasks to enable and disable cellular data. ",
+  "changeComponentEnabledState_colon_content": "Change component enabled state: Used for System App Mode. ",
+  "queryAllPackages_colon_content": "Query all packages: Used to list all packages on the device. ",
+  "scheduleExactAlarm_colon_content": "Schedule exact alarm: Used for time-triggered scheduled tasks. ",
+  "requestIgnoreBatteryOptimizations_colon_content": "Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. "
 }
