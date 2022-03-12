@@ -145,10 +145,10 @@
   "serverStatus": "Server Status",
   "gitHubOrganization": "GitHub Organization",
   "linkPage": "Link",
-  "selectLanguageName": "English (US)",
+  "selectLanguageName": "In progress",
   "xn--f8qp88i.COM": "xn--f8qp88i.COM",
   "oldSite": "Old Site",
-  "backToHome": "Take me home.",
+  "backToHome": "Back to home.",
   "notFound_1": "There's nothing here.",
   "notFound_2": "How did we get here?",
   "notFound_3": "That's a Four-Oh-Four.",
@@ -162,9 +162,5 @@
   "changeComponentEnabledState_colon_content": "Change component enabled state: Used for System App Mode. ",
   "queryAllPackages_colon_content": "Query all packages: Used to list all packages on the device. ",
   "scheduleExactAlarm_colon_content": "Schedule exact alarm: Used for time-triggered scheduled tasks. ",
-  "requestIgnoreBatteryOptimizations_colon_content": "Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. ",
-  "howToUninstall": "How to uninstall",
-  "howToUninstall_deviceOwner": "If device owner is set to `FreezeYou`, click `Release device-owner permission` first.",
-  "howToUninstall_profileOwner": "If profile owner is set to `FreezeYou`, click `Release profile-owner permission` first.",
-  "howToUninstall_general": "Then, go to `FreezeYou` `Settings` - `Danger Zone`, and click `Uninstall`."
+  "requestIgnoreBatteryOptimizations_colon_content": "Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. "
 }
