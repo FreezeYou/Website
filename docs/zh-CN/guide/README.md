@@ -1,9 +1,9 @@
 # 介绍
 
-省电！省电！我不要一天三充！:zap:  
-流畅！流畅！我不要生硬动画！:dash:  
-安静！安静！我不要无端打扰！:mute:  
-自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到5MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。
+省电！省电！我不要一天三充！:zap:    
+流畅！流畅！我不要生硬动画！:dash:    
+安静！安静！我不要无端打扰！:mute:    
+<!-- 自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到5MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。 -->
 
 ## 功能
 
@@ -24,15 +24,15 @@
 * 支持备份与恢复
 * 等更多功能！
 
-## Permission related
+## 权限相关
 
-* Accessibility Service API: Monitor foreground application switching (leave applications, open applications) and avoid freezing the foreground application. 
-* Device Administration API: Used for Profile Owner mode, Device Owner mode, and Lock Screen. 
-* Bluetooth related: Used in Scheduled Tasks to enable and disable bluetooth. 
-* WiFi related: Used in Scheduled Tasks to enable and disable WiFi. 
-* Modify phone state: Used in Scheduled Tasks to enable and disable cellular data. 
-* Change component enabled state: Used for System App Mode. 
-* Query all packages: Used to list all packages on the device.
-* Used for time-triggered scheduled tasks. 
-* Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. 
+* 无障碍服务 API： 监听前台应用程序变化（离开应用时、打开应用时），以及避免冻结前台应用程序。 
+* 设备管理员 API： 用于 Profile Owner 模式、Device Owner 模式以及锁屏。 
+* 蓝牙相关： 用于在计划任务中启用与禁用蓝牙。 
+* WiFi 相关： 用于在计划任务中启用与禁用 WiFi 。 
+* 获取手机状态与身份： 用于在计划任务中启用与禁用蜂窝移动数据。 
+* 变更组件启用状态： 用于系统应用模式。 
+* 查询所有软件包： 用于列出设备上的所有软件包。 
+* 设定精确的闹钟：用于时间触发的计划任务。 
+* 请求忽略电池优化： 用于在某些设备上获得更好的时间触发任务的体验。 
 

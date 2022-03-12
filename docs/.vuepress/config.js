@@ -3,8 +3,20 @@ module.exports = {
   description: '自冻 FreezeYou',
   locales: {
     
+    '/en-US/': {
+      lang: 'en-US',
+      title: 'FreezeYou',
+      description: 'FreezeYou'
+    },
+
     '/ru-RU/': {
       lang: 'ru-RU',
+      title: 'FreezeYou',
+      description: 'FreezeYou'
+    },
+
+    '/ru-UA/': {
+      lang: 'ru-UA',
       title: 'FreezeYou',
       description: 'FreezeYou'
     },
@@ -13,12 +25,6 @@ module.exports = {
       lang: 'zh-CN',
       title: '自冻',
       description: '自冻'
-    },
-
-    '/en-US/': {
-      lang: 'en-US',
-      title: 'FreezeYou',
-      description: 'FreezeYou'
     },
 
     '/zh-TW/': {
@@ -50,7 +56,17 @@ module.exports = {
             buttonText: 'Refresh',
           },
           
+          '/en-US/': {
+            message: "New content is available.",
+            buttonText: "Refresh",
+          },
+
           '/ru-RU/': {
+            message: "Доступно новое содержимое.",
+            buttonText: "Обновить",
+          },
+
+          '/ru-UA/': {
             message: "Доступно новое содержимое.",
             buttonText: "Обновить",
           },
@@ -58,11 +74,6 @@ module.exports = {
           '/zh-CN/': {
             message: "发现有内容更新",
             buttonText: "刷新",
-          },
-
-          '/en-US/': {
-            message: "New content is available.",
-            buttonText: "Refresh",
           },
 
           '/zh-TW/': {
@@ -79,16 +90,20 @@ module.exports = {
       {
         locales: {
           
+          '/en-US/': {
+            placeholder: 'Search',
+          },
+
           '/ru-RU/': {
+            placeholder: 'Поиск',
+          },
+
+          '/ru-UA/': {
             placeholder: 'Поиск',
           },
 
           '/zh-CN/': {
             placeholder: '搜索',
-          },
-
-          '/en-US/': {
-            placeholder: 'Search',
           },
 
           '/zh-TW/': {
@@ -102,6 +117,60 @@ module.exports = {
   themeConfig: {
     locales: {
       
+      '/en-US/': {
+        editLinkText: 'Edit this page',
+        lastUpdatedText: 'Last Updated',
+        selectLanguageText: 'Language',
+        selectLanguageName: 'English (US)',
+        navbar: [
+          { text: 'Home', link: '/en-US/' },
+          { text: 'Guide', link: '/en-US/guide/' },
+          { text: 'Download', link: '/en-US/download/' },
+          { text: 'FAQ', link: '/en-US/faq/' },
+          { text: 'API', link: '/en-US/api/' },
+          { text: 'Changelog', link: '/en-US/changelog/' },
+          {
+            text: 'More',
+            children: [
+              {
+                text: 'About',
+                children: [
+                  { text: 'Contact Us', link: '/en-US/about/contactUs.md' },
+                  { text: 'Special Thanks', link: '/en-US/thanks/' },
+                  { text: 'Server Status', link: 'https://status.zidon.net' },
+                  { text: 'GitHub Organization', link: 'https://github.com/FreezeYou/' },
+                ],
+              },
+              {
+                text: 'Link',
+                children: [
+                  { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
+                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
+                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
+                  { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
+                  { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
+                ],
+              },
+            ],
+          },
+        ],
+        sidebar: {
+          '/en-US/guide/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/download/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/changelog/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/api/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/en-US/faq/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API')
+        },
+        searchPlaceholder: 'Search',
+        backToHome: 'Take me home.',
+        notFound: [
+          `There's nothing here.`,
+          `How did we get here?`,
+          `That's a Four-Oh-Four.`,
+          `Looks like we've got some broken links.`
+        ],
+      },
+
       '/ru-RU/': {
         editLinkText: 'Редактировать эту страницу',
         lastUpdatedText: 'Последнее изменение',
@@ -145,6 +214,60 @@ module.exports = {
           '/ru-RU/changelog/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
           '/ru-RU/api/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
           '/ru-RU/faq/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API')
+        },
+        searchPlaceholder: 'Поиск',
+        backToHome: 'Вернуться на главную.',
+        notFound: [
+          `Здесь ничего нет`,
+          `Как вы сюда попали?`,
+          `That's a Four-Oh-Four.`,
+          `Похоже, у нас есть несколько ошибочных ссылок.`
+        ],
+      },
+
+      '/ru-UA/': {
+        editLinkText: 'Редактировать эту страницу',
+        lastUpdatedText: 'Последнее изменение',
+        selectLanguageText: 'Язык',
+        selectLanguageName: 'В процессе',
+        navbar: [
+          { text: 'Главная', link: '/ru-UA/' },
+          { text: 'Руководство', link: '/ru-UA/guide/' },
+          { text: 'Загрузка', link: '/ru-UA/download/' },
+          { text: 'ЧАВО', link: '/ru-UA/faq/' },
+          { text: 'API', link: '/ru-UA/api/' },
+          { text: 'Список изменений', link: '/ru-UA/changelog/' },
+          {
+            text: 'Дополнительно',
+            children: [
+              {
+                text: 'О FreezeYou!',
+                children: [
+                  { text: 'Связаться с нами', link: '/ru-UA/about/contactUs.md' },
+                  { text: 'Особые благодарности', link: '/ru-UA/thanks/' },
+                  { text: 'Статус сервера', link: 'https://status.zidon.net' },
+                  { text: 'Организация GitHub', link: 'https://github.com/FreezeYou/' },
+                ],
+              },
+              {
+                text: 'Ссылка',
+                children: [
+                  { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
+                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
+                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
+                  { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
+                  { text: 'Старый сайт', link: 'https://freezeyou.playhi.net' },
+                ],
+              },
+            ],
+          },
+        ],
+        sidebar: {
+          '/ru-UA/guide/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
+          '/ru-UA/download/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
+          '/ru-UA/changelog/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
+          '/ru-UA/api/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
+          '/ru-UA/faq/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API')
         },
         searchPlaceholder: 'Поиск',
         backToHome: 'Вернуться на главную.',
@@ -207,60 +330,6 @@ module.exports = {
           `咦，怎么到这里来了？`,
           `四零四了！`,
           `咦，这个页面跑丢了！`
-        ],
-      },
-
-      '/en-US/': {
-        editLinkText: 'Edit this page',
-        lastUpdatedText: 'Last Updated',
-        selectLanguageText: 'Language',
-        selectLanguageName: 'English (US)',
-        navbar: [
-          { text: 'Home', link: '/en-US/' },
-          { text: 'Guide', link: '/en-US/guide/' },
-          { text: 'Download', link: '/en-US/download/' },
-          { text: 'FAQ', link: '/en-US/faq/' },
-          { text: 'API', link: '/en-US/api/' },
-          { text: 'Changelog', link: '/en-US/changelog/' },
-          {
-            text: 'More',
-            children: [
-              {
-                text: 'About',
-                children: [
-                  { text: 'Contact Us', link: '/en-US/about/contactUs.md' },
-                  { text: 'Special Thanks', link: '/en-US/thanks/' },
-                  { text: 'Server Status', link: 'https://status.zidon.net' },
-                  { text: 'GitHub Organization', link: 'https://github.com/FreezeYou/' },
-                ],
-              },
-              {
-                text: 'Link',
-                children: [
-                  { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
-                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
-                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
-                  { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
-                  { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
-                ],
-              },
-            ],
-          },
-        ],
-        sidebar: {
-          '/en-US/guide/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
-          '/en-US/download/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
-          '/en-US/changelog/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
-          '/en-US/api/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
-          '/en-US/faq/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API')
-        },
-        searchPlaceholder: 'Search',
-        backToHome: 'Take me home.',
-        notFound: [
-          `There's nothing here.`,
-          `How did we get here?`,
-          `That's a Four-Oh-Four.`,
-          `Looks like we've got some broken links.`
         ],
       },
 

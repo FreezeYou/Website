@@ -84,8 +84,10 @@
 ## 如何管理我的自选
 - 前往 `更多设置` - `管理空间` - `管理我的自选`，点击需要管理的自选即可管理。
 
-## 如何卸载？
-- `更多设置` - `危险区` - `卸载` 即可卸载。如果启用了 免ROOT 的话，可能需要点击 `解除免ROOT` 解除权限后，方能卸载。
+## {{@howToUninstall}}
+- {{@howToUninstall_deviceOwner}}
+- {{@howToUninstall_profileOwner}}
+- {{@howToUninstall_general}}
 
 ## {{@moreFaq}}
 * [{{@faq}}](../faq/)

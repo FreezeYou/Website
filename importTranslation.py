@@ -146,7 +146,7 @@ def pre_generate_config_js_and_select_lang_page_for_vuepress(
     config_js_search_generated = ""
     config_js_theme_config_generated = ""
     select_language_page_locales_generated = ""
-    for translation_country_key in translations.keys():
+    for translation_country_key in sorted(translations.keys()):
         if translation_country_key == 'default':
             continue
         if translations[translation_country_key].get(

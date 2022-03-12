@@ -1,9 +1,9 @@
 # Вступление
 
-Экономия энергии! Скажите НЕТ частой зарядке!  :zap:  
-Ускорение! Никакой тормозящей анимации! :dash: 
-Тишина! Никаких лишних и надоедливых уведомлений! :mute:  
-自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到5MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。
+Экономия энергии! Скажите НЕТ частой зарядке!  :zap:    
+Ускорение! Никакой тормозящей анимации! :dash:   
+Тишина! Никаких лишних и надоедливых уведомлений! :mute:    
+<!-- 自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到5MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。 -->
 
 ## Функции
 
@@ -32,7 +32,7 @@
 * WiFi related: Used in Scheduled Tasks to enable and disable WiFi. 
 * Modify phone state: Used in Scheduled Tasks to enable and disable cellular data. 
 * Change component enabled state: Used for System App Mode. 
-* Query all packages: Used to list all packages on the device.
-* Used for time-triggered scheduled tasks. 
+* Query all packages: Used to list all packages on the device. 
+* Schedule exact alarm: Used for time-triggered scheduled tasks. 
 * Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. 
 
