@@ -208,14 +208,10 @@
   "accessibilityServiceAPI_colon_content": "无障碍服务 API： 监听前台应用程序变化（离开应用时、打开应用时），以及避免冻结前台应用程序。 ",
   "deviceAdministrationAPI_colon_content": "设备管理员 API： 用于 Profile Owner 模式、Device Owner 模式以及锁屏。 ",
   "bluetooth_colon_content": "蓝牙相关： 用于在计划任务中启用与禁用蓝牙。 ",
-  "wifi_colon_content": "Wi-Fi 相关： 用于在计划任务中启用与禁用 Wi-Fi 。 ",
+  "wifi_colon_content": "WiFi 相关： 用于在计划任务中启用与禁用 WiFi 。 ",
   "modifyPhoneState_colon_content": "获取手机状态与身份： 用于在计划任务中启用与禁用蜂窝移动数据。 ",
   "changeComponentEnabledState_colon_content": "变更组件启用状态： 用于系统应用模式。 ",
   "queryAllPackages_colon_content": "查询所有软件包： 用于列出设备上的所有软件包。 ",
   "scheduleExactAlarm_colon_content": "设定精确的闹钟：用于时间触发的计划任务。 ",
-  "requestIgnoreBatteryOptimizations_colon_content": "请求忽略电池优化： 用于在某些设备上获得更好的时间触发任务的体验。 ",
-  "howToUninstall": "如何卸载",
-  "howToUninstall_deviceOwner": "如果`自冻`被设定为设备所有者（Device-Owner），首先点击`释放设备所有者（Device-Owner）权限`。",
-  "howToUninstall_profileOwner": "如果`自冻`被设定为配置文件所有者（Profile-Owner），首先点击`释放配置文件所有者（Profile-Owner）权限`。",
-  "howToUninstall_general": "然后前往`自冻` - `设置` - `危险区`点击`卸载`。"
+  "requestIgnoreBatteryOptimizations_colon_content": "请求忽略电池优化： 用于在某些设备上获得更好的时间触发任务的体验。 "
 }
