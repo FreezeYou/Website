@@ -1,5 +1,5 @@
 # Быстрый старт
-`自冻FreezeYou`的功能非常之多，这里对一部分内容做些简短的介绍，方便快速入门。
+`FreezeYou` has a lot of functions, here are some brief introductions, which are convenient to get started quickly.
 
 ## Предоставление разрешений
 `自冻FreezeYou`中的一些功能，需要一些特殊权限，就比如`冻结与解冻`就需要特殊授权才能正常使用（若不使用相关功能，可不授予权限），目前，如要使用`冻结与解冻`功能，需要保证以下至少一个权限已经或能够授予`自冻FreezeYou`，并在`更多设置` - `冻结与解冻` - `选择冻结解冻模式`中选中相应的模式：

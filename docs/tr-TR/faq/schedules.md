@@ -1,30 +1,31 @@
 # Scheduled Task - FAQ
+[[toc]]
 
-## 似乎计划任务没有生效
-* `自冻(FreezeYou)` 是否是最新版本呢？
-* 是否将 `自冻(FreezeYou)` 加入了系统的后台白名单呢？（包括但不限于允许后台运行、忽略电池优化）
-* 是不是遗漏了任务中的空格呢？
-* 是不是多打了任务中的空格呢？
-* 逗号需要英文逗号 `,` ，不要打成中文的啦！
-* 注意大小写哈！
+## It seems that the scheduled task is not working
+* Is `FreezeYou` the latest version?
+* Has `FreezeYou` been added to the allow-to-run list of the system? For example, allow running in the background, ignoring battery optimizations.
+* Are spaces missing in tasks? 
+* Are there extra spaces in the task?
+* Commas should be `,`, not `，`.
+* Pay attention to capitalization!
 
-## 为什么有时执行的时间会稍晚些
-* 自 Android 6.0 开始，Google 引入了新的省电模式，将应用程序们的一些任务整理到了一起执行，以期减少电量消耗，因此会导致一些任务的延迟执行。
-* 由于毒瘤们一般都会高频甚至持续唤醒系统，因此在毒瘤们运行时， `自冻FreezeYou` 的计划任务一般是能够按时执行的。
+## Why the actual execution is sometimes a little later
+* Since Android 6.0, Google introduced one new power-save mode, which organizes some tasks of applications to perform together in order to reduce power consumption, which will cause some tasks to be delayed.
+* Since these applications usually wake up the system frequently or even continuously, the scheduled tasks of `FreezeYou` can generally be executed on time when the applications are running.
 
-## 手打包名好麻烦
-* 在 **应用列表** 中，点击对应应用（默认情况下），会出现选择操作的界面，其中有 `复制包名` 的功能。
-* 在 __应用列表__ 中，多选模式下（长按），可以在菜单中选择 **格式化后复制** ，然后再到需要输入的地方粘贴即可。<Badge text="6.7+" type="tip" vertical="top"/>
+## Manually entering the package name is so troublesome
+* In **Application List**, click the corresponding application (by default, **Click Function** is set to **Choose Action**), the interface for selecting the operation will appear, which has the function of **Copy Package Name**.
+* In **Application List**, in the multi-selection mode (long press), you can select **Copy After Being Formatted** in the menu, and then paste the content to the place where you need to enter.<Badge text="6.7+" type="tip" vertical="top"/>
 
-## 没有按照计划开启WiFi啊
+## Wi-Fi not turned on as planned
 * 在确认任务命令编写正确并且应用已被加入后台运行白名单后，若仍没有按照计划执行，请检查是否开启了飞行模式，在部分设备上飞行模式已开启的情况下，普通软件是无法自行打开WiFi的，关闭飞行模式即可。
 
-## 没有按照计划开启蜂窝移动数据网络啊
+## Cellular data not turned on as planned
 * 蜂窝移动数据网络 的开启目前仅支持在 `Android 4.4 及以下` 或 `具有 ROOT 权限` 或 `自冻FreezeYou 已被安装为高权限系统应用` 的设备上使用。
-* 检查是否授权 `开关移动网络` 权限。
+* Check if the `Enable or Disable Cellular Data` permission is granted.
 
 ## How to get the alias of my customization
-* 请至 `更多设置` - `管理空间` - `管理我的自选` 中点击相应的项，然后点击**复制别名**即可。
+* Go to `Settings` - `Manage space` - `Manage my customization`, click the appropriate item, then click **Copy Alias**.
 
 ## More Faq
 * [FAQ](../faq/)

@@ -9,23 +9,23 @@
 * `okuf` : OneKEY разморозка.
 * `ff` : Заморозка.
 * `uf` : Разморозка.
-* `es` ：启用某设置项<small>*（自6.2版本可用 `wifi` ；自7.1版本可用 `cd` （蜂窝移动数据网络）；自7.3版本可用 `bluetooth` ）*</small>。
-* `ds` ：关闭某设置项<small>*（自6.2版本可用 `wifi` ；自7.1版本可用 `cd` （蜂窝移动数据网络）；自7.3版本可用 `bluetooth` ）*</small>。
+* `es` : Enable one setting item <small>*(`wifi` is available since version 6.2, `cd` (cellular data) is available since version 7.1, `bluetooth` is available since version 7.3)*</small>.
+* `ds` : Disable one setting item <small>*(`wifi` is available since version 6.2, `cd` (cellular data) is available since version 7.1, `bluetooth` is available since version 7.3)*</small>.
 * `st` : Показать один тост.
 * `sn` <Badge text="8.6+" type="tip"/>: Показать одно уведомление.
 * `sp` : Открыть указанное приложение.
 * `su` : Открыть указанное приложение по URI.
-* `lg` <Badge text="7.2+" type="tip"/>：打印一条 ERROR 级别的 LOG ，一般情况下无使用需求。
+* `lg` <Badge text="7.2+" type="tip"/>: Print an ERROR level LOG. Under normal circumstances, there is no need to use it.
 * `ls` <Badge text="8.7+" type="tip"/>: Lock screen.
 
 ### Дополнительные параметры (необязательно)
 
-* `-d` <Badge text="7.2+" type="tip"/>：延时执行，单位为 `秒` 。
+* `-d` <Badge text="7.2+" type="tip"/>: Delay execution, in `seconds`.
 
 ### Внутренние переменные
 
-* `[ppkgn]` <Badge text="7.4+" type="tip"/>：先前应用程序包名。仅 触发器为 离开应用时、打开应用时 时可使用，正式使用前可在相关任务中，使用 `st [ppkgn]` 了解相关内容，减小意外冻结的可能。
-* `[cpkgn]` <Badge text="7.4+" type="tip"/>：当前应用程序包名。仅 触发器为 离开应用时、打开应用时、解冻应用时、冻结应用时 时可使用，正式使用前可在相关任务中，使用 `st [cpkgn]` 了解相关内容，减小意外冻结的可能。
+* `[ppkgn]` <Badge text="7.4+" type="tip"/>: The previous application package name. Only available when the trigger is `When Leave Applications`, `When Open Applications`. Before formal use, you can use `st [ppkgn]` in related tasks to learn about the relevant content to reduce the possibility of accidents.
+* `[cpkgn]` <Badge text="7.4+" type="tip"/>: The current application package name. Only available when the trigger is `When Leave Applications`, `When Open Applications`, `When Unfreeze Applications`, and `When Freeze Applications`. Before formal use, you can use `st [cpkgn]` in related tasks to learn about the relevant content to reduce the possibility of accidents.
 
 ### Примеры использования
 
