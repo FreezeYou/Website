@@ -19,6 +19,7 @@
 
 ## {{@WiFiIsNotTurnedOnAsPlanned}}
 * {{@WiFiIsNotTurnedOnAsPlanned_text1}}
+* {{@WiFiIsNotTurnedOnAsPlanned_text2}}
 
 ## {{@cellularMobileDataNetworkIsNotTurnedOnAsPlanned}}
 * {{@cellularMobileDataNetworkIsNotTurnedOnAsPlanned_text1}}

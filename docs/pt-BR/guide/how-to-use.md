@@ -2,58 +2,58 @@
 `FreezeYou` has a lot of functions, here are some brief introductions, which are convenient to get started quickly.
 
 ## Grant Permissions
-`自冻FreezeYou`中的一些功能，需要一些特殊权限，就比如`冻结与解冻`就需要特殊授权才能正常使用（若不使用相关功能，可不授予权限），目前，如要使用`冻结与解冻`功能，需要保证以下至少一个权限已经或能够授予`自冻FreezeYou`，并在`更多设置` - `冻结与解冻` - `选择冻结解冻模式`中选中相应的模式：
+Some functions in `FreezeYou` require special permissions. For example, `Freeze and Unfreeze` requires special authorization to use it normally (if not use related functions, it's no need to grant these permissions). At present, if you want to use the `Freeze and Unfreeze` function, you need to ensure that at least one of the following permissions has been or can be granted to `FreezeYou`, and select the corresponding option in `Settings` - `Freeze and Unfreeze` - `Select freeze and unfreeze mode`.
 * Device Policy Manager (DPM) (Usually be called NoRoot) → How to [grant permission](./enable-mroot.html)
 * Root
 * System App
 
 ## Freeze and Unfreeze <Badge text="Be extra cautious" type="warning"/>
-启动`自冻FreezeYou`，待主界面列表载入完成后，点击相应的应用，选择`冻结/解冻/启动`即可进行冻结与解冻操作。
+Run `FreezeYou`, and after the application list is loaded, click the corresponding application, and select **Run/Freeze/Unfreeze** to perform related operations.
 
 ## View by Category <Badge text="1.13+" type="tip"/>
-默认情况下，启动`自冻FreezeYou`后首页会直接展示全部的应用，这时，如果想要寻找一些应用，有时会比较麻烦，那么，可以点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，点击`查看模式(分类查看)`，即可根据需要分类进行查看。
+By default, after launching `FreezeYou`, the homepage will directly display all applications. At this time, if we want to find some applications, it is sometimes troublesome. At this point, we can click `⋮` in the upper end corner, `+` in the lower end corner, or `≡` on the device to call up the menu, and click `View Mode` to view by category. By the way, if there is enough space, the `View Mode` will display as an icon near the `⋮`.
 
 ## Quick Search <Badge text="2.13+" type="tip"/>
-启动`自冻FreezeYou`后，在显示的主界面中，点击顶端附近的`搜索`，即可进行快速搜索。  
-如，输入`A`即会立即筛选并列出该分类中所有名称中包含`A`或`a`的应用（不区分大小写）。
+After launching `FreezeYou`, in the main interface, we can click `Search` near the top to perform a quick search.   
+For example, typing `A` immediately filters and lists all applications in that category that contain `A` or `a` in their name (case-insensitive).
 
 ## Scheduled Task <Badge text="6.0+" type="tip"/>
-计划任务的功能比较多，也较为复杂，这里我们单独进行 → [Introdução](./schedules.html)。
+Scheduled task have many functions and are complicated, see → [Scheduled Task](./schedules.html).
 
 ## Change Interface Style <Badge text="4.0+" type="tip"/>
-启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`常规`，点击`界面风格`即可修改。
+Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Appearance`, and click `Interface Style` to modify.
 
 ## Backup and Restore <Badge text="8.8+" type="tip"/>
-启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，再选择`备份与还原`，点击`导出`即可将当前的设置、计划任务等数据导出，点击`导入`，会读入下方输入框中的数据，整理后供选择需要导入的数据项。
+Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Backup and Restore`, click `Export` to export the current settings, scheduled tasks and other data, click `Import`, the data in the input box below will be read, and you can select the data items to be imported.
 
 ## Notification Tiles
-通过通知栏瓷块，可点击瓷块快速执行操作。下拉通知栏，点击`编辑`，将相应的瓷块设为显示，然后完成编辑后即可使用（需要 Android 系统支持）。  
+Through the notification bar tile, you can click the tile to quickly perform operations. Pull down the notification bar, click `Edit`, set the corresponding tile to be displayed (requires device support).  
 __Available notification tiles:__  
 * One Key Freeze
 * One Key Unfreeze
 * One Key Screen Lock
 
 ## One Key Freeze
-`一键冻结`会对每一个存在于`一键冻结列表`中的应用执行`冻结`操作，使用前，需要先将需要被执行的应用添加到`一键冻结列表`中（点击主界面列表中的相应应用，选择`加入/移出`，即可添加）。  
+`One Key Freeze` will perform the `freeze` operation on each application that exists in the `One Key Freeze list`. Before using, you need to add the corresponding application to the `One Key Freeze list` (click the application in the application list, and click `Add/Remove`).  
 **Usage:**  
-* 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`立即执行`，最后选择`一键冻结`即可。
-* 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`快捷方式`，再选择`一键冻结`，即可在桌面上通过快捷方式进行`一键冻结`。
-* 唤出桌面的`添加小部件`或是`添加微件`或是`添加小工具`菜单，选择`自冻FreezeYou`，再选择`一键冻结`，即可在桌面上通过快捷方式进行`一键冻结`。
+* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Execute`, and click `One Key Freeze`.
+* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Shortcuts`, and click `One Key Freeze`, then you can use this shortcut on the launcher for `One Key Freeze`.
+* Call up the `Add Widget` or `Add Gadget` or `Add Tool` menu on the launcher, select `FreezeYou`, and select `One Key Freeze`, then you can use the shortcut on the launcher to execute `One Key Freeze`.
 
 ## One Key Unfreeze
-`一键解冻`会对每一个存在于`一键解冻列表`中的应用执行`解冻`操作，使用前，需要先将需要被执行的应用添加到`一键解冻列表`中（点击主界面列表中的相应应用，选择`加入/移出`，即可添加）。  
+`One Key Unfreeze` will perform the `unfreeze` operation on each application that exists in the `One Key Unfreeze list`. Before using, you need to add the corresponding application to the `One Key Unfreeze list` (click the application in the application list, and click `Add/Remove`).  
 __Usage:__  
-* 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`立即执行`，最后选择`一键解冻`即可。
-* 启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`快捷方式`，再选择`一键解冻`，即可在桌面上通过快捷方式进行`一键解冻`。
-* 唤出桌面的`添加小部件`或是`添加微件`或是`添加小工具`菜单，选择`自冻FreezeYou`，再选择`一键解冻`，即可在桌面上通过快捷方式进行`一键解冻`。
+* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Execute`, and click `One Key Unfreeze`.
+* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Shortcuts`, and click `One Key Unfreeze`, then you can use this shortcut on the launcher for `One Key Unfreeze`.
+* Call up the `Add Widget` or `Add Gadget` or `Add Tool` menu on the launcher, select `FreezeYou`, and select `One Key Unfreeze`, then you can use the shortcut on the launcher to execute `One Key Unfreeze`.
 
 ## Leave Freeze
 _It is recommended to use `Scheduled Task` instead_  
-启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`离开冻结`即可，离开在`离开冻结列表`（点击主界面列表中的相应应用，选择`加入/移出`，即可添加）里的相应应用时对应的应用会被冻结。
+Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Automation`, and check `Leave Freeze`, then when we leave the application which is in `Freeze Once Quit list` (click the corresponding application in the application list, and click `Add/Remove` to add to or remove from the list), the corresponding application will be frozen.
 
 ## Auto One Key Freeze After Screen Locked
 _It is recommended to use `Scheduled Task` instead_  
-启动`自冻FreezeYou`，点击右上角的`⋮`或是右下角的`+`或是设备上的`≡`，唤出菜单，选择`更多设置`，选择`自动化`，再勾选`锁屏后一键冻结`即可，锁屏后会执行`一键冻结`。
+Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Automation`, and check `One Key freeze after screen locked`, then `One Key freeze` will be executed after screen locked.
 
 ## Preciso de ajuda
 * [FAQ](../faq/)

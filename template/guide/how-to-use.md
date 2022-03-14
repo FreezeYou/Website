@@ -18,7 +18,7 @@
 {{@quickSearch_guide_text_2}}
 
 ## {{@scheduledTask}} <Badge text="6.0+" type="tip"/>
-{{@scheduledTask_guide_text}}[{{@introduction}}](./schedules.html)。
+{{@scheduledTask_guide_text}}
 
 ## {{@changeInterfaceStyle}} <Badge text="4.0+" type="tip"/>
 {{@changeInterfaceStyle_guide_text_1}}
