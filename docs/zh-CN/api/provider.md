@@ -130,16 +130,17 @@
 如果对应键值为 `null`，则检查请求时的 `Method` 以及 `Extras` 是否为 `null` 。  
 数据存于 `Bundle` 中的键 `currentMode`，类型为 `String`。
 
-| 取得值                                       | 意义                                    |
-|:------------------------------------------|:--------------------------------------|
-| MODE_DPM                                  | 当前运行于 `DPM 模式`                        |
-| MODE_ROOT_DISABLE_ENABLE                  | 当前运行于 `ROOT DISABLE 模式`               |
-| MODE_ROOT_HIDE_UNHIDE                     | 当前运行于 `ROOT HIDE 模式`                  |
-| MODE_LEGACY_AUTO                          | 当前运行于 `遗留的 DPM 与 ROOT DISABLE 自动选择模式` |
-| MODE_SYSTEM_APP_ENABLE_DISABLE_UNTIL_USED | 当前运行于 `系统应用 DISABLE_UNTIL_USED 模式`    |
-| MODE_SYSTEM_APP_ENABLE_DISABLE_USER       | 当前运行于 `系统应用 DISABLE_USER 模式`          |
-| MODE_SYSTEM_APP_ENABLE_DISABLE            | 当前运行于 `系统应用 DISABLE 模式`               |
-| MODE_UNKNOWN                              | 当前运行于 `未知模式`                          |
+| 取得值                                                | 意义                                    |
+|:---------------------------------------------------|:--------------------------------------|
+| MODE_DPM                                           | 当前运行于 `DPM 模式`                        |
+| MODE_ROOT_DISABLE_ENABLE                           | 当前运行于 `ROOT DISABLE 模式`               |
+| MODE_ROOT_HIDE_UNHIDE                              | 当前运行于 `ROOT HIDE 模式`                  |
+| MODE_LEGACY_AUTO                                   | 当前运行于 `遗留的 DPM 与 ROOT DISABLE 自动选择模式` |
+| MODE_SYSTEM_APP_ENABLE_DISABLE_UNTIL_USED          | 当前运行于 `系统应用 DISABLE_UNTIL_USED 模式`    |
+| MODE_SYSTEM_APP_ENABLE_DISABLE_USER                | 当前运行于 `系统应用 DISABLE_USER 模式`          |
+| MODE_SYSTEM_APP_ENABLE_DISABLE                     | 当前运行于 `系统应用 DISABLE 模式`               |
+| MODE_PROFILE_OWNER<Badge text="11.3+" type="tip"/> | 当前运行于 `配置文件所有者（Profile Owner）模式`      |
+| MODE_UNKNOWN                                       | 当前运行于 `未知模式`                          |
 
 ### 获取应用是否被冻结
 
@@ -195,11 +196,11 @@
 
 #### 请求
 
-| 参数     | 值                                                                                                                                                                                                   |
-|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uri    | `Uri.parse("content://cf.playhi.freezeyou.export.UNFREEZE")`                                                                                                                                        |
-| Method | `MODE_DPM`、`MODE_ROOT_DISABLE_ENABLE`、`MODE_ROOT_HIDE_UNHIDE`、`MODE_LEGACY_AUTO`、`MODE_SYSTEM_APP_ENABLE_DISABLE`、`MODE_SYSTEM_APP_ENABLE_DISABLE_USER`、`MODE_SYSTEM_APP_ENABLE_DISABLE_UNTIL_USED` |
-| Extras | `Bundle`，键 `packageName` 必须包含被解冻的应用包名                                                                                                                                                               |
+| 参数     | 值                                                                                                                                                                                                                                                        |
+|:-------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Uri    | `Uri.parse("content://cf.playhi.freezeyou.export.UNFREEZE")`                                                                                                                                                                                             |
+| Method | `MODE_DPM`、`MODE_ROOT_DISABLE_ENABLE`、`MODE_ROOT_HIDE_UNHIDE`、`MODE_LEGACY_AUTO`、`MODE_SYSTEM_APP_ENABLE_DISABLE`、`MODE_SYSTEM_APP_ENABLE_DISABLE_USER`、`MODE_SYSTEM_APP_ENABLE_DISABLE_UNTIL_USED`、`MODE_PROFILE_OWNER`<Badge text="11.3+" type="tip"/> |
+| Extras | `Bundle`，键 `packageName` 必须包含被解冻的应用包名                                                                                                                                                                                                                    |
 
 #### 返回
 
@@ -248,11 +249,11 @@
 
 #### 请求
 
-| 参数     | 值                                                                                                                                                                                                   |
-|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uri    | `Uri.parse("content://cf.playhi.freezeyou.export.FREEZE")`                                                                                                                                          |
-| Method | `MODE_DPM`、`MODE_ROOT_DISABLE_ENABLE`、`MODE_ROOT_HIDE_UNHIDE`、`MODE_LEGACY_AUTO`、`MODE_SYSTEM_APP_ENABLE_DISABLE`、`MODE_SYSTEM_APP_ENABLE_DISABLE_USER`、`MODE_SYSTEM_APP_ENABLE_DISABLE_UNTIL_USED` |
-| Extras | `Bundle`，键 `packageName` 必须包含被解冻的应用包名                                                                                                                                                               |
+| 参数     | 值                                                                                                                                                                                                                                                        |
+|:-------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Uri    | `Uri.parse("content://cf.playhi.freezeyou.export.FREEZE")`                                                                                                                                                                                               |
+| Method | `MODE_DPM`、`MODE_ROOT_DISABLE_ENABLE`、`MODE_ROOT_HIDE_UNHIDE`、`MODE_LEGACY_AUTO`、`MODE_SYSTEM_APP_ENABLE_DISABLE`、`MODE_SYSTEM_APP_ENABLE_DISABLE_USER`、`MODE_SYSTEM_APP_ENABLE_DISABLE_UNTIL_USED`、`MODE_PROFILE_OWNER`<Badge text="11.3+" type="tip"/> |
+| Extras | `Bundle`，键 `packageName` 必须包含被解冻的应用包名                                                                                                                                                                                                                    |
 
 #### 返回
 
