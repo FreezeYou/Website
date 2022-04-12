@@ -304,6 +304,23 @@
 
 - 是否已经在 **Manifest** 中声明了权限呢（`冻结\解冻应用`还需要类似请求敏感权限一样进行 **`requestPermissions`** ）。
 
+### Failed to find provider info for ...
+
+- 自 Android 11 (API 30)，包可见性已发生变更。
+- 详见 [Package visibility in Android 11](https://developer.android.com/about/versions/11/privacy/package-visibility) 。
+
+``` xml
+<manifest>
+    ...
+    <queries>
+        <provider
+            android:authorities="cf.playhi.freezeyou.export.ExampleAuthority"
+            android:exported="false" />
+    </queries>
+    ...
+</manifest>
+```
+
 ## {{@currentLimitation}}
 
 - 需要在安装**自冻 FreezeYou**后再安装或更新（覆盖安装）使用相关权限的应用，否则可能会报 Exception （在 Android Google 的文档中有提及需要在请求前安装）。
