@@ -239,11 +239,24 @@ def pre_generate_config_js_and_select_lang_page_for_vuepress(
 
     with open(lang_page_template_path, 'r') as input_file:
         source = input_file.read()
+        available_langs = []
+        for translation_country_key in sorted(translations.keys()):
+            if translation_country_key == 'default':
+                continue
+            if translations[translation_country_key].get(
+                    "selectLanguageName",
+                    translations['default']["selectLanguageName"]
+            ) != "In progress":
+                available_langs.append(translation_country_key)
+
         with open(cwd + '/docs/README.md', 'w') as output_file:
             output_file.write(
                 source.replace(
                     "<!--{{@locales_generated_content}}-->",
                     select_language_page_locales_generated, 1
+                ).replace(
+                    "/*{{@locales_availableLangs}}*/",
+                    str(available_langs), 1
                 )
             )
         print_log(
