@@ -12,17 +12,17 @@ footer: Copyright © 2017-2022 The FreezeYou Team.
 * [中文（中國臺灣）](/zh-TW/)
 
 
-<script>
-const availableLangs = ['en-US', 'ru-RU', 'ru-UA', 'zh-CN', 'zh-TW'];
-let hash = window.location.hash;
-const langs = navigator.languages;
-if (hash !== "" && hash.substring(0, 2) === "#/" && langs != null) {
-    hash = hash.substring(1);
-    for (const lang of langs) {
-        if (availableLangs.indexOf(lang) !== -1) {
-            window.location = lang + hash;
-            break;
+<component :is="'script'" type="text/javascript">
+    const availableLangs = ['en-US', 'ru-RU', 'ru-UA', 'zh-CN', 'zh-TW'];
+    let hash = window.location.hash;
+    const langs = navigator.languages;
+    if (hash !== "" && hash.substring(0, 2) === "#/" && langs != null) {
+        hash = hash.substring(1);
+        for (const lang of langs) {
+            if (availableLangs.indexOf(lang) !== -1) {
+                window.location = lang + hash;
+                break;
+            }
         }
     }
-}
-</script>
+</component>

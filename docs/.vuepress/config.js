@@ -1,3 +1,8 @@
+const { defaultTheme } = require('vuepress')
+const { pwaPlugin } = require('@vuepress/plugin-pwa')
+const { pwaPopupPlugin } = require('@vuepress/plugin-pwa-popup')
+const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
+const { searchPlugin } = require('@vuepress/plugin-search')
 module.exports = {
   title: '自冻 FreezeYou',
   description: '自冻 FreezeYou',
@@ -46,9 +51,12 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   plugins: [
-    ['@vuepress/plugin-pwa'],
-    [
-      '@vuepress/plugin-pwa-popup',
+    pwaPlugin(
+        {
+            serviceWorkerFilename: 'service-worker.js',
+      }
+    ),
+    pwaPopupPlugin(
       {
         locales: {
           '/': {
@@ -83,10 +91,9 @@ module.exports = {
 
         },
       },
-    ],
-    ['@vuepress/plugin-back-to-top'],
-    [
-      '@vuepress/plugin-search',
+    ),
+    backToTopPlugin(),
+    searchPlugin(
       {
         locales: {
           
@@ -112,9 +119,9 @@ module.exports = {
 
         },
       },
-    ],
+    ),
   ],
-  themeConfig: {
+  theme: defaultTheme({
     locales: {
       
       '/en-US/': {
@@ -408,7 +415,7 @@ module.exports = {
     prevLinks: true,
     search: true,
     searchMaxSuggestions: 10
-  }
+  })
 }
 
 // Keep
