@@ -8,7 +8,7 @@ translations = {}
 cwd = os.getcwd()
 regex = re.compile(r'{{@.+?}}')
 select_language_page_locales_template = '''\
-* [{{@selectLanguageName}}](/{{@translation_country_key}}/)
+* <a href="javascript:forwardTo('{{@translation_country_key}}');">{{@selectLanguageName}}</a>
 '''
 config_js_locales_template = '''
     '/{{@translation_country_key}}/': {
@@ -139,7 +139,7 @@ def pre_generate_documents_for_vuepress(path):
 
 
 def pre_generate_config_js_and_select_lang_page_for_vuepress(
-        config_js_template_path, lang_page_template_path
+        config_js_template_path, lang_page_template_path, lang_js_template_path
 ):
     config_js_locales_generated = ""
     config_js_pwa_popup_generated = ""
@@ -239,6 +239,20 @@ def pre_generate_config_js_and_select_lang_page_for_vuepress(
 
     with open(lang_page_template_path, 'r') as input_file:
         source = input_file.read()
+        with open(cwd + '/docs/README.md', 'w') as output_file:
+            output_file.write(
+                source.replace(
+                    "<!--{{@locales_generated_content}}-->",
+                    select_language_page_locales_generated, 1
+                )
+            )
+        print_log(
+            "File SelectLanguagePage.markdown to README.md generated.",
+            "INFO", "0;36"
+        )
+
+    with open(lang_js_template_path, 'r') as input_file:
+        source = input_file.read()
         available_langs = []
         for translation_country_key in sorted(translations.keys()):
             if translation_country_key == 'default':
@@ -249,18 +263,15 @@ def pre_generate_config_js_and_select_lang_page_for_vuepress(
             ) != "In progress":
                 available_langs.append(translation_country_key)
 
-        with open(cwd + '/docs/README.md', 'w') as output_file:
+        with open(cwd + '/docs/.vuepress/public/assets/js/lang.min.js', 'w') as output_file:
             output_file.write(
                 source.replace(
-                    "<!--{{@locales_generated_content}}-->",
-                    select_language_page_locales_generated, 1
-                ).replace(
                     "/*{{@locales_availableLangs}}*/",
                     str(available_langs), 1
                 )
             )
         print_log(
-            "File SelectLanguagePage.markdown to README.md generated.",
+            "File lang.js and lang.min.js generated.",
             "INFO", "0;36"
         )
 
@@ -271,7 +282,9 @@ load_translation_file()
 print_log("Generating translated documents for vuepress...", "INFO", "0;34")
 pre_generate_documents_for_vuepress(cwd + "/template")
 pre_generate_config_js_and_select_lang_page_for_vuepress(
-    cwd + "/template/config.js", cwd + "/template/SelectLanguagePage.markdown"
+    cwd + "/template/config.js",
+    cwd + "/template/SelectLanguagePage.markdown",
+    cwd + "/template/lang.min.js"
 )
 print_log("Done.", "INFO", "0;32")
 print_log(

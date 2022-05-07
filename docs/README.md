@@ -5,24 +5,9 @@ heroText: Welcome!
 tagline: Please choose your language first. :D
 footer: Copyright © 2017-2022 The FreezeYou Team.
 ---
-* [English (US)](/en-US/)
-* [В процессе](/ru-RU/)
-* [В процессе](/ru-UA/)
-* [中文（中国大陆）](/zh-CN/)
-* [中文（中國臺灣）](/zh-TW/)
+* <a href="javascript:forwardTo('en-US');">English (US)</a>
+* <a href="javascript:forwardTo('ru-RU');">В процессе</a>
+* <a href="javascript:forwardTo('ru-UA');">В процессе</a>
+* <a href="javascript:forwardTo('zh-CN');">中文（中国大陆）</a>
+* <a href="javascript:forwardTo('zh-TW');">中文（中國臺灣）</a>
 
-
-<component :is="'script'" type="text/javascript">
-    const availableLangs = ['en-US', 'ru-RU', 'ru-UA', 'zh-CN', 'zh-TW'];
-    let hash = window.location.hash;
-    const langs = navigator.languages;
-    if (hash !== "" && hash.substring(0, 2) === "#/" && langs != null) {
-        hash = hash.substring(1);
-        for (const lang of langs) {
-            if (availableLangs.indexOf(lang) !== -1) {
-                window.location = lang + hash;
-                break;
-            }
-        }
-    }
-</component>

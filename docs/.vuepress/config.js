@@ -3,6 +3,7 @@ const { pwaPlugin } = require('@vuepress/plugin-pwa')
 const { pwaPopupPlugin } = require('@vuepress/plugin-pwa-popup')
 const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { searchPlugin } = require('@vuepress/plugin-search')
+
 module.exports = {
   title: '自冻 FreezeYou',
   description: '自冻 FreezeYou',
@@ -48,7 +49,8 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: `/assets/icons/apple-touch-icon-152x152.png` }],
     ['link', { rel: 'mask-icon', href: '/assets/icons/safari-pinned-tab.svg', color: '#2B60FF' }],
     ['meta', { name: 'msapplication-TileImage', content: '/assets/icons/msapplication-icon-144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['script', { src: '/assets/js/lang.min.js' }]
   ],
   plugins: [
     pwaPlugin(
