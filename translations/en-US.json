@@ -14,6 +14,7 @@
   "needHelp": "Need Help",
   "moreInfo": "More Info",
   "coreCode_colon": "Core Code: ",
+  "coreCode": "Core Code",
   "operationScreenshot": "Operation Screenshot",
   "introduction": "Introduction",
   "function": "Function",
@@ -63,6 +64,7 @@
   "operationMethod_step_1": "Go to the `Developer options` (if not seen, we can try to click the `About phone` several times, or search for `\"your device model\" + Developer options`).",
   "operationMethod_step_2": "Enable `USB debugging` and connect the device with a computer with ADB tools.",
   "operationMethod_step_3": "Fully unzip the previously downloaded archive (.zip format). ",
+  "operationMethod_step_check_before_4": "If wants to use `profile-owner` instead of `device-owner`, edit the `apply.xx` file, and replace the line `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver` with `adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.",
   "operationMethod_step_4": "Linux users run `apply.sh`, and Windows users run `apply.cmd` or `apply`.",
   "operationMethod_step_5": "If the output below `正在尝试启用免ROOT模式......` contains `Success:`, then most likely we succeeded. If not, we can go to [NoRoot Faq](../faq/mroot.md) and various search engines to find solutions.",
   "operationMethod_alwaysFail": "Always fail? → ",
@@ -110,6 +112,8 @@
   "grantPermissions": "Grant Permissions",
   "grantPermissions_introductionText": "Some functions in `FreezeYou` require special permissions. For example, `Freeze and Unfreeze` requires special authorization to use it normally (if not use related functions, it's no need to grant these permissions). At present, if you want to use the `Freeze and Unfreeze` function, you need to ensure that at least one of the following permissions has been or can be granted to `FreezeYou`, and select the corresponding option in `Settings` - `Freeze and Unfreeze` - `Select freeze and unfreeze mode`.",
   "devicePolicyManager_commonlyCalledNoRoot_arrowMark": "Device Policy Manager (DPM) (Usually be called NoRoot) → ",
+  "profileOwner_commonlyCalledNoRoot_arrowMark": "Profile Owner (Usually be called NoRoot) → ",
+  "shizuku": "Shizuku",
   "howTo": "How to ",
   "grantPermission": "grant permission",
   "root": "Root",
@@ -217,5 +221,6 @@
   "howToUninstall": "How to uninstall",
   "howToUninstall_deviceOwner": "If device owner is set to `FreezeYou`, click `Release device-owner permission` first.",
   "howToUninstall_profileOwner": "If profile owner is set to `FreezeYou`, click `Release profile-owner permission` first.",
-  "howToUninstall_general": "Then, go to `FreezeYou` `Settings` - `Danger Zone`, and click `Uninstall`."
+  "howToUninstall_general": "Then, go to `FreezeYou` `Settings` - `Danger Zone`, and click `Uninstall`.",
+  "gitHub_discussions_colon": "GitHub Discussions: "
 }
