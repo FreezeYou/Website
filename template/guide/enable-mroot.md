@@ -19,19 +19,38 @@
 * {{@operationMethod_step_1}}
 * {{@operationMethod_step_2}}
 * {{@operationMethod_step_3}}
+* {{@operationMethod_step_check_before_4}}
 * {{@operationMethod_step_4}}
 * {{@operationMethod_step_5}}
 * {{@operationMethod_alwaysFail}}[{{@noRootFaq}}](../faq/mroot.md)
 * {{@operationMethod_tooComplex}}[{{@useAutumnBoxToEnableFreezeYouMRootMode}}](https://www.atmb.top/?from=freezeyou)
 
+## {{@coreCode}}
+<CodeGroup>
+  <CodeGroupItem title="set-device-owner" active>
+
+```shell bash:no-line-numbers
+adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="set-profile-owner">
+
+```shell bash:no-line-numbers
+adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
 ## {{@operationScreenshot}}
 ![{{@operationScreenshot}}](/assets/img/20180207104242.png)
 
 ## {{@moreInfo}}
-* {{@coreCode_colon}} `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
 * [{{@autumnBox}}](https://www.atmb.top/?from=freezeyou) {{@nowHasSupportFastEnableFreezeYouMRootMode}}
 
 ## {{@needHelp}}
-* [{{@joinQQGroup}}](https://jq.qq.com/?_wv=1027&k=l356Aq75)
+- [{{@contactUs}}](../about/contactUs.md)
 
 

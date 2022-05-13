@@ -34,4 +34,4 @@
 * [疑難排解](../faq/)
 
 ## Need More Help
-- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [聯繫我們](../about/contactUs.md)

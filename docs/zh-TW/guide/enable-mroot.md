@@ -1,7 +1,7 @@
 # Enable NoRoot
 Some functions need this special permission to be granted before they can be used normally, if not needed, this can be skipped directly.
 
-## Risk Warning
+## 風險提示
 * So far, we have received two cases of user feedback. It is reported that the device's graphic lock (pattern password) has been changed for no reason after NoRoot permission is granted, and then the device cannot be unlocked normally. The reason has not been found yet. One of the devices is Samsung S7 edge with the original Samsung system. The other one is unknown (suspected to be Samsung device). Therefore, if you have any important data, please back it up before operation to prevent unnecessary troubles.
 * In view of the problems with this part of the Samsung device, it is recommended to disable the graphic lock, password lock and the like before enabling.
 * Before freezing applications (especially system applications), please note that in some cases, freezing of some applications on some systems can cause some system anomalies, such as inexplicable freezes, failure to boot normally, and so on. Therefore, please try your best to operate within a certain safety limits to ensure operation safety and avoid unnecessary trouble.
@@ -19,19 +19,38 @@ Some functions need this special permission to be granted before they can be use
 * Go to the `Developer options` (if not seen, we can try to click the `About phone` several times, or search for `"your device model" + Developer options`).
 * Enable `USB debugging` and connect the device with a computer with ADB tools.
 * Fully unzip the previously downloaded archive (.zip format). 
+* If wants to use `profile-owner` instead of `device-owner`, edit the `apply.xx` file, and replace the line `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver` with `adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.
 * Linux users run `apply.sh`, and Windows users run `apply.cmd` or `apply`.
 * If the output below `正在尝试启用免ROOT模式......` contains `Success:`, then most likely we succeeded. If not, we can go to [NoRoot Faq](../faq/mroot.md) and various search engines to find solutions.
 * Always fail? → [NoRoot Faq](../faq/mroot.md)
 * Too complex? → [Use AutumnBox to enable FreezeYou NoRoot Mode](https://www.atmb.top/?from=freezeyou)
 
+## Core Code
+<CodeGroup>
+  <CodeGroupItem title="set-device-owner" active>
+
+```shell bash:no-line-numbers
+adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="set-profile-owner">
+
+```shell bash:no-line-numbers
+adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
 ## Operation Screenshot
 ![Operation Screenshot](/assets/img/20180207104242.png)
 
-## More Info
-* Core Code:  `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
+## 更多訊息
 * [秋之盒](https://www.atmb.top/?from=freezeyou)  now has support quick enable FreezeYou NoRoot mode
 
-## Need Help
-* [加入QQ群](https://jq.qq.com/?_wv=1027&k=l356Aq75)
+## 需要幫助
+- [聯繫我們](../about/contactUs.md)
 
 

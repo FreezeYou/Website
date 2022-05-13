@@ -32,5 +32,5 @@
 * [{{@faq}}](../faq/)
 
 ## {{@needMoreHelp}}
-- [{{@joinQQGroup}}(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [{{@contactUs}}](../about/contactUs.md)
 

@@ -4,8 +4,10 @@
 ## 授予权限
 `自冻FreezeYou`中的一些功能，需要一些特殊权限，就比如`冻结与解冻`就需要特殊授权才能正常使用（若不使用相关功能，可不授予权限），目前，如要使用`冻结与解冻`功能，需要保证以下至少一个权限已经或能够授予`自冻FreezeYou`，并在`更多设置` - `冻结与解冻` - `选择冻结解冻模式`中选中相应的模式：
 * Device Policy Manager (DPM) (常称为免ROOT) → 如何[授予权限](./enable-mroot.html)
+* Profile Owner (Usually be called NoRoot) → 如何[授予权限](./enable-mroot.html)
 * Root
 * 系统应用
+* [Shizuku](https://shizuku.rikka.app/guide/setup/)
 
 ## 冻结与解冻 <Badge text="格外谨慎" type="warning"/>
 启动`自冻FreezeYou`，待主界面列表载入完成后，点击相应的应用，选择`冻结/解冻/启动`即可进行冻结与解冻操作。
@@ -57,5 +59,5 @@ _建议使用`计划任务`替代_
 
 ## 需要帮助
 * [疑难解答](../faq/)
-* [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [联系我们](../about/contactUs.md)
 

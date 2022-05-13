@@ -34,6 +34,5 @@
 ## Current Limitation
 - 需要在安装**FreezeYou**后再安装或更新（覆盖安装）使用相关权限的应用，否则可能会报 Exception （在 Android Google 的文档中有提及需要在请求前安装）
 
-## Need Help
-* [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-- [加入QQ群(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+## 需要幫助
+- [聯繫我們](../about/contactUs.md)

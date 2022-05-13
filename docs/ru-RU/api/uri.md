@@ -58,5 +58,4 @@ if (intent.resolveActivity(getPackageManager()) != null) {
 - [FreezeYouApiTest](https://github.com/FreezeYou/FreezeYouApiTest)
 
 ## Нужна помощь?
-* [Присоединиться к QQ группе(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-- [Присоединиться к QQ группе(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+- [Связаться с нами](../about/contactUs.md)

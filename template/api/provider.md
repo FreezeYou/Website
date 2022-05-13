@@ -327,6 +327,4 @@
 
 ## {{@needHelp}}
 
-* [{{@joinQQGroup}}(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-
-- [{{@joinQQGroup}}(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+- [{{@contactUs}}](../about/contactUs.md)

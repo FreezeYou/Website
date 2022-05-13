@@ -4,8 +4,10 @@
 ## Grant Permissions
 Some functions in `FreezeYou` require special permissions. For example, `Freeze and Unfreeze` requires special authorization to use it normally (if not use related functions, it's no need to grant these permissions). At present, if you want to use the `Freeze and Unfreeze` function, you need to ensure that at least one of the following permissions has been or can be granted to `FreezeYou`, and select the corresponding option in `Settings` - `Freeze and Unfreeze` - `Select freeze and unfreeze mode`.
 * Device Policy Manager (DPM) (Usually be called NoRoot) → How to [grant permission](./enable-mroot.html)
+* Profile Owner (Usually be called NoRoot) → How to [grant permission](./enable-mroot.html)
 * Root
 * System App
+* [Shizuku](https://shizuku.rikka.app/guide/setup/)
 
 ## Freeze and Unfreeze <Badge text="Be extra cautious" type="warning"/>
 Run `FreezeYou`, and after the application list is loaded, click the corresponding application, and select **Run/Freeze/Unfreeze** to perform related operations.
@@ -57,5 +59,5 @@ Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end 
 
 ## Need Help
 * [FAQ](../faq/)
-* [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [Contact Us](../about/contactUs.md)
 

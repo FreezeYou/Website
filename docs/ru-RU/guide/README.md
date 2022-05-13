@@ -3,7 +3,6 @@
 Экономия энергии! Скажите НЕТ частой зарядке!  :zap:    
 Ускорение! Никакой тормозящей анимации! :dash:   
 Тишина! Никаких лишних и надоедливых уведомлений! :mute:    
-<!-- 自冻秉持着体积小巧、功能丰富的目标而打造。它体积小巧，安装包体积不到5MB，小身材大能量；它功能丰富，再配合它的自定义能力，智能生活更得心应手。 -->
 
 ## Функции
 
@@ -24,15 +23,15 @@
 * Резервное копирование и восстановление настроек
 * И много других функций!
 
-## Permission related
+## Разрешения связанные
 
-* Accessibility Service API: Monitor foreground application switching (leave applications, open applications) and avoid freezing the foreground application. 
-* Device Administration API: Used for Profile Owner mode, Device Owner mode, and Lock Screen. 
-* Bluetooth related: Used in Scheduled Tasks to enable and disable bluetooth. 
-* WiFi related: Used in Scheduled Tasks to enable and disable WiFi. 
-* Modify phone state: Used in Scheduled Tasks to enable and disable cellular data. 
-* Change component enabled state: Used for System App Mode. 
-* Query all packages: Used to list all packages on the device. 
-* Schedule exact alarm: Used for time-triggered scheduled tasks. 
-* Request ignore battery optimizations: Used for a better time-triggered scheduled task experience on some devices. 
+* Сервис специальных возможностей: Мониторинг переключения приложений (выход из приложения, запуск приложения) и избежать замораживания приложений переднего плана. 
+* API администрирования устройства: Используется для владельца профиля, режима владельца устройства и блокировки экрана. 
+* Bluetooth: используется в запланированных задачах для включения и отключения bluetooth. 
+* WiFi: Используется в запланированных заданиях для включения и отключения WiFi. 
+* Изменение состояния телефона: Используется в запланированных заданиях для включения и отключения мобильных данных. 
+* Изменить состояние включения компонентов: используется для режима "Системное приложение". 
+* Запрашивать все пакеты: используется для перечисления всех пакетов на устройстве. 
+* Точное расписание тревоги: Используется для выполнения запланированных заданий. 
+* Оптимизация заряда батареи игнорируется: Используется для более своевременной выполнения запланированных заданий на некоторых устройствах. 
 

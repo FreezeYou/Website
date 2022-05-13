@@ -327,6 +327,4 @@
 
 ## Need Help
 
-* [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-
-- [Join QQ Group(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+- [Contact Us](../about/contactUs.md)

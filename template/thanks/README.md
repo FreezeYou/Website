@@ -26,5 +26,10 @@
 * Jonatas de Almeida Barros: [Crowdin](https://crowdin.com/profile/ajonatas56)
 * TolDYuThad: [Crowdin](https://crowdin.com/profile/toldyuthad)
 * sandvase: [Crowdin](https://crowdin.com/profile/sandvase)
+* Cloudflare: [Website](https://www.cloudflare.com/)
+* Netlify: [Website](https://www.netlify.com/)
+* Let’s Encrypt: [Website](https://letsencrypt.org/)
+* TrustAsia: [Website](https://www.trustasia.com/)
+* Shizuku: [Website](https://shizuku.rikka.app/)
 * {{@someoneThatMayBeMissedForVariousReasons}}
 * {{@andAllUsersSinceSuchALongTime}}

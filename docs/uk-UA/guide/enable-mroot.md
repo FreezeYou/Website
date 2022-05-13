@@ -19,19 +19,38 @@ Some functions need this special permission to be granted before they can be use
 * Go to the `Developer options` (if not seen, we can try to click the `About phone` several times, or search for `"your device model" + Developer options`).
 * Enable `USB debugging` and connect the device with a computer with ADB tools.
 * Fully unzip the previously downloaded archive (.zip format). 
+* If wants to use `profile-owner` instead of `device-owner`, edit the `apply.xx` file, and replace the line `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver` with `adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.
 * Linux users run `apply.sh`, and Windows users run `apply.cmd` or `apply`.
 * If the output below `正在尝试启用免ROOT模式......` contains `Success:`, then most likely we succeeded. If not, we can go to [NoRoot Faq](../faq/mroot.md) and various search engines to find solutions.
 * Always fail? → [NoRoot Faq](../faq/mroot.md)
 * Too complex? → [Use AutumnBox to enable FreezeYou NoRoot Mode](https://www.atmb.top/?from=freezeyou)
 
+## Core Code
+<CodeGroup>
+  <CodeGroupItem title="set-device-owner" active>
+
+```shell bash:no-line-numbers
+adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="set-profile-owner">
+
+```shell bash:no-line-numbers
+adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
 ## Operation Screenshot
 ![Operation Screenshot](/assets/img/20180207104242.png)
 
 ## More Info
-* Core Code:  `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver`
 * [AutumnBox](https://www.atmb.top/?from=freezeyou)  now has support quick enable FreezeYou NoRoot mode
 
 ## Need Help
-* [Join QQ Group](https://jq.qq.com/?_wv=1027&k=l356Aq75)
+- [Contact Us](../about/contactUs.md)
 
 

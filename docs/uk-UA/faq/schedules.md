@@ -32,5 +32,5 @@
 * [FAQ](../faq/)
 
 ## Need More Help
-- [Join QQ Group(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [Contact Us](../about/contactUs.md)
 

@@ -93,5 +93,5 @@
 * [疑难解答](../faq/)
 
 ## 需要更多帮助
-- [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=5RJffet)
+- [联系我们](../about/contactUs.md)
 

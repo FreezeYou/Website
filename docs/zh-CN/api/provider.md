@@ -327,6 +327,4 @@
 
 ## 需要帮助
 
-* [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-
-- [加入QQ群(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+- [联系我们](../about/contactUs.md)

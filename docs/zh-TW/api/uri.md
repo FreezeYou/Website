@@ -57,6 +57,5 @@ if (intent.resolveActivity(getPackageManager()) != null) {
 ## Sample
 - [FreezeYouApiTest](https://github.com/FreezeYou/FreezeYouApiTest)
 
-## Need Help
-* [加入QQ群(704086494)](https://jq.qq.com/?_wv=1027&k=l356Aq75)
-- [加入QQ群(838379270)](https://jq.qq.com/?_wv=1027&k=5vmxG1F)
+## 需要幫助
+- [聯繫我們](../about/contactUs.md)
