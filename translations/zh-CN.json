@@ -14,6 +14,7 @@
   "needHelp": "需要帮助",
   "moreInfo": "更多资料",
   "coreCode_colon": "核心代码：",
+  "coreCode": "核心代码",
   "operationScreenshot": "操作截图",
   "introduction": "介绍",
   "function": "功能",
@@ -63,6 +64,7 @@
   "operationMethod_step_1": "找到设备系统设置中的`开发者选项`（没有的可以试试多点几下`关于手机`，或搜索`\"您的设备型号\" + 开发者选项`）",
   "operationMethod_step_2": "开启`开发者选项`中的`Android 调试`或`USB 调试`并将设备与具备 ADB 工具的计算机连接",
   "operationMethod_step_3": "完整解压缩先前下载的压缩包（.zip 格式）",
+  "operationMethod_step_check_before_4": "如果想使用 `profile-owners` 而不是 `device-owners`，编辑`apply.xx` 文件，并使用 `adb shell dpm set-profile-owners cf.playhi.freezeyou/.DeviceAdminReceiver` 替换 `adb shell dpm set-device-owners` 这一行。",
   "operationMethod_step_4": "Linux用户执行解压后的`apply.sh`，Windows 用户执行解压后的`apply.cmd`或`apply`",
   "operationMethod_step_5": "如果`正在尝试启用免ROOT模式......`下方的提示包含`Success:`，应该就成功了。如果没有成功，可以前往[免ROOT疑难解答](../faq/mroot.md)寻找相应的类似情况的解决方案尝试解决。",
   "operationMethod_alwaysFail": "总是失败？ → ",
@@ -110,6 +112,8 @@
   "grantPermissions": "授予权限",
   "grantPermissions_introductionText": "`自冻FreezeYou`中的一些功能，需要一些特殊权限，就比如`冻结与解冻`就需要特殊授权才能正常使用（若不使用相关功能，可不授予权限），目前，如要使用`冻结与解冻`功能，需要保证以下至少一个权限已经或能够授予`自冻FreezeYou`，并在`更多设置` - `冻结与解冻` - `选择冻结解冻模式`中选中相应的模式：",
   "devicePolicyManager_commonlyCalledNoRoot_arrowMark": "Device Policy Manager (DPM) (常称为免ROOT) → ",
+  "profileOwner_commonlyCalledNoRoot_arrowMark": "Profile Owner (常称为免ROOT) → ",
+  "shizuku": "Shizuku",
   "howTo": "如何",
   "grantPermission": "授予权限",
   "root": "Root",
@@ -217,5 +221,6 @@
   "howToUninstall": "如何卸载",
   "howToUninstall_deviceOwner": "如果`自冻`被设定为设备所有者（Device-Owner），首先点击`释放设备所有者（Device-Owner）权限`。",
   "howToUninstall_profileOwner": "如果`自冻`被设定为配置文件所有者（Profile-Owner），首先点击`释放配置文件所有者（Profile-Owner）权限`。",
-  "howToUninstall_general": "然后前往`自冻` - `设置` - `危险区`点击`卸载`。"
+  "howToUninstall_general": "然后前往`自冻` - `设置` - `危险区`点击`卸载`。",
+  "gitHub_discussions_colon": "GitHub Discussions："
 }
