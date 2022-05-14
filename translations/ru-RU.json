@@ -61,6 +61,7 @@
   "operationMethod_step_1": "Перейдите в `Для разработчиков` (если этого пункта нет в настройках, можно попробовать нажать `О телефоне` несколько раз, или перейти в `\"модель вашего устройства\" + для разработчиков`).",
   "operationMethod_step_2": "Включите `Отладку по USB` и подключите устройство к компьютеру с установленным ADB tools.",
   "operationMethod_step_3": "Разархивируйте ранее скачанный архив (в формате.zip). ",
+  "operationMethod_step_check_before_4": "Если вы хотите использовать «владелец профиля» вместо «владелец устройства», отредактируйте файл «apply.xx» и замените строку «adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver» на « adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.",
   "operationMethod_step_4": "Пользователям Linux нужно запустить `apply.sh`, а пользователи Windows `apply.cmd` или `apply`.",
   "operationMethod_step_5": "Если в выводе есть слово `正在尝试启用免ROOT模式......` contains `Success:`, то скорее всего задача решена успешно. Если нет, то перейдите к [NoRoot Faq](../faq/mroot.md) и поищите ответы, чтобы найти решение.",
   "operationMethod_alwaysFail": "Постоянный сбой? → ",
@@ -107,6 +108,7 @@
   "quickStart_introductionText": "`FreezeYou` имеет множество функций, вот несколько кратких вводных, для удобного быстрого начала работы.",
   "grantPermissions": "Предоставление разрешений",
   "grantPermissions_introductionText": "Некоторые функции FreezeYou требуют специальных разрешений. Например, для нормального использования «Заморозка и разморозка» требуется специальное разрешение (если не использовать связанные функции, нет необходимости предоставлять эти разрешения). В настоящее время, если вы хотите использовать функцию «Заморозка и разморозка», вам необходимо убедиться, что по крайней мере одно из следующих разрешений было или может быть предоставлено «FreezeYou», и выберите соответствующий параметр в «Настройках» — «Заморозка и разморозка` - `Выберите режим заморозки и разморозки`.",
+  "profileOwner_commonlyCalledNoRoot_arrowMark": "Владелец профиля (обычно называется без-Root) → ",
   "howTo": "Инструкция: ",
   "grantPermission": "предоставление разрешения",
   "root": "Root",
@@ -208,5 +210,6 @@
   "howToUninstall": "Как удалить",
   "howToUninstall_deviceOwner": "Если у владельца устройства установлен `FreezeYou`, сначала нажмите `Release device-owner permission`.",
   "howToUninstall_profileOwner": "Если у владельца устройства установлен `FreezeYou`, сначала нажмите `Release device-owner permission`.",
-  "howToUninstall_general": "Затем перейдите в `FreezeYou` `Настройки` - `Опасная зона`, и нажмите `Удаление`."
+  "howToUninstall_general": "Затем перейдите в `FreezeYou` `Настройки` - `Опасная зона`, и нажмите `Удаление`.",
+  "gitHub_discussions_colon": "Обсуждения на GitHub: "
 }
