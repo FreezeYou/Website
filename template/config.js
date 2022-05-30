@@ -20,7 +20,8 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/assets/icons/safari-pinned-tab.svg', color: '#2B60FF' }],
     ['meta', { name: 'msapplication-TileImage', content: '/assets/icons/msapplication-icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
-    ['script', { src: '/assets/js/lang.min.js' }]
+    ['script', { src: '/assets/js/lang.min.js' }],
+    ['script', { src: '/assets/js/statistics.js' }]
   ],
   plugins: [
     pwaPlugin(
