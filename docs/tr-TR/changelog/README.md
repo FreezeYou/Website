@@ -1,5 +1,21 @@
 # Changelog
 ## V11
+### V11.4(2022.05.16)
+1. 【新增】更多设置 - 冻结与解冻 - 播放冻结与解冻动画 （感谢 **@下 1.站、幸福** ）；
+2. 【新增】更多设置 - 常规 - 在最近任务中包括冻结与解冻活动（感谢 **@下 1.站、幸福** ）；
+3. 【调整】为避免在部分定制系统中，关闭所有三个图标后，通过拨号盘无法正常唤起软件，同时也无法于系统设置中找到“应用设定”以重新进入设置，导致无法正常使用软件，重新上线替换 `清除数据` 按钮的 `管理空间`。
+4. 【合并】合入一些翻译（感谢 [@tommynok](https://github.com/tommynok) ）。
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.4(150)/)
+
+### V11.3(2022.05.14)
+1. 【新增】Shizuku （DISABLE_USER）等模式（感谢 [@Droidphilev](https://github.com/Droidphilev) 的 [Issue #206](https://github.com/FreezeYou/FreezeYou/issues/206) ）；
+2. 【新增】桌面快捷方式冻结解冻等部分情况下展示动画；
+3. 【新增】长按浮动按钮时的透明度变化（感谢 [@littlepony0](https://github.com/littlepony0) 的 [Issue #185](https://github.com/FreezeYou/FreezeYou/issues/185) ）；
+4. 【修复】部分设备部分情况下桌面快捷冻结解冻无法在首次解冻时自行启动应用；
+5. 【合并】合入一些翻译（感谢 [@tommynok](https://github.com/tommynok) ）；
+6. 【更多】一些细节调整与优化。
+* [Download this version](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.3(149)/)
+
 ### V11.2(2022.04.09)
 1. 【变更】移除 Google Play Core。(感谢 [IzzySoft](https://github.com/IzzySoft) 的 [Issue #216](https://github.com/FreezeYou/FreezeYou/issues/216))
 * [Download this version](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.2(148)/)
