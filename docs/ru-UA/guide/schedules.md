@@ -9,18 +9,18 @@
 * `okuf` : OneKEY разморозка.
 * `ff` : Заморозка.
 * `uf` : Разморозка.
-* `es` : Enable one setting item <small>*(`wifi` is available since version 6.2, `cd` (cellular data) is available since version 7.1, `bluetooth` is available since version 7.3)*</small>.
-* `ds` : Disable one setting item <small>*(`wifi` is available since version 6.2, `cd` (cellular data) is available since version 7.1, `bluetooth` is available since version 7.3)*</small>.
+* `es` : включить один элемент настройки <small>*(`wifi` доступен с версии 6.2, `cd` (мобильные данные) доступно с версии 7.1, `bluetooth` доступно с версии 7.3)*</small>.
+* `ds` : выключить один элемент настройки <small>*(`wifi` доступен с версии 6.2, `cd` (мобильные данные) доступно с версии 7.1, `bluetooth` доступно с версии 7.3)*</small>.
 * `st` : Показать один тост.
 * `sn` <Badge text="8.6+" type="tip"/>: Показать одно уведомление.
 * `sp` : Открыть указанное приложение.
 * `su` : Открыть указанное приложение по URI.
-* `lg` <Badge text="7.2+" type="tip"/>: Print an ERROR level LOG. Under normal circumstances, there is no need to use it.
-* `ls` <Badge text="8.7+" type="tip"/>: Lock screen.
+* `lg` <Badge text="7.2+" type="tip"/>: Распечатать ЖУРНАЛ уровня ОШИБКИ. В обычных условиях в его использовании нет необходимости.
+* `ls` <Badge text="8.7+" type="tip"/>: блокировка экрана.
 
 ### Дополнительные параметры (необязательно)
 
-* `-d` <Badge text="7.2+" type="tip"/>: Delay execution, in `seconds`.
+* `-d` <Badge text="7.2+" type="tip"/>: задержка выполения в `секундах`.
 
 ### Внутренние переменные
 

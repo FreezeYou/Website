@@ -19,13 +19,13 @@
 * Перейдите в `Для разработчиков` (если этого пункта нет в настройках, можно попробовать нажать `О телефоне` несколько раз, или перейти в `"модель вашего устройства" + для разработчиков`).
 * Включите `Отладку по USB` и подключите устройство к компьютеру с установленным ADB tools.
 * Разархивируйте ранее скачанный архив (в формате.zip). 
-* If wants to use `profile-owner` instead of `device-owner`, edit the `apply.xx` file, and replace the line `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver` with `adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.
+* Если вы хотите использовать «владелец профиля» вместо «владелец устройства», отредактируйте файл «apply.xx» и замените строку «adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver» на « adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.
 * Пользователям Linux нужно запустить `apply.sh`, а пользователи Windows `apply.cmd` или `apply`.
 * Если в выводе есть слово `正在尝试启用免ROOT模式......` contains `Success:`, то скорее всего задача решена успешно. Если нет, то перейдите к [NoRoot Faq](../faq/mroot.md) и поищите ответы, чтобы найти решение.
 * Постоянный сбой? → [ЧАВО режима без-root](../faq/mroot.md)
 * Слишком сложно? → [Использование AutumnBox для включения без-root режима FreezeYou](https://www.atmb.top/?from=freezeyou)
 
-## Core Code
+## Команды
 <CodeGroup>
   <CodeGroupItem title="set-device-owner" active>
 

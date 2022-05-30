@@ -16,12 +16,12 @@
 * ADB инструмент и набор кодов (формат .zip) : [Ссылка для загрузки 1 (Source station)](https://freezeyou.playhi.net/attachment/urt.zip) | [Ссылка для загрузки 2 (Baidu Net Disk)](https://pan.baidu.com/s/1RlHg4w0z5O2aNc_ejkeUvA)
 
 ## Метод работы
-* Go to the `Developer options` (if not seen, we can try to click the `About phone` several times, or search for `"your device model" + Developer options`).
-* Enable `USB debugging` and connect the device with a computer with ADB tools.
-* Fully unzip the previously downloaded archive (.zip format). 
+* Перейдите в `Для разработчиков` (если этого пункта нет в настройках, можно попробовать нажать `О телефоне` несколько раз, или перейти в `"модель вашего устройства" + для разработчиков`).
+* Включите `Отладку по USB` и подключите устройство к компьютеру с установленным ADB tools.
+* Разархивируйте ранее скачанный архив (в формате.zip). 
 * If wants to use `profile-owner` instead of `device-owner`, edit the `apply.xx` file, and replace the line `adb shell dpm set-device-owner cf.playhi.freezeyou/.DeviceAdminReceiver` with `adb shell dpm set-profile-owner cf.playhi.freezeyou/.DeviceAdminReceiver`.
-* Linux users run `apply.sh`, and Windows users run `apply.cmd` or `apply`.
-* If the output below `正在尝试启用免ROOT模式......` contains `Success:`, then most likely we succeeded. If not, we can go to [NoRoot Faq](../faq/mroot.md) and various search engines to find solutions.
+* Пользователям Linux нужно запустить `apply.sh`, а пользователи Windows `apply.cmd` или `apply`.
+* Если в выводе есть слово `正在尝试启用免ROOT模式......` contains `Success:`, то скорее всего задача решена успешно. Если нет, то перейдите к [NoRoot Faq](../faq/mroot.md) и поищите ответы, чтобы найти решение.
 * Постоянный сбой? → [ЧАВО режима без-root](../faq/mroot.md)
 * Слишком сложно? → [Использование AutumnBox для включения без-root режима FreezeYou](https://www.atmb.top/?from=freezeyou)
 

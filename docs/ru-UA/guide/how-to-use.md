@@ -1,8 +1,8 @@
 # Быстрый старт
-`FreezeYou` has a lot of functions, here are some brief introductions, which are convenient to get started quickly.
+`FreezeYou` имеет множество функций, вот несколько кратких вводных, для удобного быстрого начала работы.
 
 ## Предоставление разрешений
-Some functions in `FreezeYou` require special permissions. For example, `Freeze and Unfreeze` requires special authorization to use it normally (if not use related functions, it's no need to grant these permissions). At present, if you want to use the `Freeze and Unfreeze` function, you need to ensure that at least one of the following permissions has been or can be granted to `FreezeYou`, and select the corresponding option in `Settings` - `Freeze and Unfreeze` - `Select freeze and unfreeze mode`.
+Некоторые функции FreezeYou требуют специальных разрешений. Например, для нормального использования «Заморозка и разморозка» требуется специальное разрешение (если не использовать связанные функции, нет необходимости предоставлять эти разрешения). В настоящее время, если вы хотите использовать функцию «Заморозка и разморозка», вам необходимо убедиться, что по крайней мере одно из следующих разрешений было или может быть предоставлено «FreezeYou», и выберите соответствующий параметр в «Настройках» — «Заморозка и разморозка` - `Выберите режим заморозки и разморозки`.
 * Device Policy Manager (DPM) (Usually be called NoRoot) → Инструкция: [предоставление разрешения](./enable-mroot.html)
 * Profile Owner (Usually be called NoRoot) → Инструкция: [предоставление разрешения](./enable-mroot.html)
 * Root
@@ -10,52 +10,52 @@ Some functions in `FreezeYou` require special permissions. For example, `Freeze 
 * [Shizuku](https://shizuku.rikka.app/guide/setup/)
 
 ## Заморозка и разморозка <Badge text="Будьте предельно осторожны" type="warning"/>
-Run `FreezeYou`, and after the application list is loaded, click the corresponding application, and select **Run/Freeze/Unfreeze** to perform related operations.
+Запустите `FreezeYou` и после загрузки списка приложений нажмите на соответствующее приложение и выберите **Запуск/Заморозка/Разморозка** для выполнения связанных операций.
 
 ## Просмотр по категориям <Badge text="1.13+" type="tip"/>
-By default, after launching `FreezeYou`, the homepage will directly display all applications. At this time, if we want to find some applications, it is sometimes troublesome. At this point, we can click `⋮` in the upper end corner, `+` in the lower end corner, or `≡` on the device to call up the menu, and click `View Mode` to view by category. By the way, if there is enough space, the `View Mode` will display as an icon near the `⋮`.
+По умолчанию после запуска FreezeYou на главной странице будут отображаться все приложения. В настоящее время, если мы хотим найти какие-то приложения, иногда это может быть проблематично. На этом этапе мы можем нажать «⋮» в верхнем углу, «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, и нажать «Режим просмотра», для просмотра по категориям. Кстати, если места достаточно, «Режим просмотра» будет отображаться в виде значка рядом с «⋮».
 
 ## Быстрый поиск <Badge text="2.13+" type="tip"/>
-After launching `FreezeYou`, in the main interface, we can click `Search` near the top to perform a quick search.   
-For example, typing `A` immediately filters and lists all applications in that category that contain `A` or `a` in their name (case-insensitive).
+После запуска `FreezeYou`, на главной странице, мы можем нажать кнопку `Поиск` сверху, для быстрого поиска.   
+Например, ввод «A» немедленно фильтрует и перечисляет все приложения в этой категории, которые содержат «A» или «a» в своем имени (без учета регистра).
 
 ## Запланированные задания <Badge text="6.0+" type="tip"/>
-Scheduled task have many functions and are complicated, see → [Scheduled Task](./schedules.html).
+Запланированные задания имеет много функций и сложна, см. → [Запланированные задания](./schedules.html).
 
 ## Изменение стиля интерфейса <Badge text="4.0+" type="tip"/>
-Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Appearance`, and click `Interface Style` to modify.
+Запустите FreezeYou, нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, нажмите «Настройки», нажмите «Внешний вид» и нажмите "Цветовая тема" для изменения.
 
 ## Рез. копирование и восстановление <Badge text="8.8+" type="tip"/>
-Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Backup and Restore`, click `Export` to export the current settings, scheduled tasks and other data, click `Import`, the data in the input box below will be read, and you can select the data items to be imported.
+Запустите «FreezeYou», нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, нажмите «Настройки», нажмите «Резервное копирование и восстановление», нажмите « Экспорт», чтобы экспортировать текущие настройки, запланированные задачи и другие данные, нажмите «Импортировать», данные в поле ввода ниже будут прочитаны, и вы сможете выбрать элементы данных для импорта.
 
 ## Плитки уведомлений
-Through the notification bar tile, you can click the tile to quickly perform operations. Pull down the notification bar, click `Edit`, set the corresponding tile to be displayed (requires device support).  
+Через плитку панели уведомлений вы можете нажать плитку, чтобы быстро выполнить операции. Потяните вниз панель уведомлений, нажмите «Изменить», установите соответствующую плитку для отображения (требуется поддержка устройства).  
 __Доступные плитки уведомлений:__  
 * OneKEY заморозка
 * OneKEY разморозка
 * OneKEY блокировка экрана
 
 ## OneKEY заморозка
-`One Key Freeze` will perform the `freeze` operation on each application that exists in the `One Key Freeze list`. Before using, you need to add the corresponding application to the `One Key Freeze list` (click the application in the application list, and click `Add/Remove`).  
+«One Key заморозка» выполнит операцию «заморозка» каждого приложения, которое находится в списке «One Key замрозка». Перед использованием необходимо добавить соответствующее приложение в список «One Key заморозка» (нажмите приложение в списке приложений и нажмите «Добавить/Удалить»).  
 **Использование:**  
-* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Execute`, and click `One Key Freeze`.
-* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Shortcuts`, and click `One Key Freeze`, then you can use this shortcut on the launcher for `One Key Freeze`.
-* Call up the `Add Widget` or `Add Gadget` or `Add Tool` menu on the launcher, select `FreezeYou`, and select `One Key Freeze`, then you can use the shortcut on the launcher to execute `One Key Freeze`.
+* Запустите «FreezeYou», нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, для вызова меню, нажмите «Выполнить» и нажмите «One Key заморозка».
+* Запустите «FreezeYou», нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, нажмите «Ярлыки» и нажмите «OneKey заморозка». В дальнейшем вы можете использовать этот ярлык на рабочем столе для запуска операции «One Key заморозка».
+* Вызовите меню «Добавить виджет», «Добавить гаджет» или «Добавить инструмент» в лаунчере, выберите «FreezeYou» и выберите «One Key заморозка». В дальнейшем вы можете использовать ярлык на панели запуска, чтобы выполнить операцию «One Key заморозка».
 
 ## OneKEY разморозка
-`One Key Unfreeze` will perform the `unfreeze` operation on each application that exists in the `One Key Unfreeze list`. Before using, you need to add the corresponding application to the `One Key Unfreeze list` (click the application in the application list, and click `Add/Remove`).  
+"One Key разморозка" выполнит операцию `разморозка` каждого приложения, существующего в списке "One Key разморозка". Перед использованием вам необходимо добавить желаемые приложения в список "One Key разморозка" (нажмите приложение в списке приложений и нажмите «Добавить/Удалить»).  
 __Использование:__  
-* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Execute`, and click `One Key Unfreeze`.
-* Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Shortcuts`, and click `One Key Unfreeze`, then you can use this shortcut on the launcher for `One Key Unfreeze`.
-* Call up the `Add Widget` or `Add Gadget` or `Add Tool` menu on the launcher, select `FreezeYou`, and select `One Key Unfreeze`, then you can use the shortcut on the launcher to execute `One Key Unfreeze`.
+* Запустите "FreezeYou", нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве для вызова меню, нажмите "Выполнить" и нажмите "One Key разморозка".
+* Запустите «FreezeYou», нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, нажмите "Ярлыки" и нажмите "One Key разморозка", затем вы можете использовать этот ярлык на рабочем столе для запуска "One Key разорозка".
+* Вызовите меню «Добавить виджет», «Добавить гаджет» или «Добавить инструмент» в лаунчере, выберите «FreezeYou» и выберите «One Key разморозка». В дальнейшем вы можете использовать ярлык на панели запуска, чтобы выполнить операцию «One Key разморозка».
 
 ## Заморозка после выхода
 _Рекомендуется вместо этого использовать запланированные задачи_  
-Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Automation`, and check `Leave Freeze`, then when we leave the application which is in `Freeze Once Quit list` (click the corresponding application in the application list, and click `Add/Remove` to add to or remove from the list), the corresponding application will be frozen.
+Запустите FreezeYou, нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, нажмите «Настройки», нажмите «Автоматизация» и установите флажок «Заморозка после выхода». При выходе из приложения, которое находится в списке «Заморозка после выхода» оно будет заморожено. Нажмите желаемое приложение в списке приложений, затем нажмите «Добавить/удалить», чтобы добавить или удалить из списка.
 
 ## Запуск OneKEY заморозки после блокировки экрана
 _Рекомендуется вместо этого использовать запланированные задачи_  
-Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Settings`, click `Automation`, and check `One Key freeze after screen locked`, then `One Key freeze` will be executed after screen locked.
+Запустите FreezeYou, нажмите «⋮» в верхнем углу или «+» в нижнем углу или «≡» на устройстве, чтобы вызвать меню, нажмите «Настройки», нажмите «Автоматизация» и отметьте "Запуск OneKey заморозка" после блокировки экрана. При такой настройке после блокировки экрана будет выполнено "ОneKey заморозка".
 
 ## Нужна помощь?
 * [ЧАВО](../faq/)
