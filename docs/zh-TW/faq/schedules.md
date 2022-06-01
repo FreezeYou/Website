@@ -31,6 +31,6 @@
 ## More Faq
 * [疑難排解](../faq/)
 
-## Need More Help
+## 需要更多幫助
 - [聯繫我們](../about/contactUs.md)
 

@@ -1,5 +1,12 @@
 # {{@changelog}}
 ## V11
+### V11.5(2022.05.30)
+1. 【新增】在 Android 12 及以上部分设备中，默认界面风格情况下，部分内容以 Material 3 呈现；
+2. 【优化】Shizuku 相关模式的部分处理；
+3. 【合并】合入一些翻译（感谢 [@tommynok](https://github.com/tommynok) ）；
+4. 【更多】一些细节调整与优化。
+* [{{@downloadThisVersion}}](https://github.com/FreezeYou/FreezeYou/releases/tag/V11.5(151)/)
+
 ### V11.4(2022.05.16)
 1. 【新增】更多设置 - 冻结与解冻 - 播放冻结与解冻动画 （感谢 **@下 1.站、幸福** ）；
 2. 【新增】更多设置 - 常规 - 在最近任务中包括冻结与解冻活动（感谢 **@下 1.站、幸福** ）；

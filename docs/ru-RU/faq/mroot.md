@@ -11,11 +11,11 @@
 ## error: device unauthorized
 - 请在被操作设备上点击确认允许操作。
 
-## java.lang.IllegalStateException: ... there are already several accounts ... (“正在尝试启用免ROOT模式……”)
+## java.lang.IllegalStateException: ... there are already several accounts ...
 - 请检查您系统设置中账户中的账户是否全部删除了(需要全部删除，免ROOT启用后，可以再手动加回去)(实在删不掉的账户，可以试试断开网络连接以后删除，还不行的话可以试试先备份相关的应用数据以后卸载相关应用，成功后再恢复备份)，如果不清楚是哪个应用程序的账户没有清除干净，请在`“正在尝试启用免ROOT模式……”`上方，寻找`“当前设备账户信息：”`在`Accounts`组中，检查`type=`这一项，`=`后面的是应用程序包名，然后在 **自冻 FreezeYou** 列表中寻找该包名对应的程序即可获知账户来自哪个应用程序。
 - 也可以尝试重启至<b>安全模式</b>（调出关机界面后，长按显示的“关机”按钮），再次尝试进行激活。
 
-## java.lang.IllegalStateException: ... there are already several users ... (“正在尝试启用免ROOT模式……”)
+## java.lang.IllegalStateException: ... there are already several users ...
 - 请检查您系统设置中可见的其他用户是否已经删除了、分身应用是否已经关闭了(部分分身的实现利用的是 Android 自带的多用户功能，会影响免ROOT的启用)，如果还是失败，可以尝试 `adb shell pm remove-user [USER_ID]` <Badge text="该操作可能导致系统自带的分身功能无法正常使用" type="error"/>。
 
 ## java.lang.SecurityException: Neither user 2000 nor current process has android.permission.MANAGE\_DEVICE\_ADMINS
