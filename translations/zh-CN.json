@@ -222,5 +222,6 @@
   "howToUninstall_deviceOwner": "如果`自冻`被设定为设备所有者（Device-Owner），首先点击`释放设备所有者（Device-Owner）权限`。",
   "howToUninstall_profileOwner": "如果`自冻`被设定为配置文件所有者（Profile-Owner），首先点击`释放配置文件所有者（Profile-Owner）权限`。",
   "howToUninstall_general": "然后前往`自冻` - `设置` - `危险区`点击`卸载`。",
-  "gitHub_discussions_colon": "GitHub Discussions："
+  "gitHub_discussions_colon": "GitHub Discussions：",
+  "soTroublesome_isThereAnythingSimpler": "好麻烦，有没有简单点的"
 }
