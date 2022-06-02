@@ -1,0 +1,1 @@
+const e={key:"v-1457fc96",path:"/zh-TW/guide/warning.html",title:"\u6CE8\u610F",lang:"zh-TW",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1654181709e3},filePathRelative:"zh-TW/guide/warning.md"};export{e as data};
