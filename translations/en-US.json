@@ -222,5 +222,6 @@
   "howToUninstall_deviceOwner": "If device owner is set to `FreezeYou`, click `Release device-owner permission` first.",
   "howToUninstall_profileOwner": "If profile owner is set to `FreezeYou`, click `Release profile-owner permission` first.",
   "howToUninstall_general": "Then, go to `FreezeYou` `Settings` - `Danger Zone`, and click `Uninstall`.",
-  "gitHub_discussions_colon": "GitHub Discussions: "
+  "gitHub_discussions_colon": "GitHub Discussions: ",
+  "soTroublesome_isThereAnythingSimpler": "So troublesome, is there anything simpler"
 }

@@ -109,29 +109,39 @@ def pre_generate_documents_for_vuepress(path):
             pre_generate_documents_for_vuepress(tmp_path)
         elif tmp_path[tmp_path.rfind('.') + 1:].lower() == 'md':
             with open(tmp_path, 'r') as f:
-                lines = f.readlines()
+                template_content = f.read()
                 for translation_country_key in translations.keys():
                     if translation_country_key == 'default':
                         continue
                     output_file_path = \
                         cwd + "/docs/" + translation_country_key + tmp_path[len(cwd) + 9:]
                     os.makedirs(output_file_path[:output_file_path.rfind("/")], 0o777, True)
-                    with open(
-                            output_file_path,
-                            "w+"
-                    ) as output:
-                        for line in lines:
-                            generated_line = line
-                            placeholders = regex.findall(generated_line)
-                            for placeholder in placeholders:
-                                key = placeholder[3:-2]
-                                generated_line = generated_line.replace(
-                                    placeholder,
-                                    translations[translation_country_key].get(
-                                        key, translations['default'][key]
-                                    )
-                                )
-                            output.write(generated_line)
+                    generated_content = template_content
+                    placeholders = regex.findall(generated_content)
+                    for placeholder in placeholders:
+                        key = placeholder[3:-2]
+                        generated_content = generated_content.replace(
+                            placeholder,
+                            translations[translation_country_key].get(
+                                key, translations['default'][key]
+                            )
+                        )
+                    existed_content = None
+                    if os.path.exists(output_file_path):
+                        read_mode_output_file = open(output_file_path, "r")
+                        existed_content = read_mode_output_file.read()
+                        read_mode_output_file.close()
+                    if generated_content == existed_content:
+                        print_log(
+                            "Document is up to date: " + output_file_path[len(cwd) + 1:],
+                            "INFO", "0;36"
+                        )
+                    else:
+                        with open(
+                                output_file_path,
+                                "w+"
+                        ) as output:
+                            output.write(generated_content)
                         print_log(
                             "Document generated: " + output_file_path[len(cwd) + 1:],
                             "INFO", "0;36"

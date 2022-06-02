@@ -21,8 +21,8 @@
 ## java.lang.SecurityException: Neither user 2000 nor current process has android.permission.MANAGE\_DEVICE\_ADMINS
 - 在 `USB调试` 下方 还有一个 `USB调试(安全设置)`，也需要打开，如果提示登录小米账号，请避免勾选 同步 项。[MIUI公告](https://www.miui.com/thread-5711795-1-1.html)
 
-## 好麻烦，有没有简单点的
-- [使用 AutumnBox 启用 自冻FreezeYou 免ROOT模式](https://www.atmb.top/?from=freezeyou)
+## So troublesome, is there anything simpler
+- [Использование AutumnBox для включения без-root режима FreezeYou](https://www.atmb.top/?from=freezeyou)
 
 ## 激活以后，USB 调试之类的可以关掉吗？
 - 正常情况下是可以的（目前还没有收到关闭后失效或无法关闭的情况），同时为了安全考虑，也建议激活完成后`关闭 USB 调试`。
