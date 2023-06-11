@@ -1,10 +1,10 @@
-const { defaultTheme } = require('vuepress')
-const { pwaPlugin } = require('@vuepress/plugin-pwa')
-const { pwaPopupPlugin } = require('@vuepress/plugin-pwa-popup')
-const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
-const { searchPlugin } = require('@vuepress/plugin-search')
+import { defineUserConfig, defaultTheme } from 'vuepress'
+import { pwaPlugin } from '@vuepress/plugin-pwa'
+import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { searchPlugin } from '@vuepress/plugin-search'
 
-module.exports = {
+export default defineUserConfig({
   title: '自冻 FreezeYou',
   description: '自冻 FreezeYou',
   locales: {
@@ -74,7 +74,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10
   })
-}
+})
 
 // Keep
 function getGuideSidebar(guide, changelog, faq, api) {

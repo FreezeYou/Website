@@ -15,6 +15,6 @@ features:
   details: Размер АПК менее 5 МБ, небольшой, но с большой энергией
 - title: Разнообразие функций
   details: Благодаря открытым функциям и возможностям индивидуальной настройки умная жизнь может быть более удобной
-footer: Copyright © 2017-2022 The FreezeYou Team.
+footer: Copyright © 2017-2023 The FreezeYou Team.
 ---
 

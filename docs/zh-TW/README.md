@@ -15,6 +15,6 @@ features:
   details: The APK size is less than 5 MB, small but with big energy
 - title: 功能豐富
   details: With the open functions and customization capabilities, smart life can be more convenient
-footer: Copyright © 2017-2022 The FreezeYou Team.
+footer: Copyright © 2017-2023 The FreezeYou Team.
 ---
 

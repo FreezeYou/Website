@@ -15,6 +15,6 @@ features:
   details: {{@details1}}
 - title: {{@title2}}
   details: {{@details2}}
-footer: Copyright © 2017-2022 The FreezeYou Team.
+footer: Copyright © 2017-2023 The FreezeYou Team.
 ---
 

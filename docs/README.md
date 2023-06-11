@@ -3,7 +3,7 @@ home: true
 navbar: false
 heroText: Welcome!
 tagline: Please choose your language first. :D
-footer: Copyright © 2017-2022 The FreezeYou Team.
+footer: Copyright © 2017-2023 The FreezeYou Team.
 ---
 * <a href="javascript:forwardTo('en-US');">English (US)</a>
 * <a href="javascript:forwardTo('ru-RU');">В процессе</a>
