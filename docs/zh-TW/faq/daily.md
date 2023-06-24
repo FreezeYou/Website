@@ -85,7 +85,7 @@
 ## 如何管理我的自选
 - 前往 `更多设置` - `管理空间` - `管理我的自选`，点击需要管理的自选即可管理。
 
-## How to uninstall
+## 如何解除安裝
 - If device owner is set to `FreezeYou`, click `Release device-owner permission` first.
 - If profile owner is set to `FreezeYou`, click `Release profile-owner permission` first.
 - Then, go to `FreezeYou` `Settings` - `Danger Zone`, and click `Uninstall`.

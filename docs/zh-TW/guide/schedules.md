@@ -3,7 +3,7 @@
 
 ## General Task Commands
 
-### Available Commands
+### 可用指令
 
 * `okff` : One key freeze.
 * `okuf` : One key unfreeze.

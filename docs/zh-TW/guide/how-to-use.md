@@ -31,18 +31,18 @@ Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end 
 ## Notification Tiles
 Through the notification bar tile, you can click the tile to quickly perform operations. Pull down the notification bar, click `Edit`, set the corresponding tile to be displayed (requires device support).  
 __Available notification tiles:__  
-* One Key Freeze
-* One Key Unfreeze
+* 一鍵凍結
+* 一鍵解凍
 * One Key Screen Lock
 
-## One Key Freeze
+## 一鍵凍結
 `One Key Freeze` will perform the `freeze` operation on each application that exists in the `One Key Freeze list`. Before using, you need to add the corresponding application to the `One Key Freeze list` (click the application in the application list, and click `Add/Remove`).  
 **Usage:**  
 * Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Execute`, and click `One Key Freeze`.
 * Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Shortcuts`, and click `One Key Freeze`, then you can use this shortcut on the launcher for `One Key Freeze`.
 * Call up the `Add Widget` or `Add Gadget` or `Add Tool` menu on the launcher, select `FreezeYou`, and select `One Key Freeze`, then you can use the shortcut on the launcher to execute `One Key Freeze`.
 
-## One Key Unfreeze
+## 一鍵解凍
 `One Key Unfreeze` will perform the `unfreeze` operation on each application that exists in the `One Key Unfreeze list`. Before using, you need to add the corresponding application to the `One Key Unfreeze list` (click the application in the application list, and click `Add/Remove`).  
 __Usage:__  
 * Launch `FreezeYou`, click `⋮` in the upper end corner or `+` in the lower end corner or `≡` on the device to call up the menu, click `Execute`, and click `One Key Unfreeze`.

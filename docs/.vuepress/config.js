@@ -89,7 +89,7 @@ export default defineUserConfig({
 
           '/zh-TW/': {
             message: "New content is available.",
-            buttonText: "Refresh",
+            buttonText: "更新",
           },
 
         },
@@ -350,7 +350,7 @@ export default defineUserConfig({
         selectLanguageName: '中文（中國臺灣）',
         navbar: [
           { text: '首頁', link: '/zh-TW/' },
-          { text: 'Guide', link: '/zh-TW/guide/' },
+          { text: '指南', link: '/zh-TW/guide/' },
           { text: '下載', link: '/zh-TW/download/' },
           { text: 'FAQ', link: '/zh-TW/faq/' },
           { text: 'API', link: '/zh-TW/api/' },
@@ -359,7 +359,7 @@ export default defineUserConfig({
             text: '更多',
             children: [
               {
-                text: 'About',
+                text: '關於',
                 children: [
                   { text: '聯繫我們', link: '/zh-TW/about/contactUs.md' },
                   { text: 'Special Thanks', link: '/zh-TW/thanks/' },
@@ -381,16 +381,16 @@ export default defineUserConfig({
           },
         ],
         sidebar: {
-          '/zh-TW/guide/': getGuideSidebar('Guide', '變更記錄', 'FAQ', 'API'),
-          '/zh-TW/download/': getGuideSidebar('Guide', '變更記錄', 'FAQ', 'API'),
-          '/zh-TW/changelog/': getGuideSidebar('Guide', '變更記錄', 'FAQ', 'API'),
-          '/zh-TW/api/': getGuideSidebar('Guide', '變更記錄', 'FAQ', 'API'),
-          '/zh-TW/faq/': getGuideSidebar('Guide', '變更記錄', 'FAQ', 'API')
+          '/zh-TW/guide/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API'),
+          '/zh-TW/download/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API'),
+          '/zh-TW/changelog/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API'),
+          '/zh-TW/api/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API'),
+          '/zh-TW/faq/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API')
         },
         searchPlaceholder: '搜索',
         backToHome: '回到首頁',
         notFound: [
-          `There's nothing here.`,
+          `這裡什麼都沒有。`,
           `How did we get here?`,
           `That's a Four-Oh-Four.`,
           `Looks like we've got some broken links.`
