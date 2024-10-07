@@ -31,77 +31,77 @@
 
 #### okff
 
-* `okff` ：立即执行一键冻结。
+* {{@okff_colon_oneKeyFreeze_immediately}}
 
 #### okuf
 
-* `okuf` ：立即执行一键解冻。
-* `okuf -d 10` ：延后 10秒 执行一键解冻。
+* {{@okuf_colon_oneKeyUnfreeze_immediately}}
+* {{@okuf_colon_delay_10_oneKeyUnfreeze}}
 
 #### ff
 
-* `ff com.tencent.mobileqq` ：冻结包名为 `com.tencent.mobileqq` (QQ) 的应用程序。
-* `ff com.tencent.mobileqq,@5oiR55qE5YiX6KGo` ：冻结包名为 `com.tencent.mobileqq` (QQ) 和 `存在于别名为 5oiR55qE5YiX6KGo 的我的自选中的` 的应用程序。
-* `ff com.tencent.mobileqq,com.tencent.mm` ：冻结包名为 `com.tencent.mobileqq` (QQ) 和 `com.tencent.mm` (微信) 的应用程序。
-* `ff com.tencent.mobileqq,com.tencent.mm,com.taobao.taobao` ：冻结包名为 `com.tencent.mobileqq` (QQ) 和 `com.tencent.mm` (微信) 和 `com.taobao.taobao` (淘宝) 的应用程序。
-* `ff -d 3600 com.tencent.mobileqq` ：延后 3600秒 冻结包名为 `com.tencent.mobileqq` (QQ) 的应用程序。
+* {{@ff_com_tencent_mobileqq_colon_explain}}
+* {{@ff_com_tencent_mobileqq_5oiR55qE5YiX6KGo_colon_explain}}
+* {{@ff_com_tencent_mobileqq_com_tencent_mm_colon_explain}}
+* {{@ff_com_tencent_mobileqq_com_tencent_mm_com_taobao_taobao_colon_explain}}
+* {{@ff_delay_3600_com_tencent_mobileqq_colon_explain}}
 
 #### uf
 
-* `uf com.tencent.mobileqq` ：解冻包名为 `com.tencent.mobileqq` (QQ) 的应用程序。
-* `uf com.tencent.mobileqq,com.tencent.mm` ：解冻包名为 `com.tencent.mobileqq` (QQ) 和 `com.tencent.mm` (微信) 的应用程序。
-* `uf com.tencent.mobileqq,@5oiR55qE5YiX6KGo` ：解冻包名为 `com.tencent.mobileqq` (QQ) 和 `存在于别名为 5oiR55qE5YiX6KGo 的我的自选中的` 的应用程序。
-* `uf com.tencent.mobileqq,com.tencent.mm,com.taobao.taobao` ：解冻包名为 `com.tencent.mobileqq` (QQ) 和 `com.tencent.mm` (微信) 和 `com.taobao.taobao` (淘宝) 的应用程序。
+* {{@uf_com_tencent_mobileqq_colon_explain}}
+* {{@uf_com_tencent_mobileqq_com_tencent_mm_colon_explain}}
+* {{@uf_com_tencent_mobileqq_5oiR55qE5YiX6KGo_colon_explain}}
+* {{@uf_com_tencent_mobileqq_com_tencent_mm_com_taobao_taobao_colon_explain}}
 
 #### es
 
-* `es wifi` ：启用 WiFi 。
-* `es -d 20 wifi` ：延后 20秒 启用 WiFi 。
-* `es wifi,cd` ：启用 WiFi 和 蜂窝移动数据网络 。
-* `es wifi;okuf;uf com.tencent.mobileqq` ：启用 WiFi 、执行 一键解冻 并 解冻包名为 `com.tencent.mobileqq` (QQ) 的应用程序。
+* {{@es_wifi_explain}}
+* {{@es_delay_20_wifi_explain}}
+* {{@es_wifi_cellularData_explain}}
+* {{@es_wifi_okuf_uf_com_tencent_mobileqq_explain}}
 
 #### ds
 
-* `ds wifi` ：关闭 WiFi 。
-* `ds cd` ：关闭 蜂窝移动数据网络 。
-* `ds wifi;okff` ：关闭 WiFi 并执行 一键冻结。
-* `ds -d 15 wifi;okff` ：延后 15秒 关闭 WiFi 并 立即执行 一键冻结。
+* {{@ds_wifi_explain}}
+* {{@ds_cd_explain}}
+* {{@ds_wifi_okff_explain}}
+* {{@ds_delay_15_wifi_okff_explain}}
 
 #### st
 
-* `st 这是一条提示` ：显示一条 Toast 提示，内容为`这是一条提示`。
+* {{@st_message_explain}}
 
 #### sn
 
-* `sn 通知标题,通知内容` ：在通知栏显示一条通知。
+* {{@sn_title_message_explain}}
 
 #### sp
 
-* `sp com.tencent.mobileqq` ：打开 QQ （包名为 `com.tencent.mobileqq` ）。
-* `sp com.tencent.mobileqq,com.tencent.mm` ：打开 QQ 和 微信 （包名为 `com.tencent.mobileqq` 和 `com.tencent.mm` ）。
+* {{@sp_com_tencent_mobileqq_explain}}
+* {{@sp_com_tencent_mobileqq_com_tencent_mm_explain}}
 
 #### su
 
-* `su [Uri]` ：尝试打开指定的 Uri。（可参考：[各应用 URL Scheme](//www.urischeme.com)）
-* `su alipayqr://platformapi/startapp?saId=20000056` ：打开 支付宝 付款码。
+* {{@su_uri_explain}}
+* {{@su_alipayqr_20000056_explain}}
 
 #### lg
 
-* `lg 10086` ：输出一条 ERROR 级别的 LOG ，内容为 10086 。
+* {{@lg_10086_explain}}
 
 #### ls
 
-* `ls` ：锁定屏幕。
+* {{@ls_explain}}
 
-## 触发器附加参数
+## {{@additional_parameters}}
 
-### 使用前言
+### {{@tips}}
 
-* 部分触发器无须附加参数（如果填写会被忽略）。
-* 部分触发器可以填写附加参数（非必须）。
-* 部分触发器必须提供符合条件的附加参数，否则无法正常执行。
+* {{@some_triggers_do_not_require_additional_parameters}}
+* {{@some_triggers_can_have_additional_parameters}}
+* {{@some_triggers_must_provide_additional_parameters}}
 
-### 参数要求
+### {{@parameter_requirements}}
 
 * `打开屏幕时` ：目前无附加参数。
 * `关闭屏幕时` ：目前无附加参数。
