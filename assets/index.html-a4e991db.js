@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-bcb9477e","path":"/zh-TW/download/","title":"下載","lang":"zh-TW","frontmatter":{},"headers":[],"git":{"updatedTime":1728292188000},"filePathRelative":"zh-TW/download/README.md"}');export{e as data};

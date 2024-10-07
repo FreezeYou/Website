@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6511cf4f","path":"/ru-UA/about/contactUs.html","title":"Связаться с нами","lang":"ru-UA","frontmatter":{},"headers":[],"git":{"updatedTime":1728292188000},"filePathRelative":"ru-UA/about/contactUs.md"}');export{t as data};
