@@ -3,13 +3,20 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "next",
-    "@vuepress/plugin-pwa": "next",
-    "@vuepress/plugin-pwa-popup": "next",
-    "@vuepress/plugin-search": "next"
+  "engines": {
+    "node": ">=22.18.0"
   },
-  "dependencies": {
-    "vuepress": "next"
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
+    "@vuepress/plugin-pwa": "2.0.0-rc.131",
+    "@vuepress/plugin-search": "2.0.0-rc.131",
+    "@vuepress/theme-default": "2.0.0-rc.132",
+    "sass-embedded": "^1.93.2",
+    "vue": "^3.5.40",
+    "vuepress": "2.0.0-rc.31"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "@parcel/watcher@2.6.0": true
   }
 }

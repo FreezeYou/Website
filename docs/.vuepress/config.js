@@ -1,7 +1,7 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
-import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
@@ -11,6 +11,12 @@ export default defineUserConfig({
     
     '/en-US/': {
       lang: 'en-US',
+      title: 'FreezeYou',
+      description: 'FreezeYou'
+    },
+
+    '/it-IT/': {
+      lang: 'it-IT',
       title: 'FreezeYou',
       description: 'FreezeYou'
     },
@@ -53,54 +59,59 @@ export default defineUserConfig({
     ['script', { src: '/assets/js/lang.min.js' }],
     ['script', { src: '/assets/js/statistics.js' }]
   ],
+  bundler: viteBundler(),
+  // Recommended when using @vuepress/plugin-pwa (service worker caches assets)
+  shouldPrefetch: false,
   plugins: [
-    pwaPlugin(
-        {
-            serviceWorkerFilename: 'service-worker.js',
-      }
-    ),
-    pwaPopupPlugin(
-      {
-        locales: {
-          '/': {
-            message: 'New content is available.',
-            buttonText: 'Refresh',
-          },
-          
+    pwaPlugin({
+      serviceWorkerFilename: 'service-worker.js',
+      update: 'available',
+      locales: {
+        '/': {
+          hint: 'New content is available.',
+          update: 'New content is available.',
+        },
+        
           '/en-US/': {
-            message: "New content is available.",
-            buttonText: "Refresh",
+            hint: "New content is available.",
+            update: "New content is available.",
+          },
+
+          '/it-IT/': {
+            hint: "New content is available.",
+            update: "New content is available.",
           },
 
           '/ru-RU/': {
-            message: "Доступно новое содержимое.",
-            buttonText: "Обновить",
+            hint: "Доступно новое содержимое.",
+            update: "Доступно новое содержимое.",
           },
 
           '/ru-UA/': {
-            message: "Доступно новое содержимое.",
-            buttonText: "Обновить",
+            hint: "Доступно новое содержимое.",
+            update: "Доступно новое содержимое.",
           },
 
           '/zh-CN/': {
-            message: "发现有内容更新",
-            buttonText: "刷新",
+            hint: "发现有内容更新",
+            update: "发现有内容更新",
           },
 
           '/zh-TW/': {
-            message: "New content is available.",
-            buttonText: "更新",
+            hint: "New content is available.",
+            update: "New content is available.",
           },
 
-        },
       },
-    ),
-    backToTopPlugin(),
-    searchPlugin(
-      {
-        locales: {
-          
+    }),
+    searchPlugin({
+      locales: {
+        
           '/en-US/': {
+            placeholder: 'Search',
+          },
+
+          '/it-IT/': {
             placeholder: 'Search',
           },
 
@@ -120,9 +131,8 @@ export default defineUserConfig({
             placeholder: '搜索',
           },
 
-        },
       },
-    ),
+    }),
   ],
   theme: defaultTheme({
     locales: {
@@ -171,8 +181,60 @@ export default defineUserConfig({
           '/en-US/api/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
           '/en-US/faq/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API')
         },
-        searchPlaceholder: 'Search',
         backToHome: 'Take me home.',
+        notFound: [
+          `There's nothing here.`,
+          `How did we get here?`,
+          `That's a Four-Oh-Four.`,
+          `Looks like we've got some broken links.`
+        ],
+      },
+
+      '/it-IT/': {
+        editLinkText: 'Edit this page',
+        lastUpdatedText: 'Last Updated',
+        selectLanguageText: 'Language',
+        selectLanguageName: 'Italiano',
+        navbar: [
+          { text: 'Home', link: '/it-IT/' },
+          { text: 'Guide', link: '/it-IT/guide/' },
+          { text: 'Download', link: '/it-IT/download/' },
+          { text: 'FAQ', link: '/it-IT/faq/' },
+          { text: 'API', link: '/it-IT/api/' },
+          { text: 'Changelog', link: '/it-IT/changelog/' },
+          {
+            text: 'More',
+            children: [
+              {
+                text: 'About',
+                children: [
+                  { text: 'Contact Us', link: '/it-IT/about/contactUs.md' },
+                  { text: 'Special Thanks', link: '/it-IT/thanks/' },
+                  { text: 'Server Status', link: 'https://status.zidon.net' },
+                  { text: 'GitHub Organization', link: 'https://github.com/FreezeYou/' },
+                ],
+              },
+              {
+                text: 'Link',
+                children: [
+                  { text: 'AutumnBox', link: 'https://atmb.top/?from=freezeyou' },
+                  { text: 'Zidon.NET', link: 'https://www.zidon.net' },
+                  { text: 'FreezeYou.NET', link: 'https://www.freezeyou.net' },
+                  { text: 'xn--f8qp88i.COM', link: 'https://www.xn--f8qp88i.com/' },
+                  { text: 'Old Site', link: 'https://freezeyou.playhi.net' },
+                ],
+              },
+            ],
+          },
+        ],
+        sidebar: {
+          '/it-IT/guide/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/it-IT/download/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/it-IT/changelog/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/it-IT/api/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API'),
+          '/it-IT/faq/': getGuideSidebar('Guide', 'Changelog', 'FAQ', 'API')
+        },
+        backToHome: 'Back to home.',
         notFound: [
           `There's nothing here.`,
           `How did we get here?`,
@@ -225,7 +287,6 @@ export default defineUserConfig({
           '/ru-RU/api/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
           '/ru-RU/faq/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API')
         },
-        searchPlaceholder: 'Поиск',
         backToHome: 'Вернуться на главную.',
         notFound: [
           `Здесь ничего нет`,
@@ -279,7 +340,6 @@ export default defineUserConfig({
           '/ru-UA/api/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API'),
           '/ru-UA/faq/': getGuideSidebar('Руководство', 'Список изменений', 'ЧАВО', 'API')
         },
-        searchPlaceholder: 'Поиск',
         backToHome: 'Вернуться на главную.',
         notFound: [
           `Здесь ничего нет`,
@@ -333,7 +393,6 @@ export default defineUserConfig({
           '/zh-CN/api/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API'),
           '/zh-CN/faq/': getGuideSidebar('开始', '更新日志', 'FAQ', 'API')
         },
-        searchPlaceholder: '搜索',
         backToHome: '返回首页',
         notFound: [
           `这里怎么空荡荡的？`,
@@ -387,7 +446,6 @@ export default defineUserConfig({
           '/zh-TW/api/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API'),
           '/zh-TW/faq/': getGuideSidebar('指南', '變更記錄', 'FAQ', 'API')
         },
-        searchPlaceholder: '搜索',
         backToHome: '回到首頁',
         notFound: [
           `這裡什麼都沒有。`,
@@ -399,10 +457,8 @@ export default defineUserConfig({
 
     },
     navbar: false,
-    sidebar: 'auto',
+    sidebar: 'heading',
     sidebarDepth: 1,
-    displayAllHeaders: true,
-    activeHeaderLinks: true,
     logo: '/assets/img/logo.svg',
     repo: 'https://github.com/FreezeYou/Website',
     repoLabel: 'GitHub',
@@ -413,21 +469,19 @@ export default defineUserConfig({
     editLinkPattern: ':repo/edit/:branch/:path',
     contributors: false,
     lastUpdated: true,
-    smoothScroll: true,
-    nextLinks: true,
-    prevLinks: true,
-    search: true,
-    searchMaxSuggestions: 10
-  })
+    themePlugins: {
+      activeHeaderLinks: true,
+      backToTop: true,
+    },
+  }),
 })
 
 // Keep
 function getGuideSidebar(guide, changelog, faq, api) {
   return [
     {
-      isGroup: true,
       text: guide,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../guide/',
         '../guide/warning.md',
@@ -438,9 +492,8 @@ function getGuideSidebar(guide, changelog, faq, api) {
       ]
     },
     {
-      isGroup: true,
       text: faq,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../faq/',
         '../faq/mroot.md',
@@ -449,9 +502,8 @@ function getGuideSidebar(guide, changelog, faq, api) {
       ]
     },
     {
-      isGroup: true,
       text: api,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../api/',
         '../api/uri.md',
@@ -460,9 +512,8 @@ function getGuideSidebar(guide, changelog, faq, api) {
       ]
     },
     {
-      isGroup: true,
       text: changelog,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../changelog/'
       ]

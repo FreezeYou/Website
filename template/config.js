@@ -1,7 +1,7 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
-import { pwaPopupPlugin } from '@vuepress/plugin-pwa-popup'
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
@@ -23,41 +23,34 @@ export default defineUserConfig({
     ['script', { src: '/assets/js/lang.min.js' }],
     ['script', { src: '/assets/js/statistics.js' }]
   ],
+  bundler: viteBundler(),
+  // Recommended when using @vuepress/plugin-pwa (service worker caches assets)
+  shouldPrefetch: false,
   plugins: [
-    pwaPlugin(
-        {
-            serviceWorkerFilename: 'service-worker.js',
-      }
-    ),
-    pwaPopupPlugin(
-      {
-        locales: {
-          '/': {
-            message: 'New content is available.',
-            buttonText: 'Refresh',
-          },
-          /*{{@pwa_popup_content}}*/
+    pwaPlugin({
+      serviceWorkerFilename: 'service-worker.js',
+      update: 'available',
+      locales: {
+        '/': {
+          hint: 'New content is available.',
+          update: 'New content is available.',
         },
+        /*{{@pwa_popup_content}}*/
       },
-    ),
-    backToTopPlugin(),
-    searchPlugin(
-      {
-        locales: {
-          /*{{@pwa_search_content}}*/
-        },
+    }),
+    searchPlugin({
+      locales: {
+        /*{{@pwa_search_content}}*/
       },
-    ),
+    }),
   ],
   theme: defaultTheme({
     locales: {
       /*{{@pwa_theme_config_content}}*/
     },
     navbar: false,
-    sidebar: 'auto',
+    sidebar: 'heading',
     sidebarDepth: 1,
-    displayAllHeaders: true,
-    activeHeaderLinks: true,
     logo: '/assets/img/logo.svg',
     repo: 'https://github.com/FreezeYou/Website',
     repoLabel: 'GitHub',
@@ -68,21 +61,19 @@ export default defineUserConfig({
     editLinkPattern: ':repo/edit/:branch/:path',
     contributors: false,
     lastUpdated: true,
-    smoothScroll: true,
-    nextLinks: true,
-    prevLinks: true,
-    search: true,
-    searchMaxSuggestions: 10
-  })
+    themePlugins: {
+      activeHeaderLinks: true,
+      backToTop: true,
+    },
+  }),
 })
 
 // Keep
 function getGuideSidebar(guide, changelog, faq, api) {
   return [
     {
-      isGroup: true,
       text: guide,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../guide/',
         '../guide/warning.md',
@@ -93,9 +84,8 @@ function getGuideSidebar(guide, changelog, faq, api) {
       ]
     },
     {
-      isGroup: true,
       text: faq,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../faq/',
         '../faq/mroot.md',
@@ -104,9 +94,8 @@ function getGuideSidebar(guide, changelog, faq, api) {
       ]
     },
     {
-      isGroup: true,
       text: api,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../api/',
         '../api/uri.md',
@@ -115,9 +104,8 @@ function getGuideSidebar(guide, changelog, faq, api) {
       ]
     },
     {
-      isGroup: true,
       text: changelog,
-      collapsable: true,
+      collapsible: true,
       children: [
         '../changelog/'
       ]

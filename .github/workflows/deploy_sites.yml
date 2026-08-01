@@ -33,10 +33,10 @@ jobs:
         run: python importTranslation.py
       
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
-          node-version: '18'
+          # VuePress 2.0.0-rc.24+ requires Node.js 20+; rc.31 engines require >=22.18.0
+          node-version: '22'
 
       - name: Install packages
         run: |

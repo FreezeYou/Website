@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - lts/*
+  # VuePress 2.0.0-rc.31 engines require Node.js >=22.18.0
+  - 22
 install:
   - npm ci
 script:

@@ -1,10 +1,15 @@
 :root {
-  --c-brand:  #2B60FF;
-  --c-brand-light: #0B40FF;
+  scroll-behavior: smooth;
+
+  --vp-c-accent: #2b60ff;
+  --vp-c-accent-bg: #2b60ff;
+  --vp-c-accent-hover: #0b40ff;
+  --vp-c-accent-soft: rgb(43 96 255 / 14%);
 }
 
-html.dark {
-  --c-brand:  #2B60FF;
-  --c-brand-light: #0B40FF;
+[data-theme='dark'] {
+  --vp-c-accent: #2b60ff;
+  --vp-c-accent-bg: #2b60ff;
+  --vp-c-accent-hover: #0b40ff;
+  --vp-c-accent-soft: rgb(43 96 255 / 16%);
 }
-

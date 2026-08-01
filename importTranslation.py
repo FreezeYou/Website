@@ -19,8 +19,8 @@ config_js_locales_template = '''
 '''
 config_js_pwa_popup_template = '''
           '/{{@translation_country_key}}/': {
-            message: "{{@newContentIsAvailable}}",
-            buttonText: "{{@refresh}}",
+            hint: "{{@newContentIsAvailable}}",
+            update: "{{@newContentIsAvailable}}",
           },
 '''
 config_js_search_template = '''
@@ -73,7 +73,6 @@ config_js_theme_config_template = '''
           '/{{@translation_country_key}}/api/': getGuideSidebar('{{@guidePage}}', '{{@changelog}}', '{{@faqPage}}', '{{@API}}'),
           '/{{@translation_country_key}}/faq/': getGuideSidebar('{{@guidePage}}', '{{@changelog}}', '{{@faqPage}}', '{{@API}}')
         },
-        searchPlaceholder: '{{@search}}',
         backToHome: '{{@backToHome}}',
         notFound: [
           `{{@notFound_1}}`,
