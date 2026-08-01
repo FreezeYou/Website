@@ -1,0 +1,1 @@
+var e=`/assets/img/20180207104242.png`;export{e as t};
