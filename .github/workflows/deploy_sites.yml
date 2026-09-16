@@ -35,12 +35,12 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          # VuePress 2.0.0-rc.30 engines require Node.js >=22.18.0
+          # VuePress 2.0.0-rc.31 engines require Node.js >=22.18.0
           node-version: '22'
 
       - name: Install packages
         run: |
-          npm install
+          npm ci
 
       - name: Build docs
         run: npx vuepress build docs

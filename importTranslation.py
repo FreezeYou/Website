@@ -93,7 +93,7 @@ def load_translation_file():
     path = cwd + "/translations"
     file_list = os.listdir(path)
     for tmp in file_list:
-        tmp_path = os.path.join(path, tmp)
+        tmp_path = os.path.join(path, tmp).replace('\\', '/')
         if os.path.isfile(tmp_path) and tmp_path[tmp_path.rfind('.') + 1:].lower() == 'json':
             with open(tmp_path, 'r') as f:
                 translations[tmp_path[tmp_path.rfind('/') + 1:tmp_path.rfind('.')]] = json.load(f)
@@ -103,7 +103,7 @@ def load_translation_file():
 def pre_generate_documents_for_vuepress(path):
     file_list = os.listdir(path)
     for tmp in file_list:
-        tmp_path = os.path.join(path, tmp)
+        tmp_path = os.path.join(path, tmp).replace('\\', '/')
         if os.path.isdir(tmp_path):
             pre_generate_documents_for_vuepress(tmp_path)
         elif tmp_path[tmp_path.rfind('.') + 1:].lower() == 'md':
