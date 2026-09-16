@@ -6,9 +6,12 @@
 
 ## Development
 
-Requires Node.js >=22.18.0, npm, and Python 3.
+Use Node.js 22.22.2+ (22.x) or 24.15.0+ (24.x), npm 12.0.2, and Python 3.
+CI explicitly installs npm 12.0.2 to match the version used for the lockfile;
+Node 22's bundled npm 10 rejects this lockfile's optional peer dependencies.
 
 ```sh
+npm install --global npm@12.0.2
 npm ci
 python -X utf8 importTranslation.py
 npm run docs:dev
