@@ -21,7 +21,7 @@ To generate the production site, run `npm run docs:build`. Output is written to
 `docs/.vuepress/dist/`.
 
 The site uses VuePress and the Vite bundler at 2.0.0-rc.31, the default theme at
-2.0.0-rc.136, and PWA/search plugins at 2.0.0-rc.135.
+2.0.0-rc.137, and PWA/search plugins at 2.0.0-rc.137.
 VuePress 2 is published under npm's `next` tag; keep the core and
 bundler versions aligned when upgrading and commit the updated lockfile.
 See the [VuePress changelog](https://github.com/vuepress/core/blob/main/CHANGELOG.md).
