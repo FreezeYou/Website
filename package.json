@@ -5,15 +5,15 @@
     "docs:build": "vuepress build docs"
   },
   "engines": {
-    "node": ">=22.18.0"
+    "node": ">=22.22.2"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.31",
-    "@vuepress/plugin-pwa": "2.0.0-rc.137",
-    "@vuepress/plugin-search": "2.0.0-rc.137",
-    "@vuepress/theme-default": "2.0.0-rc.137",
-    "sass-embedded": "^1.105.0",
-    "vue": "^3.5.40",
-    "vuepress": "2.0.0-rc.31"
+    "@vuepress/bundler-vite": "2.0.0-rc.32",
+    "@vuepress/plugin-pwa": "2.0.0-rc.138",
+    "@vuepress/plugin-search": "2.0.0-rc.138",
+    "@vuepress/theme-default": "2.0.0-rc.138",
+    "sass-embedded": "^1.108.2",
+    "vue": "^3.5.45",
+    "vuepress": "2.0.0-rc.32"
   }
 }

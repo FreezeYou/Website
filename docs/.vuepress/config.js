@@ -59,7 +59,23 @@ export default defineUserConfig({
     ['script', { src: '/assets/js/lang.min.js' }],
     ['script', { src: '/assets/js/statistics.js' }]
   ],
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {
+      plugins: [{
+        name: 'pwa-registration-ready-state',
+        enforce: 'pre',
+        transform(code, id) {
+          // The PWA plugin loads register-service-worker dynamically. Its load
+          // listener must also handle imports that finish after window.load.
+          if (!id.replaceAll('\\', '/').endsWith('/register-service-worker/index.js')) return
+          return code.replace(
+            'waitWindowLoad = new Promise(function (resolve)',
+            "waitWindowLoad = document.readyState === 'complete' ? Promise.resolve() : new Promise(function (resolve)"
+          )
+        },
+      }],
+    },
+  }),
   // Recommended when using @vuepress/plugin-pwa (service worker caches assets)
   shouldPrefetch: false,
   plugins: [
