@@ -8,12 +8,12 @@
     "node": ">=22.22.2"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.32",
-    "@vuepress/plugin-pwa": "2.0.0-rc.138",
-    "@vuepress/plugin-search": "2.0.0-rc.138",
-    "@vuepress/theme-default": "2.0.0-rc.138",
+    "@vuepress/bundler-vite": "2.0.0-rc.33",
+    "@vuepress/plugin-pwa": "2.0.0-rc.142",
+    "@vuepress/plugin-search": "2.0.0-rc.142",
+    "@vuepress/theme-classic": "2.0.0-rc.142",
     "sass-embedded": "^1.108.2",
-    "vue": "^3.5.45",
-    "vuepress": "2.0.0-rc.32"
+    "vue": "^3.5.46",
+    "vuepress": "2.0.0-rc.33"
   }
 }

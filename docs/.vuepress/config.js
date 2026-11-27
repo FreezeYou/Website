@@ -1,6 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
-import { defaultTheme } from '@vuepress/theme-default'
+import { classicTheme } from '@vuepress/theme-classic'
 import { pwaPlugin } from '@vuepress/plugin-pwa'
 import { searchPlugin } from '@vuepress/plugin-search'
 
@@ -61,6 +61,10 @@ export default defineUserConfig({
   ],
   bundler: viteBundler({
     viteOptions: {
+      // The shared theme helper imports generated @temp modules. Keep those
+      // imports inside Vite for both development and server-side rendering.
+      optimizeDeps: { exclude: ['@vuepress/theme-helper'] },
+      ssr: { noExternal: ['@vuepress/theme-helper'] },
       plugins: [{
         name: 'pwa-registration-ready-state',
         enforce: 'pre',
@@ -150,7 +154,7 @@ export default defineUserConfig({
       },
     }),
   ],
-  theme: defaultTheme({
+  theme: classicTheme({
     locales: {
       
       '/en-US/': {
